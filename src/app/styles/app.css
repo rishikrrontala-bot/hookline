@@ -26,7 +26,7 @@
 }
 .btn:hover { border-color: var(--ink-500); background: var(--ink-800); }
 .btn:active { transform: translateY(1px); }
-.btn:disabled { opacity: 0.42; cursor: not-allowed; transform: none; }
+.btn:disabled { cursor: not-allowed; transform: none; color: var(--mist-500); }
 
 .btn--primary {
   --btn-bg: var(--heat-500);
@@ -36,7 +36,16 @@
   box-shadow: var(--glow-heat);
 }
 .btn--primary:hover { --btn-bg: var(--heat-400); --btn-border: var(--heat-400); }
-.btn--primary:disabled { box-shadow: none; }
+
+/* Fading the accent to 42% turns it muddy brown, which reads as a broken
+   control rather than an inactive one. A disabled primary drops the accent
+   entirely and becomes a plain, obviously-inert surface. */
+.btn--primary:disabled {
+  --btn-bg: var(--ink-800);
+  --btn-border: var(--ink-600);
+  --btn-fg: var(--mist-500);
+  box-shadow: none;
+}
 
 .btn--ghost { --btn-fg: var(--mist-300); }
 .btn--ghost:hover { --btn-fg: var(--mist-100); }
@@ -464,15 +473,10 @@ input[type='range']:hover::-webkit-slider-thumb { transform: scale(1.18); }
   padding: 0;
   background: none;
   border: 0;
-  font-family: var(--font-display);
-  font-size: 0.875rem;
-  font-weight: 800;
-  font-stretch: 112%;
-  letter-spacing: 0.02em;
   color: var(--mist-100);
-  transition: color var(--dur-fast) var(--ease-out);
 }
-.ws__back:hover { color: var(--heat-400); }
+.ws__back .logo__word { transition: color var(--dur-fast) var(--ease-out); }
+.ws__back:hover .logo__word { color: var(--heat-300); }
 .ws__summary { font-size: var(--step-small); color: var(--mist-500); margin: 0; }
 @media (max-width: 720px) { .ws__summary { display: none; } }
 
@@ -1058,3 +1062,83 @@ input[type='range']:hover::-webkit-slider-thumb { transform: scale(1.18); }
 
 .showcase__lines { display: inline-flex; flex-direction: column; gap: 3px; vertical-align: top; }
 .showcase__lines span + span { color: var(--mist-500); }
+
+/* ══ Logo ═══════════════════════════════════════════════════════════════════ */
+
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+  color: var(--mist-100);
+  text-decoration: none;
+}
+
+.logo__word {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-stretch: 118%;
+  /* Tracked out rather than tight: at wordmark size the letters need air to
+     read as a name instead of as a heading. */
+  letter-spacing: 0.08em;
+  font-size: 0.9375rem;
+  line-height: 1;
+  padding-top: 0.08em;
+}
+
+.logo svg { display: block; flex-shrink: 0; }
+
+/* ══ Masthead + footer ══════════════════════════════════════════════════════ */
+
+.masthead {
+  position: absolute;
+  inset: 0 0 auto 0;
+  z-index: 20;
+  padding-block: var(--s-5);
+  pointer-events: none;
+}
+.masthead__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--s-4);
+}
+.masthead__inner > * { pointer-events: auto; }
+
+.masthead__link {
+  font-family: var(--font-data);
+  font-size: var(--step-label);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mist-400);
+  text-decoration: none;
+  padding: 0.35rem 0.6rem;
+  margin-right: -0.6rem;
+  border-radius: var(--r-control);
+  transition: color var(--dur-fast) var(--ease-out), background var(--dur-fast) var(--ease-out);
+}
+.masthead__link:hover { color: var(--mist-100); background: var(--ink-800); }
+
+.footer { border-top: 1px solid var(--ink-700); padding-block: var(--s-6); }
+.footer__inner {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: var(--s-6);
+  align-items: center;
+}
+.footer__note { font-size: var(--step-small); color: var(--mist-500); max-width: 62ch; }
+
+@media (max-width: 760px) {
+  .footer__inner { grid-template-columns: 1fr; gap: var(--s-4); }
+}
+
+/* The workspace lockup doubles as the back control, so the arrow only shows
+   its affordance on interaction rather than sitting there permanently. */
+.ws__back-arrow {
+  display: inline-block;
+  color: var(--mist-500);
+  transform: translateX(3px);
+  opacity: 0;
+  transition: opacity var(--dur-base) var(--ease-out), transform var(--dur-base) var(--ease-out);
+}
+.ws__back:hover .ws__back-arrow,
+.ws__back:focus-visible .ws__back-arrow { opacity: 1; transform: translateX(0); }

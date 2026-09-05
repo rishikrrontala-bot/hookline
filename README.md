@@ -1,3 +1,5 @@
+![HOOKLINE — your recording has an attention curve](public/og.png)
+
 # HOOKLINE
 
 **One long-form recording in. A publishable week of channel output out.**
@@ -21,6 +23,7 @@ in `examples/` was produced by the CLI from the sample transcripts in `samples/`
 npm install
 npm run dev      # the workspace at http://localhost:5273
 npm run demo     # CLI: analyse the sample and write out/demo
+npm run og       # regenerate the social card from the engine's own curve
 ```
 
 ---

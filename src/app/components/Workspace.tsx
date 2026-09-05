@@ -7,6 +7,7 @@ import { renderThumbnailSVG } from '../../engine/generate/thumbnail';
 import { useAnalysis, STAGE_PLAN } from '../hooks/useAnalysis';
 import { AttentionTerrain } from '../three/AttentionTerrain';
 import { AttentionStrip } from './AttentionStrip';
+import { Logo } from './Logo';
 import { ClipDetail } from './ClipDetail';
 import sampleSRT from '../../../samples/the-algorithm-episode.srt?raw';
 import samplePlain from '../../../samples/founder-interview.txt?raw';
@@ -90,7 +91,9 @@ export function Workspace({ onExit }: { onExit: () => void }) {
     <div className="ws">
       <header className="ws__bar">
         <button type="button" className="ws__back" onClick={onExit}>
-          <span aria-hidden="true">←</span> HOOKLINE
+          <span className="ws__back-arrow" aria-hidden="true">←</span>
+          <Logo size={24} />
+          <span className="visually-hidden">Back to the overview</span>
         </button>
         {analysis && state === 'done' && (
           <p className="ws__summary num">

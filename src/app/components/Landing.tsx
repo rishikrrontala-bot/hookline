@@ -7,6 +7,7 @@ import { PATTERN_LABELS } from '../../engine/generate/hooks';
 import { renderThumbnailSVG } from '../../engine/generate/thumbnail';
 import type { SignalName } from '../../engine/types';
 import { AttentionTerrain } from '../three/AttentionTerrain';
+import { Logo } from './Logo';
 import sampleSRT from '../../../samples/the-algorithm-episode.srt?raw';
 
 const SIGNAL_ORDER: SignalName[] = ['hook', 'curiosity', 'emotion', 'concrete', 'salience', 'payoff', 'pace', 'quotable'];
@@ -65,7 +66,24 @@ export function Landing({ onEnter }: { onEnter: () => void }) {
   const boundaries = useRevealOnce<HTMLElement>();
 
   return (
-    <main id="main">
+    <>
+      {/* Scrolls away with the hero rather than following the reader: the page
+          is short, and both calls to action are already inside it. */}
+      <header className="masthead">
+        <div className="shell masthead__inner">
+          <Logo size={26} />
+          <a
+            className="masthead__link"
+            href="https://github.com/rishikrrontala-bot/hookline"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Source
+          </a>
+        </div>
+      </header>
+
+      <main id="main">
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
       <section className="hero">
         <AttentionTerrain
@@ -330,7 +348,26 @@ export function Landing({ onEnter }: { onEnter: () => void }) {
           </p>
         </div>
       </section>
+
+      <footer className="footer">
+        <div className="shell footer__inner">
+          <Logo size={22} />
+          <p className="footer__note">
+            Built for the AI Content Engine Hackathon. Sample transcripts are written for this
+            project; no user, customer or performance data stands behind anything on this page.
+          </p>
+          <a
+            className="masthead__link"
+            href="https://github.com/rishikrrontala-bot/hookline"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            Source
+          </a>
+        </div>
+      </footer>
     </main>
+    </>
   );
 }
 

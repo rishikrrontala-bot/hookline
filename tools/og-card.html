@@ -1,0 +1,93 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><style>
+@font-face{font-family:'Archivo';src:url(../node_modules/@fontsource-variable/archivo/files/archivo-latin-wdth-normal.woff2) format('woff2-variations');font-weight:100 900;font-stretch:62% 125%;}
+@font-face{font-family:'InterT';src:url(../node_modules/@fontsource-variable/inter-tight/files/inter-tight-latin-wght-normal.woff2) format('woff2-variations');font-weight:100 900;}
+@font-face{font-family:'JB';src:url(../node_modules/@fontsource-variable/jetbrains-mono/files/jetbrains-mono-latin-wght-normal.woff2) format('woff2-variations');font-weight:100 800;}
+*{margin:0;padding:0;box-sizing:border-box}
+body{width:1200px;height:630px;background:#06070A;color:#E8EDF4;font-family:InterT,system-ui;overflow:hidden;position:relative}
+.terrain{position:absolute;left:0;right:0;bottom:0;height:420px}
+.veil{position:absolute;inset:0;background:
+  /* Clears the type column on the left, then lets the terrain come through on
+     the right; a soft floor keeps the stat row legible where they overlap. */
+  linear-gradient(to right,#06070A 0%,#06070A 26%,rgba(6,7,10,.82) 44%,rgba(6,7,10,.28) 66%,transparent 82%),
+  linear-gradient(to bottom,#06070A 0%,rgba(6,7,10,.55) 26%,transparent 46%,transparent 68%,rgba(6,7,10,.78) 88%,#06070A 100%)}
+.grain{position:absolute;inset:0;opacity:.05;mix-blend-mode:overlay;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+.wrap{position:relative;height:100%;display:flex;flex-direction:column;justify-content:flex-end;padding:64px 72px}
+.lk{display:flex;align-items:center;gap:13px;position:absolute;top:56px;left:72px}
+.word{font-family:Archivo;font-weight:800;font-stretch:118%;letter-spacing:.09em;font-size:25px;line-height:1;padding-top:2px}
+h1{font-family:Archivo;font-weight:850;font-stretch:114%;letter-spacing:-.042em;font-size:82px;line-height:.96;max-width:16ch}
+p{margin-top:26px;font-size:23px;line-height:1.5;color:#C2CBD7;max-width:52ch}
+.strip{display:flex;gap:44px;margin-top:44px;padding-top:26px;border-top:1px solid #232935}
+.st b{display:block;font-family:JB;font-size:27px;font-weight:500;color:#E8EDF4;letter-spacing:-.01em}
+.st span{display:block;font-family:JB;font-size:12px;letter-spacing:.15em;text-transform:uppercase;color:#7E8A9B;margin-bottom:7px}
+</style></head><body>
+<svg class="terrain" viewBox="0 0 1200 420" preserveAspectRatio="none"><defs>
+<linearGradient id="g" x1="0" y1="1" x2="0" y2="0">
+<stop offset="0%" stop-color="#131A24"/><stop offset="28%" stop-color="#2E6B72"/>
+<stop offset="58%" stop-color="#D97A18"/><stop offset="100%" stop-color="#FFD9A0"/></linearGradient></defs>
+<g id="ridges"></g></svg>
+<div class="veil"></div><div class="grain"></div>
+<div class="wrap">
+  <div class="lk">
+    <svg width="34" height="34" viewBox="0 0 32 32" fill="none">
+      <rect x="4" y="5.4" width="3.6" height="21.2" rx="1.8" fill="#2FD2F5"/>
+      <rect x="24.4" y="5.4" width="3.6" height="21.2" rx="1.8" fill="#2FD2F5"/>
+      <path d="M 10.4 20.6 C 12.5 20.6 12.7 10.6 15.9 10.6 C 19.1 10.6 19.4 17.8 21.6 17.8" stroke="#FF6A1F" stroke-width="3" stroke-linecap="round"/>
+    </svg><span class="word">HOOKLINE</span>
+  </div>
+  <h1>Your recording has an attention curve.</h1>
+  <p>One transcript in, a publishable week out — clips, hooks, captions, titles, chapters and a schedule. Runs in your browser with no API key.</p>
+  <div class="strip">
+    <div class="st"><span>Signals scored</span><b>8 per sentence</b></div>
+    <div class="st"><span>Cuts on</span><b>Topic boundaries</b></div>
+    <div class="st"><span>Runtime deps</span><b>Zero</b></div>
+    <div class="st"><span>API key</span><b>Not required</b></div>
+  </div>
+</div>
+<script>
+// Ridges are drawn from a real attention curve exported by the engine, so the
+// card shows the product's own output rather than invented decoration.
+const curve = window.__CURVE__ || [];
+const g = document.getElementById('ridges');
+const W = 1200, H = 420;
+
+// Catmull-Rom through the samples, emitted as cubics. Straight segments between
+// 120 points read as shards rather than as a landform.
+function ridge(points, amp, yOff) {
+  const x = (i) => (i / (points.length - 1)) * W;
+  const y = (v) => H - v * 250 * amp - 34 + yOff;
+  let d = `M 0 ${H} L ${x(0).toFixed(1)} ${y(points[0]).toFixed(1)}`;
+  for (let i = 0; i < points.length - 1; i++) {
+    const p0 = points[Math.max(0, i - 1)], p1 = points[i];
+    const p2 = points[i + 1], p3 = points[Math.min(points.length - 1, i + 2)];
+    const c1x = x(i) + (x(i + 1) - x(Math.max(0, i - 1))) / 6;
+    const c1y = y(p1) + (y(p2) - y(p0)) / 6;
+    const c2x = x(i + 1) - (x(Math.min(points.length - 1, i + 2)) - x(i)) / 6;
+    const c2y = y(p2) - (y(p3) - y(p1)) / 6;
+    d += ` C ${c1x.toFixed(1)} ${c1y.toFixed(1)}, ${c2x.toFixed(1)} ${c2y.toFixed(1)}, ${x(i + 1).toFixed(1)} ${y(p2).toFixed(1)}`;
+  }
+  return d + ` L ${W} ${H} Z`;
+}
+
+// Each layer behind the front one is softened, so depth reads as distance.
+function soften(points, passes) {
+  let out = points.slice();
+  for (let p = 0; p < passes; p++) {
+    out = out.map((v, i) => {
+      const a = out[Math.max(0, i - 1)], b = out[Math.min(out.length - 1, i + 1)];
+      return (a + v * 2 + b) / 4;
+    });
+  }
+  return out;
+}
+
+for (let layer = 4; layer >= 0; layer--) {
+  const depth = layer / 4;
+  const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+  path.setAttribute('d', ridge(soften(curve, layer * 2 + 1), 1 - depth * 0.44, depth * 62));
+  path.setAttribute('fill', 'url(#g)');
+  path.setAttribute('opacity', String(0.26 + (1 - depth) * 0.52));
+  g.appendChild(path);
+}
+</script></body></html>

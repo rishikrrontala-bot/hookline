@@ -9,7 +9,8 @@
     "build": "tsc -b --noCheck && vite build",
     "preview": "vite preview",
     "cli": "tsx src/cli/run.ts",
-    "demo": "tsx src/cli/run.ts samples/the-algorithm-episode.srt --out out/demo"
+    "demo": "tsx src/cli/run.ts samples/the-algorithm-episode.srt --out out/demo",
+    "og": "tsx tools/export-og-curve.ts && node tools/build-og.mjs"
   },
   "dependencies": {
     "@fontsource-variable/archivo": "^5.1.0",
