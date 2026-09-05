@@ -1,0 +1,135 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+html {
+  background: var(--ink-950);
+  color-scheme: dark;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  background: var(--ink-950);
+  color: var(--mist-100);
+  font-family: var(--font-ui);
+  font-size: var(--step-body);
+  line-height: 1.6;
+  font-synthesis-weight: none;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  overflow-x: hidden;
+}
+
+/* One grain layer over the whole page. Without it the dark reads as #000
+   rather than as a room. */
+body::after {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  pointer-events: none;
+  opacity: 0.045;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-stretch: 112%;
+  letter-spacing: -0.04em;
+  line-height: 0.98;
+  text-wrap: balance;
+}
+
+h1 { font-size: var(--step-display); font-weight: 850; }
+h2 { font-size: var(--step-h2); }
+h3 { font-size: var(--step-h3); font-weight: 700; font-stretch: 105%; letter-spacing: -0.02em; line-height: 1.15; }
+
+p { margin: 0; text-wrap: pretty; }
+
+a {
+  color: var(--heat-300);
+  text-decoration-color: color-mix(in srgb, var(--heat-300) 40%, transparent);
+  text-underline-offset: 0.2em;
+  text-decoration-thickness: 1px;
+  transition: color var(--dur-fast) var(--ease-out), text-decoration-color var(--dur-fast) var(--ease-out);
+}
+a:hover { color: var(--heat-400); text-decoration-color: var(--heat-400); }
+
+button, input, textarea, select { font: inherit; color: inherit; }
+button { cursor: pointer; }
+
+/* ── Browser surfaces. The parts we did not draw still carry the design. ── */
+::selection { background: rgb(255 106 31 / 0.28); color: var(--mist-100); }
+textarea, input { caret-color: var(--heat-500); }
+
+* { scrollbar-width: thin; scrollbar-color: var(--ink-600) transparent; }
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: var(--ink-600);
+  border-radius: 999px;
+  border: 3px solid var(--ink-950);
+}
+::-webkit-scrollbar-thumb:hover { background: var(--ink-500); }
+
+:focus-visible {
+  outline: 2px solid var(--cyan-400);
+  outline-offset: 2px;
+  border-radius: var(--r-control);
+}
+:focus:not(:focus-visible) { outline: none; }
+
+.num, .data { font-family: var(--font-data); font-variant-numeric: tabular-nums; font-feature-settings: 'zero' 1; }
+
+/* ── Shared primitives ───────────────────────────────────────────────────── */
+.shell {
+  width: 100%;
+  max-width: var(--shell);
+  margin-inline: auto;
+  padding-inline: clamp(1.25rem, 4vw, 3rem);
+}
+
+.label {
+  font-family: var(--font-data);
+  font-size: var(--step-label);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--mist-500);
+  font-weight: 500;
+}
+
+.rule { height: 1px; background: var(--ink-700); border: 0; margin: 0; }
+
+.visually-hidden {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.skip-link {
+  position: absolute;
+  top: var(--s-3); left: var(--s-3);
+  z-index: 10000;
+  padding: var(--s-2) var(--s-4);
+  background: var(--ink-800);
+  border: 1px solid var(--ink-600);
+  border-radius: var(--r-control);
+  color: var(--mist-100);
+  transform: translateY(-160%);
+  transition: transform var(--dur-base) var(--ease-out);
+}
+.skip-link:focus { transform: translateY(0); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

@@ -1,0 +1,35 @@
+So the question everyone asks is how we shipped a product in eleven weeks with three engineers, and the honest answer is that we did not ship a product. We shipped one workflow, extremely well, and then we spent two years pretending that had been the plan.
+
+I think the thing people get wrong about constraints is that they treat them as a tax. Something you pay in order to be small. And that is exactly backwards.
+
+When you have thirty engineers, every meeting produces work. Somebody has an idea, and there is capacity, so it gets built. When you have three, the capacity is the argument. You do not have to win a debate about whether the settings page needs seventeen options, because there is nobody free to build sixteen of them.
+
+Our first version had one screen. One. You dropped a file on it and it gave you a result. No accounts, no dashboard, no onboarding, no settings.
+
+And the feedback we got in the first month was brutal. People asked for accounts constantly. Team features. Integrations. Export formats. We wrote down every request, and I still have that document, and looking at it now about eighty percent of those requests were for things that would have killed us.
+
+Not because they were bad ideas. Because every one of them would have added a surface we had to keep working forever.
+
+Here is the number that changed how I think. In year two we measured how much of our engineering time went to maintaining things we had already built versus building new things. It was seventy-one percent maintenance. And we were three people with one screen.
+
+If we had shipped the settings page with seventeen options, that number would have been ninety-something, and we would have been a company whose entire output was keeping its own past alive.
+
+The other thing I would say, and this is less popular, is that we were wrong about our market for about fourteen months.
+
+We built it for agencies. Every piece of copy on the site said agency. Our pricing was per seat because agencies buy seats. And our actual users, the ones who kept coming back, were solo people. One person, one laptop, no team, no seats to buy.
+
+We saw that in the data almost immediately and we ignored it for over a year, because agencies were the story we had told investors.
+
+That is the real cost of a narrative. Not that it is wrong. That it makes you slow to notice you are wrong.
+
+What finally broke it was that we ran out of money and had to cut the price. We went from a seat-based plan to a flat monthly one because it was simpler to explain in a panic. Revenue went up forty percent in six weeks.
+
+Not because the price was better. Because the product finally matched the shape of the person using it.
+
+If I were starting again, the thing I would do differently is I would ship the smallest possible version to the smallest possible audience and I would refuse to write down who the customer is for six months. Let the usage tell you. It is much harder to argue with a log file than with a slide.
+
+The last thing. People ask about burnout, and I want to be careful because I do not think we handled it well.
+
+We worked genuinely unreasonable hours for the first year. I would not recommend it and I do not think it was necessary. The parts of the product that came out of those hours are, almost without exception, the parts we later deleted.
+
+The parts that survived were built in year two, at a normal pace, by people who had slept. Make of that what you will.

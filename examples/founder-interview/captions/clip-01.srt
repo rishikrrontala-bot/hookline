@@ -1,0 +1,33 @@
+1
+00:00:00,000 --> 00:00:03,011
+So the question
+everyone asks is how we
+
+2
+00:00:03,011 --> 00:00:06,096
+shipped a product
+in eleven weeks with
+
+3
+00:00:06,096 --> 00:00:09,254
+three engineers, and
+the honest answer is
+
+4
+00:00:09,254 --> 00:00:11,600
+that we did not
+ship a product.
+
+5
+00:00:11,600 --> 00:00:14,466
+We shipped one workflow,
+extremely well,
+
+6
+00:00:14,466 --> 00:00:17,246
+and then we spent
+two years pretending
+
+7
+00:00:17,246 --> 00:00:18,800
+that had been the plan.

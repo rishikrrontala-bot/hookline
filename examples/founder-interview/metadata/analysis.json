@@ -1,0 +1,2419 @@
+{
+  "source": {
+    "cues": [
+      {
+        "start": 0,
+        "end": 18.8,
+        "text": "So the question everyone asks is how we shipped a product in eleven weeks with three engineers, and the honest answer is that we did not ship a product. We shipped one workflow, extremely well, and then we spent two years pretending that had been the plan."
+      },
+      {
+        "start": 19.150000000000002,
+        "end": 31.150000000000002,
+        "text": "I think the thing people get wrong about constraints is that they treat them as a tax. Something you pay in order to be small. And that is exactly backwards."
+      },
+      {
+        "start": 31.5,
+        "end": 53.900000000000006,
+        "text": "When you have thirty engineers, every meeting produces work. Somebody has an idea, and there is capacity, so it gets built. When you have three, the capacity is the argument. You do not have to win a debate about whether the settings page needs seventeen options, because there is nobody free to build sixteen of them."
+      },
+      {
+        "start": 54.25,
+        "end": 65.05,
+        "text": "Our first version had one screen. One. You dropped a file on it and it gave you a result. No accounts, no dashboard, no onboarding, no settings."
+      },
+      {
+        "start": 65.4,
+        "end": 85.80000000000001,
+        "text": "And the feedback we got in the first month was brutal. People asked for accounts constantly. Team features. Integrations. Export formats. We wrote down every request, and I still have that document, and looking at it now about eighty percent of those requests were for things that would have killed us."
+      },
+      {
+        "start": 86.15,
+        "end": 94.95,
+        "text": "Not because they were bad ideas. Because every one of them would have added a surface we had to keep working forever."
+      },
+      {
+        "start": 95.30000000000001,
+        "end": 113.30000000000001,
+        "text": "Here is the number that changed how I think. In year two we measured how much of our engineering time went to maintaining things we had already built versus building new things. It was seventy-one percent maintenance. And we were three people with one screen."
+      },
+      {
+        "start": 113.65,
+        "end": 126.45,
+        "text": "If we had shipped the settings page with seventeen options, that number would have been ninety-something, and we would have been a company whose entire output was keeping its own past alive."
+      },
+      {
+        "start": 126.80000000000001,
+        "end": 136,
+        "text": "The other thing I would say, and this is less popular, is that we were wrong about our market for about fourteen months."
+      },
+      {
+        "start": 136.35000000000002,
+        "end": 154.75000000000003,
+        "text": "We built it for agencies. Every piece of copy on the site said agency. Our pricing was per seat because agencies buy seats. And our actual users, the ones who kept coming back, were solo people. One person, one laptop, no team, no seats to buy."
+      },
+      {
+        "start": 155.10000000000002,
+        "end": 165.10000000000002,
+        "text": "We saw that in the data almost immediately and we ignored it for over a year, because agencies were the story we had told investors."
+      },
+      {
+        "start": 165.45000000000002,
+        "end": 174.65,
+        "text": "That is the real cost of a narrative. Not that it is wrong. That it makes you slow to notice you are wrong."
+      },
+      {
+        "start": 175.00000000000003,
+        "end": 193.00000000000003,
+        "text": "What finally broke it was that we ran out of money and had to cut the price. We went from a seat-based plan to a flat monthly one because it was simpler to explain in a panic. Revenue went up forty percent in six weeks."
+      },
+      {
+        "start": 193.35000000000002,
+        "end": 200.55,
+        "text": "Not because the price was better. Because the product finally matched the shape of the person using it."
+      },
+      {
+        "start": 200.90000000000003,
+        "end": 223.70000000000005,
+        "text": "If I were starting again, the thing I would do differently is I would ship the smallest possible version to the smallest possible audience and I would refuse to write down who the customer is for six months. Let the usage tell you. It is much harder to argue with a log file than with a slide."
+      },
+      {
+        "start": 224.05000000000004,
+        "end": 232.85000000000005,
+        "text": "The last thing. People ask about burnout, and I want to be careful because I do not think we handled it well."
+      },
+      {
+        "start": 233.20000000000005,
+        "end": 250.00000000000006,
+        "text": "We worked genuinely unreasonable hours for the first year. I would not recommend it and I do not think it was necessary. The parts of the product that came out of those hours are, almost without exception, the parts we later deleted."
+      },
+      {
+        "start": 250.35000000000005,
+        "end": 259.95000000000005,
+        "text": "The parts that survived were built in year two, at a normal pace, by people who had slept. Make of that what you will."
+      }
+    ],
+    "format": "plain",
+    "hasRealTimings": false,
+    "durationSec": 259.95000000000005,
+    "wordCount": 635
+  },
+  "stats": {
+    "durationSec": 259.95000000000005,
+    "wordCount": 635,
+    "sentenceCount": 52,
+    "segmentCount": 3,
+    "clipCount": 4,
+    "minutesOfOutput": 1.8508333333333333,
+    "meanAttention": 0.5018008167990495,
+    "peakAttention": 1,
+    "estimatedManualMinutes": 48
+  },
+  "stages": [
+    {
+      "key": "ingest",
+      "label": "Ingest",
+      "detail": "PLAIN · 18 cues · 635 words",
+      "ms": 8.638666999999998
+    },
+    {
+      "key": "parse",
+      "label": "Segment",
+      "detail": "52 sentences · 177 distinct terms",
+      "ms": 1.7337909999999965
+    },
+    {
+      "key": "score",
+      "label": "Score",
+      "detail": "8 signals × 52 sentences · pace withheld",
+      "ms": 3.1023329999999945
+    },
+    {
+      "key": "boundaries",
+      "label": "Boundaries",
+      "detail": "2 topic shifts · 3 segments",
+      "ms": 6.622665999999995
+    },
+    {
+      "key": "extract",
+      "label": "Extract",
+      "detail": "408 windows → 4 clips",
+      "ms": 6.445542000000003
+    },
+    {
+      "key": "write",
+      "label": "Write",
+      "detail": "4 hooks · 16 titles · 48 caption cues",
+      "ms": 6.552875
+    },
+    {
+      "key": "seo",
+      "label": "Index",
+      "detail": "3 chapters · 15 tags",
+      "ms": 2.6215839999999986
+    },
+    {
+      "key": "schedule",
+      "label": "Schedule",
+      "detail": "4 slots across 7 days",
+      "ms": 1.0607499999999987
+    }
+  ],
+  "boundaries": [
+    {
+      "sentenceIndex": 5,
+      "timeSec": 31.5,
+      "depth": 0.3350848664518933
+    },
+    {
+      "sentenceIndex": 44,
+      "timeSec": 218.10000000000002,
+      "depth": 0.22904867581437277
+    }
+  ],
+  "segments": [
+    {
+      "index": 0,
+      "startSentence": 0,
+      "endSentence": 4,
+      "start": 0,
+      "end": 31.150000000000002,
+      "keyTerms": [
+        "shipped",
+        "question",
+        "asks",
+        "eleven",
+        "honest",
+        "answer"
+      ],
+      "label": "Honest Answer",
+      "meanAttention": 0.7336330945483788
+    },
+    {
+      "index": 1,
+      "startSentence": 5,
+      "endSentence": 43,
+      "start": 31.5,
+      "end": 218.10000000000002,
+      "keyTerms": [
+        "seats",
+        "every",
+        "months",
+        "smallest",
+        "possible",
+        "settings"
+      ],
+      "label": "Smallest Possible",
+      "meanAttention": 0.46829440633269415
+    },
+    {
+      "index": 2,
+      "startSentence": 44,
+      "endSentence": 51,
+      "start": 218.10000000000002,
+      "end": 259.95000000000005,
+      "keyTerms": [
+        "parts",
+        "hours",
+        "harder",
+        "argue",
+        "log",
+        "slide"
+      ],
+      "label": "Genuinely Unreasonable Hours",
+      "meanAttention": 0.5202493942292002
+    }
+  ],
+  "clips": [
+    {
+      "id": "clip-01",
+      "rank": 1,
+      "start": 0,
+      "end": 18.8,
+      "durationSec": 18.8,
+      "startSentence": 0,
+      "endSentence": 1,
+      "transcript": "So the question everyone asks is how we shipped a product in eleven weeks with three engineers, and the honest answer is that we did not ship a product. We shipped one workflow, extremely well, and then we spent two years pretending that had been the plan.",
+      "score": 53.3,
+      "breakdown": {
+        "opening": 0.15994736842105267,
+        "body": 1,
+        "payoff": 0.4647045454545455,
+        "containment": 0.72,
+        "boundary": 0.5
+      },
+      "signals": {
+        "hook": 0.21,
+        "curiosity": 0.21157894736842103,
+        "emotion": 0.038890872965260115,
+        "concrete": 0.1,
+        "salience": 0.8597084989052379,
+        "payoff": 0.19,
+        "pace": 0,
+        "quotable": 0.5450568181818183
+      },
+      "evidence": [
+        "opens on a hook construction",
+        "stacks curiosity language",
+        "resolves — closes the loop",
+        "soundbite shape — short, declarative, strong verb"
+      ],
+      "hookPattern": "contrarian",
+      "hook": "The question everyone asks is how we shipped a product in eleven weeks with three engineers.",
+      "titles": [
+        {
+          "platform": "youtube-shorts",
+          "text": "The question everyone asks is how we shipped a product in eleven",
+          "chars": 64,
+          "limit": 70
+        },
+        {
+          "platform": "tiktok",
+          "text": "The question everyone asks is how we shipped a product in eleven weeks with three engineers",
+          "chars": 91,
+          "limit": 100
+        },
+        {
+          "platform": "instagram-reels",
+          "text": "The question everyone asks is how we shipped a product in eleven weeks with three engineers",
+          "chars": 91,
+          "limit": 125
+        },
+        {
+          "platform": "x",
+          "text": "The question everyone asks is how we shipped a product in eleven weeks with three engineers\n\nWe shipped one workflow, extremely well, and then we spent two years pretending that had been the plan.",
+          "chars": 196,
+          "limit": 220
+        }
+      ],
+      "description": "The question everyone asks is how we shipped a product in eleven weeks with three engineers.\n\nFull context in the episode. From “Shipping under constraint” at 0:00.\n\nCovered here: honest answer, eleven weeks, years pretending, three engineers.",
+      "hashtags": [
+        "#product",
+        "#question",
+        "#asks",
+        "#eleven",
+        "#honestanswer",
+        "#shorts",
+        "#fyp"
+      ],
+      "captions": [
+        {
+          "index": 1,
+          "start": 0,
+          "end": 3.0108280254777062,
+          "text": "So the question\neveryone asks is how we"
+        },
+        {
+          "index": 2,
+          "start": 3.0108280254777062,
+          "end": 6.095541401273883,
+          "text": "shipped a product\nin eleven weeks with"
+        },
+        {
+          "index": 3,
+          "start": 6.095541401273883,
+          "end": 9.254140127388533,
+          "text": "three engineers, and\nthe honest answer is"
+        },
+        {
+          "index": 4,
+          "start": 9.254140127388533,
+          "end": 11.6,
+          "text": "that we did not\nship a product."
+        },
+        {
+          "index": 5,
+          "start": 11.6,
+          "end": 14.46618705035971,
+          "text": "We shipped one workflow,\nextremely well,"
+        },
+        {
+          "index": 6,
+          "start": 14.46618705035971,
+          "end": 17.246043165467626,
+          "text": "and then we spent\ntwo years pretending"
+        },
+        {
+          "index": 7,
+          "start": 17.246043165467626,
+          "end": 18.8,
+          "text": "that had been the plan."
+        }
+      ],
+      "words": [
+        {
+          "word": "So",
+          "start": 0,
+          "end": 0.20318471337579616
+        },
+        {
+          "word": "the",
+          "start": 0.20318471337579616,
+          "end": 0.4802547770700637
+        },
+        {
+          "word": "question",
+          "start": 0.4802547770700637,
+          "end": 1.219108280254777
+        },
+        {
+          "word": "everyone",
+          "start": 1.219108280254777,
+          "end": 1.9579617834394902
+        },
+        {
+          "word": "asks",
+          "start": 1.9579617834394902,
+          "end": 2.327388535031847
+        },
+        {
+          "word": "is",
+          "start": 2.327388535031847,
+          "end": 2.530573248407643
+        },
+        {
+          "word": "how",
+          "start": 2.530573248407643,
+          "end": 2.80764331210191
+        },
+        {
+          "word": "we",
+          "start": 2.80764331210191,
+          "end": 3.0108280254777062
+        },
+        {
+          "word": "shipped",
+          "start": 3.0108280254777062,
+          "end": 3.65732484076433
+        },
+        {
+          "word": "a",
+          "start": 3.65732484076433,
+          "end": 3.860509554140126
+        },
+        {
+          "word": "product",
+          "start": 3.860509554140126,
+          "end": 4.50700636942675
+        },
+        {
+          "word": "in",
+          "start": 4.50700636942675,
+          "end": 4.710191082802546
+        },
+        {
+          "word": "eleven",
+          "start": 4.710191082802546,
+          "end": 5.264331210191081
+        },
+        {
+          "word": "weeks",
+          "start": 5.264331210191081,
+          "end": 5.726114649681526
+        },
+        {
+          "word": "with",
+          "start": 5.726114649681526,
+          "end": 6.095541401273883
+        },
+        {
+          "word": "three",
+          "start": 6.095541401273883,
+          "end": 6.557324840764329
+        },
+        {
+          "word": "engineers,",
+          "start": 6.557324840764329,
+          "end": 7.388535031847131
+        },
+        {
+          "word": "and",
+          "start": 7.388535031847131,
+          "end": 7.665605095541399
+        },
+        {
+          "word": "the",
+          "start": 7.665605095541399,
+          "end": 7.942675159235667
+        },
+        {
+          "word": "honest",
+          "start": 7.942675159235667,
+          "end": 8.496815286624201
+        },
+        {
+          "word": "answer",
+          "start": 8.496815286624201,
+          "end": 9.050955414012737
+        },
+        {
+          "word": "is",
+          "start": 9.050955414012737,
+          "end": 9.254140127388533
+        },
+        {
+          "word": "that",
+          "start": 9.254140127388533,
+          "end": 9.62356687898089
+        },
+        {
+          "word": "we",
+          "start": 9.62356687898089,
+          "end": 9.826751592356686
+        },
+        {
+          "word": "did",
+          "start": 9.826751592356686,
+          "end": 10.103821656050954
+        },
+        {
+          "word": "not",
+          "start": 10.103821656050954,
+          "end": 10.380891719745222
+        },
+        {
+          "word": "ship",
+          "start": 10.380891719745222,
+          "end": 10.750318471337579
+        },
+        {
+          "word": "a",
+          "start": 10.750318471337579,
+          "end": 10.953503184713375
+        },
+        {
+          "word": "product.",
+          "start": 10.953503184713375,
+          "end": 11.6
+        },
+        {
+          "word": "We",
+          "start": 11.6,
+          "end": 11.789928057553956
+        },
+        {
+          "word": "shipped",
+          "start": 11.789928057553956,
+          "end": 12.394244604316546
+        },
+        {
+          "word": "one",
+          "start": 12.394244604316546,
+          "end": 12.653237410071942
+        },
+        {
+          "word": "workflow,",
+          "start": 12.653237410071942,
+          "end": 13.34388489208633
+        },
+        {
+          "word": "extremely",
+          "start": 13.34388489208633,
+          "end": 14.120863309352517
+        },
+        {
+          "word": "well,",
+          "start": 14.120863309352517,
+          "end": 14.46618705035971
+        },
+        {
+          "word": "and",
+          "start": 14.46618705035971,
+          "end": 14.725179856115107
+        },
+        {
+          "word": "then",
+          "start": 14.725179856115107,
+          "end": 15.0705035971223
+        },
+        {
+          "word": "we",
+          "start": 15.0705035971223,
+          "end": 15.260431654676257
+        },
+        {
+          "word": "spent",
+          "start": 15.260431654676257,
+          "end": 15.69208633093525
+        },
+        {
+          "word": "two",
+          "start": 15.69208633093525,
+          "end": 15.951079136690646
+        },
+        {
+          "word": "years",
+          "start": 15.951079136690646,
+          "end": 16.38273381294964
+        },
+        {
+          "word": "pretending",
+          "start": 16.38273381294964,
+          "end": 17.246043165467626
+        },
+        {
+          "word": "that",
+          "start": 17.246043165467626,
+          "end": 17.59136690647482
+        },
+        {
+          "word": "had",
+          "start": 17.59136690647482,
+          "end": 17.850359712230215
+        },
+        {
+          "word": "been",
+          "start": 17.850359712230215,
+          "end": 18.19568345323741
+        },
+        {
+          "word": "the",
+          "start": 18.19568345323741,
+          "end": 18.454676258992805
+        },
+        {
+          "word": "plan.",
+          "start": 18.454676258992805,
+          "end": 18.8
+        }
+      ],
+      "srt": "1\n00:00:00,000 --> 00:00:03,011\nSo the question\neveryone asks is how we\n\n2\n00:00:03,011 --> 00:00:06,096\nshipped a product\nin eleven weeks with\n\n3\n00:00:06,096 --> 00:00:09,254\nthree engineers, and\nthe honest answer is\n\n4\n00:00:09,254 --> 00:00:11,600\nthat we did not\nship a product.\n\n5\n00:00:11,600 --> 00:00:14,466\nWe shipped one workflow,\nextremely well,\n\n6\n00:00:14,466 --> 00:00:17,246\nand then we spent\ntwo years pretending\n\n7\n00:00:17,246 --> 00:00:18,800\nthat had been the plan.\n",
+      "vtt": "WEBVTT\n\nNOTE Generated by HOOKLINE — positioned for vertical safe area.\n\n00:00:00.000 --> 00:00:03.011 line:82% align:center\nSo the question\neveryone asks is how we\n\n00:00:03.011 --> 00:00:06.096 line:82% align:center\nshipped a product\nin eleven weeks with\n\n00:00:06.096 --> 00:00:09.254 line:82% align:center\nthree engineers, and\nthe honest answer is\n\n00:00:09.254 --> 00:00:11.600 line:82% align:center\nthat we did not\nship a product.\n\n00:00:11.600 --> 00:00:14.466 line:82% align:center\nWe shipped one workflow,\nextremely well,\n\n00:00:14.466 --> 00:00:17.246 line:82% align:center\nand then we spent\ntwo years pretending\n\n00:00:17.246 --> 00:00:18.800 line:82% align:center\nthat had been the plan.\n",
+      "thumbnail": {
+        "overlay": "ELEVEN WEEKS",
+        "frameAtSec": 3.2,
+        "composition": "Subject off-centre left, overlay right, hard negative space between them. The gap is the argument.",
+        "heat": [
+          "#2E6B72",
+          "#8A8F4A"
+        ]
+      },
+      "bRoll": [
+        "honest answer",
+        "eleven weeks",
+        "years pretending",
+        "three engineers",
+        "shipped"
+      ],
+      "segmentIndex": 0
+    },
+    {
+      "id": "clip-02",
+      "rank": 2,
+      "start": 175.00000000000003,
+      "end": 218.10000000000002,
+      "durationSec": 43.099999999999994,
+      "startSentence": 36,
+      "endSentence": 43,
+      "transcript": "What finally broke it was that we ran out of money and had to cut the price. We went from a seat-based plan to a flat monthly one because it was simpler to explain in a panic. Revenue went up forty percent in six weeks. Not because the price was better. Because the product finally matched the shape of the person using it. If I were starting again, the thing I would do differently is I would ship the smallest possible version to the smallest possible audience and I would refuse to write down who the customer is for six months. Let the usage tell you.",
+      "score": 49.4,
+      "breakdown": {
+        "opening": 0.32565589285714286,
+        "body": 0.6148536551880145,
+        "payoff": 0.36924999999999997,
+        "containment": 0.8,
+        "boundary": 0.5
+      },
+      "signals": {
+        "hook": 0.05125,
+        "curiosity": 0.022321428571428572,
+        "emotion": 0.03354101966249685,
+        "concrete": 0.030147058823529412,
+        "salience": 0.5876620659663456,
+        "payoff": 0,
+        "pace": 0,
+        "quotable": 0.38298295454545456
+      },
+      "evidence": [
+        "opens as a question",
+        "soundbite shape — short, declarative, strong verb",
+        "strong valence on \"panic\"",
+        "addresses the viewer directly"
+      ],
+      "hookPattern": "stakes",
+      "hook": "What finally broke it was that we ran out of money.",
+      "titles": [
+        {
+          "platform": "youtube-shorts",
+          "text": "What finally broke it was that we ran out of money",
+          "chars": 50,
+          "limit": 70
+        },
+        {
+          "platform": "tiktok",
+          "text": "What finally broke it was that we ran out of money",
+          "chars": 50,
+          "limit": 100
+        },
+        {
+          "platform": "instagram-reels",
+          "text": "What finally broke it was that we ran out of money — I would refuse to write down who the customer is for six months",
+          "chars": 116,
+          "limit": 125
+        },
+        {
+          "platform": "x",
+          "text": "What finally broke it was that we ran out of money",
+          "chars": 50,
+          "limit": 220
+        }
+      ],
+      "description": "What finally broke it was that we ran out of money.\n\nFull context in the episode. From “Shipping under constraint” at 2:55.\n\nCovered here: smallest possible, smallest possible audience, smallest possible version, product finally matched.",
+      "hashtags": [
+        "#possible",
+        "#price",
+        "#broke",
+        "#money",
+        "#usagetell",
+        "#shorts",
+        "#fyp"
+      ],
+      "captions": [
+        {
+          "index": 1,
+          "start": 0,
+          "end": 3.1157190635451557,
+          "text": "What finally broke\nit was that we"
+        },
+        {
+          "index": 2,
+          "start": 3.1157190635451557,
+          "end": 6.2314381270903105,
+          "text": "ran out of money\nand had to cut the"
+        },
+        {
+          "index": 3,
+          "start": 6.2314381270903105,
+          "end": 6.800000000000011,
+          "text": "price."
+        },
+        {
+          "index": 4,
+          "start": 6.800000000000011,
+          "end": 10.113725490196089,
+          "text": "We went from a\nseat-based plan to a flat"
+        },
+        {
+          "index": 5,
+          "start": 10.113725490196089,
+          "end": 13.192156862745106,
+          "text": "monthly one because\nit was simpler to"
+        },
+        {
+          "index": 6,
+          "start": 13.192156862745106,
+          "end": 14.800000000000011,
+          "text": "explain in a panic."
+        },
+        {
+          "index": 7,
+          "start": 14.800000000000011,
+          "end": 17.54802259887006,
+          "text": "Revenue went up\nforty percent in six"
+        },
+        {
+          "index": 8,
+          "start": 17.54802259887006,
+          "end": 18.349999999999994,
+          "text": "weeks."
+        },
+        {
+          "index": 9,
+          "start": 18.349999999999994,
+          "end": 20.75,
+          "text": "Not because the\nprice was better."
+        },
+        {
+          "index": 10,
+          "start": 20.75,
+          "end": 23.59320557491288,
+          "text": "Because the product\nfinally matched the"
+        },
+        {
+          "index": 11,
+          "start": 23.59320557491288,
+          "end": 25.54999999999998,
+          "text": "shape of the\nperson using it."
+        },
+        {
+          "index": 12,
+          "start": 25.900000000000006,
+          "end": 28.462162162162166,
+          "text": "If I were starting\nagain, the thing I"
+        },
+        {
+          "index": 13,
+          "start": 28.462162162162166,
+          "end": 31.267567567567568,
+          "text": "would do differently\nis I would ship the"
+        },
+        {
+          "index": 14,
+          "start": 31.267567567567568,
+          "end": 34.202702702702695,
+          "text": "smallest possible\nversion to the smallest"
+        },
+        {
+          "index": 15,
+          "start": 34.202702702702695,
+          "end": 37.35323741007195,
+          "text": "possible audience\nand I would refuse to"
+        },
+        {
+          "index": 16,
+          "start": 37.35323741007195,
+          "end": 40.49568345323742,
+          "text": "write down who the\ncustomer is for six"
+        },
+        {
+          "index": 17,
+          "start": 40.49568345323742,
+          "end": 41.099999999999994,
+          "text": "months."
+        },
+        {
+          "index": 18,
+          "start": 41.099999999999994,
+          "end": 43.1,
+          "text": "Let the usage tell you."
+        }
+      ],
+      "words": [
+        {
+          "word": "What",
+          "start": 0,
+          "end": 0.45484949832775995
+        },
+        {
+          "word": "finally",
+          "start": 0.45484949832775995,
+          "end": 1.2508361204013398
+        },
+        {
+          "word": "broke",
+          "start": 1.2508361204013398,
+          "end": 1.8193979933110398
+        },
+        {
+          "word": "it",
+          "start": 1.8193979933110398,
+          "end": 2.069565217391308
+        },
+        {
+          "word": "was",
+          "start": 2.069565217391308,
+          "end": 2.410702341137128
+        },
+        {
+          "word": "that",
+          "start": 2.410702341137128,
+          "end": 2.865551839464888
+        },
+        {
+          "word": "we",
+          "start": 2.865551839464888,
+          "end": 3.1157190635451557
+        },
+        {
+          "word": "ran",
+          "start": 3.1157190635451557,
+          "end": 3.4568561872909758
+        },
+        {
+          "word": "out",
+          "start": 3.4568561872909758,
+          "end": 3.797993311036796
+        },
+        {
+          "word": "of",
+          "start": 3.797993311036796,
+          "end": 4.048160535117064
+        },
+        {
+          "word": "money",
+          "start": 4.048160535117064,
+          "end": 4.616722408026764
+        },
+        {
+          "word": "and",
+          "start": 4.616722408026764,
+          "end": 4.957859531772583
+        },
+        {
+          "word": "had",
+          "start": 4.957859531772583,
+          "end": 5.298996655518403
+        },
+        {
+          "word": "to",
+          "start": 5.298996655518403,
+          "end": 5.549163879598671
+        },
+        {
+          "word": "cut",
+          "start": 5.549163879598671,
+          "end": 5.890301003344491
+        },
+        {
+          "word": "the",
+          "start": 5.890301003344491,
+          "end": 6.2314381270903105
+        },
+        {
+          "word": "price.",
+          "start": 6.2314381270903105,
+          "end": 6.8000000000000105
+        },
+        {
+          "word": "We",
+          "start": 6.800000000000011,
+          "end": 7.015686274509815
+        },
+        {
+          "word": "went",
+          "start": 7.015686274509815,
+          "end": 7.407843137254913
+        },
+        {
+          "word": "from",
+          "start": 7.407843137254913,
+          "end": 7.800000000000011
+        },
+        {
+          "word": "a",
+          "start": 7.800000000000011,
+          "end": 8.015686274509815
+        },
+        {
+          "word": "seat-based",
+          "start": 8.015686274509815,
+          "end": 8.898039215686286
+        },
+        {
+          "word": "plan",
+          "start": 8.898039215686286,
+          "end": 9.290196078431384
+        },
+        {
+          "word": "to",
+          "start": 9.290196078431384,
+          "end": 9.505882352941187
+        },
+        {
+          "word": "a",
+          "start": 9.505882352941187,
+          "end": 9.72156862745099
+        },
+        {
+          "word": "flat",
+          "start": 9.72156862745099,
+          "end": 10.113725490196089
+        },
+        {
+          "word": "monthly",
+          "start": 10.113725490196089,
+          "end": 10.80000000000001
+        },
+        {
+          "word": "one",
+          "start": 10.80000000000001,
+          "end": 11.094117647058834
+        },
+        {
+          "word": "because",
+          "start": 11.094117647058834,
+          "end": 11.780392156862755
+        },
+        {
+          "word": "it",
+          "start": 11.780392156862755,
+          "end": 11.996078431372558
+        },
+        {
+          "word": "was",
+          "start": 11.996078431372558,
+          "end": 12.290196078431382
+        },
+        {
+          "word": "simpler",
+          "start": 12.290196078431382,
+          "end": 12.976470588235303
+        },
+        {
+          "word": "to",
+          "start": 12.976470588235303,
+          "end": 13.192156862745106
+        },
+        {
+          "word": "explain",
+          "start": 13.192156862745106,
+          "end": 13.878431372549027
+        },
+        {
+          "word": "in",
+          "start": 13.878431372549027,
+          "end": 14.09411764705883
+        },
+        {
+          "word": "a",
+          "start": 14.09411764705883,
+          "end": 14.309803921568633
+        },
+        {
+          "word": "panic.",
+          "start": 14.309803921568633,
+          "end": 14.800000000000006
+        },
+        {
+          "word": "Revenue",
+          "start": 14.800000000000011,
+          "end": 15.43276836158193
+        },
+        {
+          "word": "went",
+          "start": 15.43276836158193,
+          "end": 15.794350282485883
+        },
+        {
+          "word": "up",
+          "start": 15.794350282485883,
+          "end": 15.993220338983058
+        },
+        {
+          "word": "forty",
+          "start": 15.993220338983058,
+          "end": 16.445197740113
+        },
+        {
+          "word": "percent",
+          "start": 16.445197740113,
+          "end": 17.07796610169492
+        },
+        {
+          "word": "in",
+          "start": 17.07796610169492,
+          "end": 17.276836158192094
+        },
+        {
+          "word": "six",
+          "start": 17.276836158192094,
+          "end": 17.54802259887006
+        },
+        {
+          "word": "weeks.",
+          "start": 17.54802259887006,
+          "end": 18
+        },
+        {
+          "word": "Not",
+          "start": 18.349999999999994,
+          "end": 18.61666666666666
+        },
+        {
+          "word": "because",
+          "start": 18.61666666666666,
+          "end": 19.238888888888884
+        },
+        {
+          "word": "the",
+          "start": 19.238888888888884,
+          "end": 19.50555555555555
+        },
+        {
+          "word": "price",
+          "start": 19.50555555555555,
+          "end": 19.949999999999996
+        },
+        {
+          "word": "was",
+          "start": 19.949999999999996,
+          "end": 20.21666666666666
+        },
+        {
+          "word": "better.",
+          "start": 20.21666666666666,
+          "end": 20.749999999999996
+        },
+        {
+          "word": "Because",
+          "start": 20.75,
+          "end": 21.335365853658534
+        },
+        {
+          "word": "the",
+          "start": 21.335365853658534,
+          "end": 21.586236933797906
+        },
+        {
+          "word": "product",
+          "start": 21.586236933797906,
+          "end": 22.17160278745644
+        },
+        {
+          "word": "finally",
+          "start": 22.17160278745644,
+          "end": 22.756968641114973
+        },
+        {
+          "word": "matched",
+          "start": 22.756968641114973,
+          "end": 23.342334494773507
+        },
+        {
+          "word": "the",
+          "start": 23.342334494773507,
+          "end": 23.59320557491288
+        },
+        {
+          "word": "shape",
+          "start": 23.59320557491288,
+          "end": 24.011324041811832
+        },
+        {
+          "word": "of",
+          "start": 24.011324041811832,
+          "end": 24.19529616724737
+        },
+        {
+          "word": "the",
+          "start": 24.19529616724737,
+          "end": 24.446167247386743
+        },
+        {
+          "word": "person",
+          "start": 24.446167247386743,
+          "end": 24.947909407665488
+        },
+        {
+          "word": "using",
+          "start": 24.947909407665488,
+          "end": 25.36602787456444
+        },
+        {
+          "word": "it.",
+          "start": 25.36602787456444,
+          "end": 25.54999999999998
+        },
+        {
+          "word": "If",
+          "start": 25.900000000000006,
+          "end": 26.078378378378385
+        },
+        {
+          "word": "I",
+          "start": 26.078378378378385,
+          "end": 26.256756756756765
+        },
+        {
+          "word": "were",
+          "start": 26.256756756756765,
+          "end": 26.581081081081088
+        },
+        {
+          "word": "starting",
+          "start": 26.581081081081088,
+          "end": 27.229729729729737
+        },
+        {
+          "word": "again,",
+          "start": 27.229729729729737,
+          "end": 27.63513513513514
+        },
+        {
+          "word": "the",
+          "start": 27.63513513513514,
+          "end": 27.878378378378383
+        },
+        {
+          "word": "thing",
+          "start": 27.878378378378383,
+          "end": 28.283783783783786
+        },
+        {
+          "word": "I",
+          "start": 28.283783783783786,
+          "end": 28.462162162162166
+        },
+        {
+          "word": "would",
+          "start": 28.462162162162166,
+          "end": 28.86756756756757
+        },
+        {
+          "word": "do",
+          "start": 28.86756756756757,
+          "end": 29.04594594594595
+        },
+        {
+          "word": "differently",
+          "start": 29.04594594594595,
+          "end": 29.93783783783784
+        },
+        {
+          "word": "is",
+          "start": 29.93783783783784,
+          "end": 30.11621621621622
+        },
+        {
+          "word": "I",
+          "start": 30.11621621621622,
+          "end": 30.2945945945946
+        },
+        {
+          "word": "would",
+          "start": 30.2945945945946,
+          "end": 30.700000000000003
+        },
+        {
+          "word": "ship",
+          "start": 30.700000000000003,
+          "end": 31.024324324324326
+        },
+        {
+          "word": "the",
+          "start": 31.024324324324326,
+          "end": 31.267567567567568
+        },
+        {
+          "word": "smallest",
+          "start": 31.267567567567568,
+          "end": 31.916216216216217
+        },
+        {
+          "word": "possible",
+          "start": 31.916216216216217,
+          "end": 32.564864864864866
+        },
+        {
+          "word": "version",
+          "start": 32.564864864864866,
+          "end": 33.13243243243243
+        },
+        {
+          "word": "to",
+          "start": 33.13243243243243,
+          "end": 33.31081081081081
+        },
+        {
+          "word": "the",
+          "start": 33.31081081081081,
+          "end": 33.55405405405405
+        },
+        {
+          "word": "smallest",
+          "start": 33.55405405405405,
+          "end": 34.202702702702695
+        },
+        {
+          "word": "possible",
+          "start": 34.202702702702695,
+          "end": 34.85135135135134
+        },
+        {
+          "word": "audience",
+          "start": 34.85135135135134,
+          "end": 35.499999999999986
+        },
+        {
+          "word": "and",
+          "start": 35.5,
+          "end": 35.802158273381295
+        },
+        {
+          "word": "I",
+          "start": 35.802158273381295,
+          "end": 36.023741007194246
+        },
+        {
+          "word": "would",
+          "start": 36.023741007194246,
+          "end": 36.52733812949641
+        },
+        {
+          "word": "refuse",
+          "start": 36.52733812949641,
+          "end": 37.131654676259
+        },
+        {
+          "word": "to",
+          "start": 37.131654676259,
+          "end": 37.35323741007195
+        },
+        {
+          "word": "write",
+          "start": 37.35323741007195,
+          "end": 37.85683453237411
+        },
+        {
+          "word": "down",
+          "start": 37.85683453237411,
+          "end": 38.25971223021583
+        },
+        {
+          "word": "who",
+          "start": 38.25971223021583,
+          "end": 38.56187050359713
+        },
+        {
+          "word": "the",
+          "start": 38.56187050359713,
+          "end": 38.86402877697842
+        },
+        {
+          "word": "customer",
+          "start": 38.86402877697842,
+          "end": 39.66978417266188
+        },
+        {
+          "word": "is",
+          "start": 39.66978417266188,
+          "end": 39.89136690647483
+        },
+        {
+          "word": "for",
+          "start": 39.89136690647483,
+          "end": 40.193525179856124
+        },
+        {
+          "word": "six",
+          "start": 40.193525179856124,
+          "end": 40.49568345323742
+        },
+        {
+          "word": "months.",
+          "start": 40.49568345323742,
+          "end": 41.10000000000001
+        },
+        {
+          "word": "Let",
+          "start": 41.099999999999994,
+          "end": 41.43333333333333
+        },
+        {
+          "word": "the",
+          "start": 41.43333333333333,
+          "end": 41.766666666666666
+        },
+        {
+          "word": "usage",
+          "start": 41.766666666666666,
+          "end": 42.32222222222222
+        },
+        {
+          "word": "tell",
+          "start": 42.32222222222222,
+          "end": 42.766666666666666
+        },
+        {
+          "word": "you.",
+          "start": 42.766666666666666,
+          "end": 43.1
+        }
+      ],
+      "srt": "1\n00:00:00,000 --> 00:00:03,116\nWhat finally broke\nit was that we\n\n2\n00:00:03,116 --> 00:00:06,231\nran out of money\nand had to cut the\n\n3\n00:00:06,231 --> 00:00:06,800\nprice.\n\n4\n00:00:06,800 --> 00:00:10,114\nWe went from a\nseat-based plan to a flat\n\n5\n00:00:10,114 --> 00:00:13,192\nmonthly one because\nit was simpler to\n\n6\n00:00:13,192 --> 00:00:14,800\nexplain in a panic.\n\n7\n00:00:14,800 --> 00:00:17,548\nRevenue went up\nforty percent in six\n\n8\n00:00:17,548 --> 00:00:18,350\nweeks.\n\n9\n00:00:18,350 --> 00:00:20,750\nNot because the\nprice was better.\n\n10\n00:00:20,750 --> 00:00:23,593\nBecause the product\nfinally matched the\n\n11\n00:00:23,593 --> 00:00:25,550\nshape of the\nperson using it.\n\n12\n00:00:25,900 --> 00:00:28,462\nIf I were starting\nagain, the thing I\n\n13\n00:00:28,462 --> 00:00:31,268\nwould do differently\nis I would ship the\n\n14\n00:00:31,268 --> 00:00:34,203\nsmallest possible\nversion to the smallest\n\n15\n00:00:34,203 --> 00:00:37,353\npossible audience\nand I would refuse to\n\n16\n00:00:37,353 --> 00:00:40,496\nwrite down who the\ncustomer is for six\n\n17\n00:00:40,496 --> 00:00:41,100\nmonths.\n\n18\n00:00:41,100 --> 00:00:43,100\nLet the usage tell you.\n",
+      "vtt": "WEBVTT\n\nNOTE Generated by HOOKLINE — positioned for vertical safe area.\n\n00:00:00.000 --> 00:00:03.116 line:82% align:center\nWhat finally broke\nit was that we\n\n00:00:03.116 --> 00:00:06.231 line:82% align:center\nran out of money\nand had to cut the\n\n00:00:06.231 --> 00:00:06.800 line:82% align:center\nprice.\n\n00:00:06.800 --> 00:00:10.114 line:82% align:center\nWe went from a\nseat-based plan to a flat\n\n00:00:10.114 --> 00:00:13.192 line:82% align:center\nmonthly one because\nit was simpler to\n\n00:00:13.192 --> 00:00:14.800 line:82% align:center\nexplain in a panic.\n\n00:00:14.800 --> 00:00:17.548 line:82% align:center\nRevenue went up\nforty percent in six\n\n00:00:17.548 --> 00:00:18.350 line:82% align:center\nweeks.\n\n00:00:18.350 --> 00:00:20.750 line:82% align:center\nNot because the\nprice was better.\n\n00:00:20.750 --> 00:00:23.593 line:82% align:center\nBecause the product\nfinally matched the\n\n00:00:23.593 --> 00:00:25.550 line:82% align:center\nshape of the\nperson using it.\n\n00:00:25.900 --> 00:00:28.462 line:82% align:center\nIf I were starting\nagain, the thing I\n\n00:00:28.462 --> 00:00:31.268 line:82% align:center\nwould do differently\nis I would ship the\n\n00:00:31.268 --> 00:00:34.203 line:82% align:center\nsmallest possible\nversion to the smallest\n\n00:00:34.203 --> 00:00:37.353 line:82% align:center\npossible audience\nand I would refuse to\n\n00:00:37.353 --> 00:00:40.496 line:82% align:center\nwrite down who the\ncustomer is for six\n\n00:00:40.496 --> 00:00:41.100 line:82% align:center\nmonths.\n\n00:00:41.100 --> 00:00:43.100 line:82% align:center\nLet the usage tell you.\n",
+      "thumbnail": {
+        "overlay": "FINALLY BROKE",
+        "frameAtSec": 178.20000000000002,
+        "composition": "Tight crop, subject filling the frame, overlay lower left. Close enough to read the face.",
+        "heat": [
+          "#2E6B72",
+          "#8A8F4A"
+        ]
+      },
+      "bRoll": [
+        "smallest possible",
+        "smallest possible audience",
+        "smallest possible version",
+        "product finally matched",
+        "usage tell"
+      ],
+      "segmentIndex": 1
+    },
+    {
+      "id": "clip-03",
+      "rank": 3,
+      "start": 233.20000000000005,
+      "end": 259.95000000000005,
+      "durationSec": 26.75,
+      "startSentence": 47,
+      "endSentence": 51,
+      "transcript": "We worked genuinely unreasonable hours for the first year. I would not recommend it and I do not think it was necessary. The parts of the product that came out of those hours are, almost without exception, the parts we later deleted. The parts that survived were built in year two, at a normal pace, by people who had slept. Make of that what you will.",
+      "score": 46.3,
+      "breakdown": {
+        "opening": 0.11917709751161246,
+        "body": 0.6648273123411863,
+        "payoff": 0.35270454545454544,
+        "containment": 1,
+        "boundary": 0.5
+      },
+      "signals": {
+        "hook": 0.022,
+        "curiosity": 0.11142857142857143,
+        "emotion": 0.022,
+        "concrete": 0.07647058823529411,
+        "salience": 0.4778141343656655,
+        "payoff": 0,
+        "pace": 0,
+        "quotable": 0.40677272727272734
+      },
+      "evidence": [
+        "defers a payoff — an open loop",
+        "addresses the viewer directly"
+      ],
+      "hookPattern": "stakes",
+      "hook": "We worked genuinely unreasonable hours for the first year.",
+      "titles": [
+        {
+          "platform": "youtube-shorts",
+          "text": "We worked genuinely unreasonable hours for the first year",
+          "chars": 57,
+          "limit": 70
+        },
+        {
+          "platform": "tiktok",
+          "text": "We worked genuinely unreasonable hours for the first year",
+          "chars": 57,
+          "limit": 100
+        },
+        {
+          "platform": "instagram-reels",
+          "text": "We worked genuinely unreasonable hours for the first year — I would not recommend it and I do not think it was necessary",
+          "chars": 120,
+          "limit": 125
+        },
+        {
+          "platform": "x",
+          "text": "We worked genuinely unreasonable hours for the first year\n\nThe parts that survived were built in year two, at a normal pace, by people who had slept.",
+          "chars": 149,
+          "limit": 220
+        }
+      ],
+      "description": "We worked genuinely unreasonable hours for the first year.\n\nFull context in the episode. From “Shipping under constraint” at 3:53.\n\nCovered here: almost without exception, genuinely unreasonable hours, later deleted, normal pace.",
+      "hashtags": [
+        "#parts",
+        "#hours",
+        "#unreasonable",
+        "#recommend",
+        "#necessary",
+        "#shorts",
+        "#fyp"
+      ],
+      "captions": [
+        {
+          "index": 1,
+          "start": 0,
+          "end": 2.721951219512191,
+          "text": "We worked genuinely\nunreasonable hours for"
+        },
+        {
+          "index": 2,
+          "start": 2.721951219512191,
+          "end": 3.5999999999999943,
+          "text": "the first year."
+        },
+        {
+          "index": 3,
+          "start": 3.5999999999999943,
+          "end": 6.842352941176475,
+          "text": "I would not recommend\nit and I do not"
+        },
+        {
+          "index": 4,
+          "start": 6.842352941176475,
+          "end": 8.800000000000011,
+          "text": "think it was necessary."
+        },
+        {
+          "index": 5,
+          "start": 8.800000000000011,
+          "end": 11.749227373068441,
+          "text": "The parts of the\nproduct that came out of"
+        },
+        {
+          "index": 6,
+          "start": 11.749227373068441,
+          "end": 14.839735099337757,
+          "text": "those hours are, almost\nwithout exception,"
+        },
+        {
+          "index": 7,
+          "start": 14.839735099337757,
+          "end": 16.800000000000008,
+          "text": "the parts we\nlater deleted."
+        },
+        {
+          "index": 8,
+          "start": 17.150000000000006,
+          "end": 20.27869080779945,
+          "text": "The parts that\nsurvived were built in"
+        },
+        {
+          "index": 9,
+          "start": 20.27869080779945,
+          "end": 22.424651810584965,
+          "text": "year two, at\na normal pace,"
+        },
+        {
+          "index": 10,
+          "start": 22.424651810584965,
+          "end": 24.350000000000023,
+          "text": "by people who had slept."
+        },
+        {
+          "index": 11,
+          "start": 24.350000000000023,
+          "end": 26.749999999999993,
+          "text": "Make of that\nwhat you will."
+        }
+      ],
+      "words": [
+        {
+          "word": "We",
+          "start": 0,
+          "end": 0.16097560975609732
+        },
+        {
+          "word": "worked",
+          "start": 0.16097560975609732,
+          "end": 0.599999999999999
+        },
+        {
+          "word": "genuinely",
+          "start": 0.599999999999999,
+          "end": 1.2585365853658517
+        },
+        {
+          "word": "unreasonable",
+          "start": 1.2585365853658517,
+          "end": 2.136585365853655
+        },
+        {
+          "word": "hours",
+          "start": 2.136585365853655,
+          "end": 2.50243902439024
+        },
+        {
+          "word": "for",
+          "start": 2.50243902439024,
+          "end": 2.721951219512191
+        },
+        {
+          "word": "the",
+          "start": 2.721951219512191,
+          "end": 2.941463414634142
+        },
+        {
+          "word": "first",
+          "start": 2.941463414634142,
+          "end": 3.3073170731707267
+        },
+        {
+          "word": "year.",
+          "start": 3.3073170731707267,
+          "end": 3.5999999999999943
+        },
+        {
+          "word": "I",
+          "start": 3.5999999999999943,
+          "end": 3.824313725490191
+        },
+        {
+          "word": "would",
+          "start": 3.824313725490191,
+          "end": 4.33411764705882
+        },
+        {
+          "word": "not",
+          "start": 4.33411764705882,
+          "end": 4.639999999999997
+        },
+        {
+          "word": "recommend",
+          "start": 4.639999999999997,
+          "end": 5.557647058823529
+        },
+        {
+          "word": "it",
+          "start": 5.557647058823529,
+          "end": 5.781960784313727
+        },
+        {
+          "word": "and",
+          "start": 5.781960784313727,
+          "end": 6.087843137254904
+        },
+        {
+          "word": "I",
+          "start": 6.087843137254904,
+          "end": 6.312156862745101
+        },
+        {
+          "word": "do",
+          "start": 6.312156862745101,
+          "end": 6.536470588235298
+        },
+        {
+          "word": "not",
+          "start": 6.536470588235298,
+          "end": 6.842352941176475
+        },
+        {
+          "word": "think",
+          "start": 6.842352941176475,
+          "end": 7.352156862745105
+        },
+        {
+          "word": "it",
+          "start": 7.352156862745105,
+          "end": 7.576470588235302
+        },
+        {
+          "word": "was",
+          "start": 7.576470588235302,
+          "end": 7.882352941176479
+        },
+        {
+          "word": "necessary.",
+          "start": 7.882352941176479,
+          "end": 8.800000000000011
+        },
+        {
+          "word": "The",
+          "start": 8.800000000000011,
+          "end": 9.064900662251667
+        },
+        {
+          "word": "parts",
+          "start": 9.064900662251667,
+          "end": 9.506401766004426
+        },
+        {
+          "word": "of",
+          "start": 9.506401766004426,
+          "end": 9.70066225165564
+        },
+        {
+          "word": "the",
+          "start": 9.70066225165564,
+          "end": 9.965562913907295
+        },
+        {
+          "word": "product",
+          "start": 9.965562913907295,
+          "end": 10.583664459161158
+        },
+        {
+          "word": "that",
+          "start": 10.583664459161158,
+          "end": 10.936865342163365
+        },
+        {
+          "word": "came",
+          "start": 10.936865342163365,
+          "end": 11.290066225165573
+        },
+        {
+          "word": "out",
+          "start": 11.290066225165573,
+          "end": 11.554966887417228
+        },
+        {
+          "word": "of",
+          "start": 11.554966887417228,
+          "end": 11.749227373068441
+        },
+        {
+          "word": "those",
+          "start": 11.749227373068441,
+          "end": 12.190728476821201
+        },
+        {
+          "word": "hours",
+          "start": 12.190728476821201,
+          "end": 12.632229580573961
+        },
+        {
+          "word": "are,",
+          "start": 12.632229580573961,
+          "end": 12.897130242825616
+        },
+        {
+          "word": "almost",
+          "start": 12.897130242825616,
+          "end": 13.426931567328927
+        },
+        {
+          "word": "without",
+          "start": 13.426931567328927,
+          "end": 14.04503311258279
+        },
+        {
+          "word": "exception,",
+          "start": 14.04503311258279,
+          "end": 14.839735099337757
+        },
+        {
+          "word": "the",
+          "start": 14.839735099337757,
+          "end": 15.104635761589412
+        },
+        {
+          "word": "parts",
+          "start": 15.104635761589412,
+          "end": 15.546136865342172
+        },
+        {
+          "word": "we",
+          "start": 15.546136865342172,
+          "end": 15.740397350993385
+        },
+        {
+          "word": "later",
+          "start": 15.740397350993385,
+          "end": 16.181898454746143
+        },
+        {
+          "word": "deleted.",
+          "start": 16.181898454746143,
+          "end": 16.800000000000008
+        },
+        {
+          "word": "The",
+          "start": 17.150000000000006,
+          "end": 17.450835654596105
+        },
+        {
+          "word": "parts",
+          "start": 17.450835654596105,
+          "end": 17.95222841225627
+        },
+        {
+          "word": "that",
+          "start": 17.95222841225627,
+          "end": 18.353342618384406
+        },
+        {
+          "word": "survived",
+          "start": 18.353342618384406,
+          "end": 19.155571030640676
+        },
+        {
+          "word": "were",
+          "start": 19.155571030640676,
+          "end": 19.55668523676881
+        },
+        {
+          "word": "built",
+          "start": 19.55668523676881,
+          "end": 20.058077994428977
+        },
+        {
+          "word": "in",
+          "start": 20.058077994428977,
+          "end": 20.27869080779945
+        },
+        {
+          "word": "year",
+          "start": 20.27869080779945,
+          "end": 20.679805013927584
+        },
+        {
+          "word": "two,",
+          "start": 20.679805013927584,
+          "end": 20.980640668523684
+        },
+        {
+          "word": "at",
+          "start": 20.980640668523684,
+          "end": 21.201253481894156
+        },
+        {
+          "word": "a",
+          "start": 21.201253481894156,
+          "end": 21.42186629526463
+        },
+        {
+          "word": "normal",
+          "start": 21.42186629526463,
+          "end": 22.02353760445683
+        },
+        {
+          "word": "pace,",
+          "start": 22.02353760445683,
+          "end": 22.424651810584965
+        },
+        {
+          "word": "by",
+          "start": 22.424651810584965,
+          "end": 22.645264623955438
+        },
+        {
+          "word": "people",
+          "start": 22.645264623955438,
+          "end": 23.24693593314764
+        },
+        {
+          "word": "who",
+          "start": 23.24693593314764,
+          "end": 23.54777158774374
+        },
+        {
+          "word": "had",
+          "start": 23.54777158774374,
+          "end": 23.84860724233984
+        },
+        {
+          "word": "slept.",
+          "start": 23.84860724233984,
+          "end": 24.350000000000005
+        },
+        {
+          "word": "Make",
+          "start": 24.350000000000023,
+          "end": 24.802830188679263
+        },
+        {
+          "word": "of",
+          "start": 24.802830188679263,
+          "end": 25.051886792452844
+        },
+        {
+          "word": "that",
+          "start": 25.051886792452844,
+          "end": 25.504716981132084
+        },
+        {
+          "word": "what",
+          "start": 25.504716981132084,
+          "end": 25.957547169811324
+        },
+        {
+          "word": "you",
+          "start": 25.957547169811324,
+          "end": 26.297169811320753
+        },
+        {
+          "word": "will.",
+          "start": 26.297169811320753,
+          "end": 26.749999999999993
+        }
+      ],
+      "srt": "1\n00:00:00,000 --> 00:00:02,722\nWe worked genuinely\nunreasonable hours for\n\n2\n00:00:02,722 --> 00:00:03,600\nthe first year.\n\n3\n00:00:03,600 --> 00:00:06,842\nI would not recommend\nit and I do not\n\n4\n00:00:06,842 --> 00:00:08,800\nthink it was necessary.\n\n5\n00:00:08,800 --> 00:00:11,749\nThe parts of the\nproduct that came out of\n\n6\n00:00:11,749 --> 00:00:14,840\nthose hours are, almost\nwithout exception,\n\n7\n00:00:14,840 --> 00:00:16,800\nthe parts we\nlater deleted.\n\n8\n00:00:17,150 --> 00:00:20,279\nThe parts that\nsurvived were built in\n\n9\n00:00:20,279 --> 00:00:22,425\nyear two, at\na normal pace,\n\n10\n00:00:22,425 --> 00:00:24,350\nby people who had slept.\n\n11\n00:00:24,350 --> 00:00:26,750\nMake of that\nwhat you will.\n",
+      "vtt": "WEBVTT\n\nNOTE Generated by HOOKLINE — positioned for vertical safe area.\n\n00:00:00.000 --> 00:00:02.722 line:82% align:center\nWe worked genuinely\nunreasonable hours for\n\n00:00:02.722 --> 00:00:03.600 line:82% align:center\nthe first year.\n\n00:00:03.600 --> 00:00:06.842 line:82% align:center\nI would not recommend\nit and I do not\n\n00:00:06.842 --> 00:00:08.800 line:82% align:center\nthink it was necessary.\n\n00:00:08.800 --> 00:00:11.749 line:82% align:center\nThe parts of the\nproduct that came out of\n\n00:00:11.749 --> 00:00:14.840 line:82% align:center\nthose hours are, almost\nwithout exception,\n\n00:00:14.840 --> 00:00:16.800 line:82% align:center\nthe parts we\nlater deleted.\n\n00:00:17.150 --> 00:00:20.279 line:82% align:center\nThe parts that\nsurvived were built in\n\n00:00:20.279 --> 00:00:22.425 line:82% align:center\nyear two, at\na normal pace,\n\n00:00:22.425 --> 00:00:24.350 line:82% align:center\nby people who had slept.\n\n00:00:24.350 --> 00:00:26.750 line:82% align:center\nMake of that\nwhat you will.\n",
+      "thumbnail": {
+        "overlay": "GENUINELY UNREASONABLE",
+        "frameAtSec": 236.40000000000003,
+        "composition": "Tight crop, subject filling the frame, overlay lower left. Close enough to read the face.",
+        "heat": [
+          "#2E6B72",
+          "#8A8F4A"
+        ]
+      },
+      "bRoll": [
+        "almost without exception",
+        "genuinely unreasonable hours",
+        "later deleted",
+        "normal pace",
+        "first year"
+      ],
+      "segmentIndex": 2
+    },
+    {
+      "id": "clip-04",
+      "rank": 4,
+      "start": 31.5,
+      "end": 53.900000000000006,
+      "durationSec": 22.400000000000006,
+      "startSentence": 5,
+      "endSentence": 8,
+      "transcript": "When you have thirty engineers, every meeting produces work. Somebody has an idea, and there is capacity, so it gets built. When you have three, the capacity is the argument. You do not have to win a debate about whether the settings page needs seventeen options, because there is nobody free to build sixteen of them.",
+      "score": 45.7,
+      "breakdown": {
+        "opening": 0.20948930786690792,
+        "body": 0.5849486629243272,
+        "payoff": 0.24149999999999996,
+        "containment": 1,
+        "boundary": 0.5
+      },
+      "signals": {
+        "hook": 0.1875,
+        "curiosity": 0.044642857142857144,
+        "emotion": 0,
+        "concrete": 0,
+        "salience": 0.5334180329104904,
+        "payoff": 0.04,
+        "pace": 0,
+        "quotable": 0.3172159090909091
+      },
+      "evidence": [
+        "addresses the viewer directly",
+        "opens on a hook construction",
+        "resolves — closes the loop"
+      ],
+      "hookPattern": "declaration",
+      "hook": "Somebody has an idea, and there is capacity, so it gets built.",
+      "titles": [
+        {
+          "platform": "youtube-shorts",
+          "text": "Somebody has an idea, and there is capacity, so it gets built",
+          "chars": 61,
+          "limit": 70
+        },
+        {
+          "platform": "tiktok",
+          "text": "Somebody has an idea, and there is capacity, so it gets built",
+          "chars": 61,
+          "limit": 100
+        },
+        {
+          "platform": "instagram-reels",
+          "text": "Somebody has an idea, and there is capacity, so it gets built — when you have three, the capacity is the argument",
+          "chars": 113,
+          "limit": 125
+        },
+        {
+          "platform": "x",
+          "text": "Somebody has an idea, and there is capacity, so it gets built",
+          "chars": 61,
+          "limit": 220
+        }
+      ],
+      "description": "Somebody has an idea, and there is capacity, so it gets built.\n\nFull context in the episode. From “Shipping under constraint” at 0:31.\n\nCovered here: every meeting produces, meeting produces work, build sixteen, thirty engineers.",
+      "hashtags": [
+        "#capacity",
+        "#thirty",
+        "#produces",
+        "#argument",
+        "#debate",
+        "#shorts",
+        "#fyp"
+      ],
+      "captions": [
+        {
+          "index": 1,
+          "start": 0,
+          "end": 1.8720000000000008,
+          "text": "When you have\nthirty engineers,"
+        },
+        {
+          "index": 2,
+          "start": 1.8720000000000008,
+          "end": 3.6000000000000014,
+          "text": "every meeting\nproduces work."
+        },
+        {
+          "index": 3,
+          "start": 3.6000000000000014,
+          "end": 6.295081967213117,
+          "text": "Somebody has an\nidea, and there is"
+        },
+        {
+          "index": 4,
+          "start": 6.295081967213117,
+          "end": 7.0819672131147575,
+          "text": "capacity,"
+        },
+        {
+          "index": 5,
+          "start": 7.0819672131147575,
+          "end": 8.400000000000006,
+          "text": "so it gets built."
+        },
+        {
+          "index": 6,
+          "start": 8.400000000000006,
+          "end": 11.283582089552242,
+          "text": "When you have three,\nthe capacity is the"
+        },
+        {
+          "index": 7,
+          "start": 11.283582089552242,
+          "end": 12.000000000000007,
+          "text": "argument."
+        },
+        {
+          "index": 8,
+          "start": 12.000000000000007,
+          "end": 14.692385786802035,
+          "text": "You do not have to\nwin a debate about"
+        },
+        {
+          "index": 9,
+          "start": 14.692385786802035,
+          "end": 17.859898477157365,
+          "text": "whether the settings\npage needs seventeen"
+        },
+        {
+          "index": 10,
+          "start": 17.859898477157365,
+          "end": 18.475803722504235,
+          "text": "options,"
+        },
+        {
+          "index": 11,
+          "start": 18.475803722504235,
+          "end": 21.23857868020305,
+          "text": "because there is\nnobody free to build"
+        },
+        {
+          "index": 12,
+          "start": 21.23857868020305,
+          "end": 22.400000000000006,
+          "text": "sixteen of them."
+        }
+      ],
+      "words": [
+        {
+          "word": "When",
+          "start": 0,
+          "end": 0.28800000000000014
+        },
+        {
+          "word": "you",
+          "start": 0.28800000000000014,
+          "end": 0.5040000000000002
+        },
+        {
+          "word": "have",
+          "start": 0.5040000000000002,
+          "end": 0.7920000000000004
+        },
+        {
+          "word": "thirty",
+          "start": 0.7920000000000004,
+          "end": 1.2240000000000006
+        },
+        {
+          "word": "engineers,",
+          "start": 1.2240000000000006,
+          "end": 1.8720000000000008
+        },
+        {
+          "word": "every",
+          "start": 1.8720000000000008,
+          "end": 2.232000000000001
+        },
+        {
+          "word": "meeting",
+          "start": 2.232000000000001,
+          "end": 2.7360000000000015
+        },
+        {
+          "word": "produces",
+          "start": 2.7360000000000015,
+          "end": 3.312000000000002
+        },
+        {
+          "word": "work.",
+          "start": 3.312000000000002,
+          "end": 3.6000000000000023
+        },
+        {
+          "word": "Somebody",
+          "start": 3.6000000000000014,
+          "end": 4.386885245901642
+        },
+        {
+          "word": "has",
+          "start": 4.386885245901642,
+          "end": 4.681967213114756
+        },
+        {
+          "word": "an",
+          "start": 4.681967213114756,
+          "end": 4.898360655737707
+        },
+        {
+          "word": "idea,",
+          "start": 4.898360655737707,
+          "end": 5.291803278688527
+        },
+        {
+          "word": "and",
+          "start": 5.291803278688527,
+          "end": 5.586885245901642
+        },
+        {
+          "word": "there",
+          "start": 5.586885245901642,
+          "end": 6.0786885245901665
+        },
+        {
+          "word": "is",
+          "start": 6.0786885245901665,
+          "end": 6.295081967213117
+        },
+        {
+          "word": "capacity,",
+          "start": 6.295081967213117,
+          "end": 7.0819672131147575
+        },
+        {
+          "word": "so",
+          "start": 7.0819672131147575,
+          "end": 7.298360655737708
+        },
+        {
+          "word": "it",
+          "start": 7.298360655737708,
+          "end": 7.514754098360659
+        },
+        {
+          "word": "gets",
+          "start": 7.514754098360659,
+          "end": 7.908196721311479
+        },
+        {
+          "word": "built.",
+          "start": 7.908196721311479,
+          "end": 8.400000000000004
+        },
+        {
+          "word": "When",
+          "start": 8.400000000000006,
+          "end": 8.758208955223886
+        },
+        {
+          "word": "you",
+          "start": 8.758208955223886,
+          "end": 9.026865671641795
+        },
+        {
+          "word": "have",
+          "start": 9.026865671641795,
+          "end": 9.385074626865675
+        },
+        {
+          "word": "three,",
+          "start": 9.385074626865675,
+          "end": 9.832835820895527
+        },
+        {
+          "word": "the",
+          "start": 9.832835820895527,
+          "end": 10.101492537313437
+        },
+        {
+          "word": "capacity",
+          "start": 10.101492537313437,
+          "end": 10.817910447761198
+        },
+        {
+          "word": "is",
+          "start": 10.817910447761198,
+          "end": 11.014925373134332
+        },
+        {
+          "word": "the",
+          "start": 11.014925373134332,
+          "end": 11.283582089552242
+        },
+        {
+          "word": "argument.",
+          "start": 11.283582089552242,
+          "end": 12.000000000000004
+        },
+        {
+          "word": "You",
+          "start": 12.000000000000007,
+          "end": 12.26395939086295
+        },
+        {
+          "word": "do",
+          "start": 12.26395939086295,
+          "end": 12.45752961082911
+        },
+        {
+          "word": "not",
+          "start": 12.45752961082911,
+          "end": 12.721489001692053
+        },
+        {
+          "word": "have",
+          "start": 12.721489001692053,
+          "end": 13.073434856175979
+        },
+        {
+          "word": "to",
+          "start": 13.073434856175979,
+          "end": 13.267005076142137
+        },
+        {
+          "word": "win",
+          "start": 13.267005076142137,
+          "end": 13.53096446700508
+        },
+        {
+          "word": "a",
+          "start": 13.53096446700508,
+          "end": 13.72453468697124
+        },
+        {
+          "word": "debate",
+          "start": 13.72453468697124,
+          "end": 14.252453468697128
+        },
+        {
+          "word": "about",
+          "start": 14.252453468697128,
+          "end": 14.692385786802035
+        },
+        {
+          "word": "whether",
+          "start": 14.692385786802035,
+          "end": 15.308291032148905
+        },
+        {
+          "word": "the",
+          "start": 15.308291032148905,
+          "end": 15.572250423011848
+        },
+        {
+          "word": "settings",
+          "start": 15.572250423011848,
+          "end": 16.2761421319797
+        },
+        {
+          "word": "page",
+          "start": 16.2761421319797,
+          "end": 16.628087986463626
+        },
+        {
+          "word": "needs",
+          "start": 16.628087986463626,
+          "end": 17.068020304568535
+        },
+        {
+          "word": "seventeen",
+          "start": 17.068020304568535,
+          "end": 17.859898477157365
+        },
+        {
+          "word": "options,",
+          "start": 17.859898477157365,
+          "end": 18.475803722504235
+        },
+        {
+          "word": "because",
+          "start": 18.475803722504235,
+          "end": 19.091708967851105
+        },
+        {
+          "word": "there",
+          "start": 19.091708967851105,
+          "end": 19.531641285956013
+        },
+        {
+          "word": "is",
+          "start": 19.531641285956013,
+          "end": 19.72521150592217
+        },
+        {
+          "word": "nobody",
+          "start": 19.72521150592217,
+          "end": 20.25313028764806
+        },
+        {
+          "word": "free",
+          "start": 20.25313028764806,
+          "end": 20.605076142131985
+        },
+        {
+          "word": "to",
+          "start": 20.605076142131985,
+          "end": 20.798646362098143
+        },
+        {
+          "word": "build",
+          "start": 20.798646362098143,
+          "end": 21.23857868020305
+        },
+        {
+          "word": "sixteen",
+          "start": 21.23857868020305,
+          "end": 21.85448392554992
+        },
+        {
+          "word": "of",
+          "start": 21.85448392554992,
+          "end": 22.04805414551608
+        },
+        {
+          "word": "them.",
+          "start": 22.04805414551608,
+          "end": 22.400000000000006
+        }
+      ],
+      "srt": "1\n00:00:00,000 --> 00:00:01,872\nWhen you have\nthirty engineers,\n\n2\n00:00:01,872 --> 00:00:03,600\nevery meeting\nproduces work.\n\n3\n00:00:03,600 --> 00:00:06,295\nSomebody has an\nidea, and there is\n\n4\n00:00:06,295 --> 00:00:07,082\ncapacity,\n\n5\n00:00:07,082 --> 00:00:08,400\nso it gets built.\n\n6\n00:00:08,400 --> 00:00:11,284\nWhen you have three,\nthe capacity is the\n\n7\n00:00:11,284 --> 00:00:12,000\nargument.\n\n8\n00:00:12,000 --> 00:00:14,692\nYou do not have to\nwin a debate about\n\n9\n00:00:14,692 --> 00:00:17,860\nwhether the settings\npage needs seventeen\n\n10\n00:00:17,860 --> 00:00:18,476\noptions,\n\n11\n00:00:18,476 --> 00:00:21,239\nbecause there is\nnobody free to build\n\n12\n00:00:21,239 --> 00:00:22,400\nsixteen of them.\n",
+      "vtt": "WEBVTT\n\nNOTE Generated by HOOKLINE — positioned for vertical safe area.\n\n00:00:00.000 --> 00:00:01.872 line:82% align:center\nWhen you have\nthirty engineers,\n\n00:00:01.872 --> 00:00:03.600 line:82% align:center\nevery meeting\nproduces work.\n\n00:00:03.600 --> 00:00:06.295 line:82% align:center\nSomebody has an\nidea, and there is\n\n00:00:06.295 --> 00:00:07.082 line:82% align:center\ncapacity,\n\n00:00:07.082 --> 00:00:08.400 line:82% align:center\nso it gets built.\n\n00:00:08.400 --> 00:00:11.284 line:82% align:center\nWhen you have three,\nthe capacity is the\n\n00:00:11.284 --> 00:00:12.000 line:82% align:center\nargument.\n\n00:00:12.000 --> 00:00:14.692 line:82% align:center\nYou do not have to\nwin a debate about\n\n00:00:14.692 --> 00:00:17.860 line:82% align:center\nwhether the settings\npage needs seventeen\n\n00:00:17.860 --> 00:00:18.476 line:82% align:center\noptions,\n\n00:00:18.476 --> 00:00:21.239 line:82% align:center\nbecause there is\nnobody free to build\n\n00:00:21.239 --> 00:00:22.400 line:82% align:center\nsixteen of them.\n",
+      "thumbnail": {
+        "overlay": "IDEA CAPACITY",
+        "frameAtSec": 34.7,
+        "composition": "Subject three-quarter, overlay overlapping the shoulder. Direct and unfussy.",
+        "heat": [
+          "#2E6B72",
+          "#8A8F4A"
+        ]
+      },
+      "bRoll": [
+        "every meeting produces",
+        "meeting produces work",
+        "build sixteen",
+        "thirty engineers",
+        "seventeen options"
+      ],
+      "segmentIndex": 1
+    }
+  ],
+  "seo": {
+    "titles": [
+      "Here Is the Number That Changed How I Think",
+      "People Shipped Year: What Actually Works",
+      "That It Makes You Slow to Notice You Are Wrong"
+    ],
+    "description": "What finally broke it was that we ran out of money and had to cut the price.\n\n4m 20s on people, shipped, year.\nChapters\n0:00 Honest Answer\n0:31 Smallest Possible\n3:38 Genuinely Unreasonable Hours\n\nTopics: people · shipped · year · product · wrong · every · built · months · seats · parts",
+    "tags": [
+      "people",
+      "shipped",
+      "year",
+      "product",
+      "wrong",
+      "every",
+      "built",
+      "months",
+      "seats",
+      "parts",
+      "three",
+      "settings",
+      "smallest possible",
+      "seventeen options",
+      "settings page"
+    ],
+    "chapters": [
+      {
+        "start": 0,
+        "timecode": "0:00",
+        "label": "Honest Answer"
+      },
+      {
+        "start": 31.5,
+        "timecode": "0:31",
+        "label": "Smallest Possible"
+      },
+      {
+        "start": 218.10000000000002,
+        "timecode": "3:38",
+        "label": "Genuinely Unreasonable Hours"
+      }
+    ],
+    "pullQuote": "What finally broke it was that we ran out of money and had to cut the price.",
+    "keyTerms": [
+      {
+        "term": "people",
+        "weight": 12.59093841990318
+      },
+      {
+        "term": "shipped",
+        "weight": 12.331072583879239
+      },
+      {
+        "term": "year",
+        "weight": 11.327719106568484
+      },
+      {
+        "term": "product",
+        "weight": 10.870115780227016
+      },
+      {
+        "term": "wrong",
+        "weight": 9.864858067103391
+      },
+      {
+        "term": "every",
+        "weight": 9.864858067103391
+      },
+      {
+        "term": "built",
+        "weight": 9.864858067103391
+      },
+      {
+        "term": "months",
+        "weight": 9.864858067103391
+      },
+      {
+        "term": "seats",
+        "weight": 9.162003545033901
+      },
+      {
+        "term": "parts",
+        "weight": 9.162003545033901
+      },
+      {
+        "term": "three",
+        "weight": 8.152586835170261
+      },
+      {
+        "term": "settings",
+        "weight": 8.152586835170261
+      },
+      {
+        "term": "first",
+        "weight": 8.152586835170261
+      },
+      {
+        "term": "percent",
+        "weight": 8.152586835170261
+      },
+      {
+        "term": "agencies",
+        "weight": 8.152586835170261
+      },
+      {
+        "term": "smallest",
+        "weight": 7.129653610887915
+      },
+      {
+        "term": "possible",
+        "weight": 7.129653610887915
+      },
+      {
+        "term": "weeks",
+        "weight": 6.108002363355934
+      }
+    ]
+  },
+  "schedule": [
+    {
+      "clipId": "clip-01",
+      "platform": "youtube-shorts",
+      "date": "2026-09-05",
+      "time": "11:00",
+      "dayLabel": "Saturday",
+      "rationale": "Strongest cut of the set (53) — leads the week on YouTube Shorts."
+    },
+    {
+      "clipId": "clip-02",
+      "platform": "tiktok",
+      "date": "2026-09-06",
+      "time": "10:30",
+      "dayLabel": "Sunday",
+      "rationale": "Longest cut of the set — placed on TikTok, where the duration ceiling is generous."
+    },
+    {
+      "clipId": "clip-03",
+      "platform": "instagram-reels",
+      "date": "2026-09-07",
+      "time": "08:30",
+      "dayLabel": "Monday",
+      "rationale": "Carries the most specific detail, which is what gets saved and shared on Instagram Reels."
+    },
+    {
+      "clipId": "clip-04",
+      "platform": "x",
+      "date": "2026-09-08",
+      "time": "09:00",
+      "dayLabel": "Tuesday",
+      "rationale": "Hardest open in the set, so it survives X's cold weekday scroll."
+    }
+  ]
+}

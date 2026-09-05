@@ -1,0 +1,79 @@
+Everybody tells you the algorithm decides who wins. I spent four years believing that, and it cost me about eleven thousand hours of work I would like back.
+
+Here is what actually happened. In 2021 I was posting five times a week. Every video was better than the last one by any measure I could name. Better lighting, better audio, tighter edit. And the channel did not move. Eight hundred subscribers in January, nine hundred and twelve in December.
+
+So I did what everyone does. I blamed the distribution. I read every thread about watch time and session duration and click-through rate. I bought two courses. I rewrote my titles about forty times.
+
+And then in March of the following year I stopped uploading for six weeks. Not as a strategy. I was just tired. When I came back I made one video that I did not care about at all. It was fourteen minutes of me complaining about a piece of software. No thumbnail plan. I filmed it on a Tuesday.
+
+That video did two hundred and forty thousand views. And the reason is the thing nobody wants to hear, because it is not a tactic you can buy.
+
+The reason is that for the first time in four years I said something that was actually true and slightly costly to say. Everything before that had been optimized into a shape that offended nobody and interested nobody.
+
+Let me be specific about what I mean, because "be authentic" is useless advice and I hate hearing it too.
+
+There is a measurable thing happening here. When you watch a video, you decide within about two seconds whether to keep watching. Not two seconds of the hook. Two seconds of the person. And what you are measuring in that window is whether this person is going to tell you something they would be slightly embarrassed to say at a dinner party.
+
+That is the whole thing. That is retention.
+
+Most creators optimize for the opposite. They optimize for the thing that is safe to say. And safe things have a property: they are already known. If it is already known, there is no reason to keep watching, because the payoff is already in your head.
+
+Okay. So how do you actually operationalize that. Because I am not going to sit here and tell you to be brave.
+
+The first thing I do now, before I write a single line of a script, is I write down the sentence I do not want to say. Just one. The thing that if my most annoying viewer heard it, they would screenshot it. And then I build the video around it.
+
+Not because controversy works. Controversy is a different thing and it burns your channel down. But because the sentence you do not want to say is the only reliable signal you have that you are saying something.
+
+The second thing, and this is the boring one, is that I cut the first thirty seconds of every video after I finish editing it. Every single one. No exceptions.
+
+I did this as an experiment for three months. Average view duration went from thirty-one percent to forty-eight percent. That is not a small change. That is the difference between a video that gets shown to your subscribers and a video that gets shown to strangers.
+
+And it works for a stupid reason. The first thirty seconds of anything you film is you warming up. You know it is you warming up. You cut it anyway because you are attached to the setup. Do not be attached to the setup.
+
+Now here is where it gets interesting, and this is the part I actually wanted to talk about today.
+
+I started applying the same idea to the clips. Because at some point every channel becomes two channels. You have the long-form thing and then you have the short vertical thing, and the short vertical thing is where all the new people come from now.
+
+And clipping is genuinely miserable work. I timed it. For a forty-five minute episode, finding six good clips, trimming them, writing hooks, writing titles for three platforms, timing the captions, and scheduling them takes me somewhere between four and six hours. Every week. Forever.
+
+So I tried to automate it and I failed three times, and the way I failed is instructive.
+
+The first attempt, I just asked a language model to find the good parts. And it did something very reasonable and completely useless. It found the parts that summarized well. Which is the opposite of what you want. A summary is a thing that removes the reason to watch.
+
+The second attempt, I used engagement data. I looked at where the retention graph spiked in the long-form video and I cut there. Better. But the problem is that retention spikes are lagging. By the time the graph moves, the moment that caused it was forty seconds ago.
+
+The third attempt actually worked, and it worked because I stopped trying to find good moments and started trying to find good openings.
+
+Because a clip is not a highlight. A clip is a cold open. Nobody arrives at your clip having watched the previous nine minutes. They arrive mid-scroll with no context and a thumb already moving.
+
+So the only question that matters is: does the first line of this clip work on somebody who has never heard of you.
+
+And that turns out to be measurable. Not perfectly. But well enough.
+
+Here is what I look for now, and I built a tool that does this because I got tired of doing it by hand.
+
+First, does the opening line make a claim or ask a question. Statements that are neither are dead. "So anyway, we were talking about" is dead. "Everybody tells you the algorithm decides who wins" is not dead, and you will notice I opened this episode with it, because I practice what I am telling you.
+
+Second, is there an open loop. Something the sentence sets up and does not immediately close. Your brain does not let you scroll away from an unclosed loop. This is not a trick, it is just how attention works.
+
+Third, is there something concrete in the first ten seconds. A number, a name, a specific thing. "I lost a lot of money" is nothing. "It cost me eleven thousand hours" is something.
+
+Fourth, and this is the one people miss, does the clip end. Not stop. End. There is a difference and the difference is worth about fifteen percent of your completion rate.
+
+Fifth, can it be understood without the rest of the episode. If the clip opens with the word "it" and the viewer does not know what "it" is, you have already lost. Pronouns without antecedents kill more clips than bad hooks do.
+
+I want to be careful here, because I am describing a system and systems get treated as laws.
+
+None of this makes a bad recording good. I want to say that plainly. If you spent an hour saying nothing, no amount of clipping finds the moment, because the moment is not in there. This is amplification, not creation.
+
+But if you did say something real, the difference between that landing and that disappearing is almost entirely mechanical. And mechanical problems have mechanical solutions.
+
+The last thing, and then I will let you go.
+
+I get asked constantly what the posting schedule should be. Three a week, five a week, daily. And the honest answer is that the schedule matters far less than whether you can sustain it in month nine.
+
+I burned out twice. Both times were in the fourth month of a five-a-day sprint. Both times it took about six weeks to want to open the editor again. If you take the full cost of that, including the six weeks, five a day is slower than three a week.
+
+So my actual advice, and it is unsatisfying: pick the number you could do while mildly sick. That is your number. Not the number you can do when you are inspired.
+
+That is the whole episode. I will put the clip scoring stuff in the description because a few people asked. Thanks for listening.

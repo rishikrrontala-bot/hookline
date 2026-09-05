@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 810 1440" width="810" height="1440" role="img" aria-label="Thumbnail layout for clip 3: overlay reads GENUINELY UNREASONABLE">
+  <defs>
+    <linearGradient id="hl3g" x1="0.1" y1="0" x2="0.7" y2="1">
+      <stop offset="0%" stop-color="#0A0C10"/>
+      <stop offset="42%" stop-color="#2E6B72"/>
+      <stop offset="78%" stop-color="#8A8F4A" stop-opacity="0.62"/>
+      <stop offset="100%" stop-color="#06070A"/>
+    </linearGradient>
+    <linearGradient id="hl3s" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#06070A" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#06070A" stop-opacity="0.95"/>
+    </linearGradient>
+    <filter id="hl3b" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="46"/>
+    </filter>
+    <pattern id="hl3grid" width="54" height="54" patternUnits="userSpaceOnUse">
+      <path d="M54 0 L0 0 0 54" fill="none" stroke="#E8EDF4" stroke-width="1" stroke-opacity="0.05"/>
+    </pattern>
+  </defs>
+
+  <rect width="810" height="1440" fill="#06070A"/>
+  <rect width="810" height="1440" fill="url(#hl3g)"/>
+  <ellipse cx="502.2" cy="792.0000000000001" rx="324" ry="273.6" fill="#8A8F4A" opacity="0.30" filter="url(#hl3b)"/>
+  <rect width="810" height="1440" fill="url(#hl3grid)"/>
+
+  <!-- where the subject sits, and where the player will cover the frame -->
+  <g stroke="#E8EDF4" stroke-opacity="0.34" fill="none">
+    <rect x="70" y="604.8" width="670" height="432" stroke-dasharray="12 10" stroke-width="2" rx="4"/>
+  </g>
+  <text x="405" y="813.5999999999999" font-family="ui-monospace, monospace" font-size="23" fill="#E8EDF4" fill-opacity="0.62" text-anchor="middle" letter-spacing="4">SUBJECT</text>
+  <text x="405" y="851.5999999999999" font-family="ui-monospace, monospace" font-size="21" fill="#E8EDF4" fill-opacity="0.42" text-anchor="middle" letter-spacing="2">grab @ 236.4s</text>
+
+  <rect x="0" y="1010" width="810" height="430" fill="url(#hl3s)"/>
+  <g stroke="#2FD2F5" stroke-opacity="0.34" stroke-dasharray="8 8" stroke-width="2">
+    <line x1="0" y1="1010" x2="810" y2="1010"/>
+  </g>
+  <text x="52" y="988" font-family="ui-monospace, monospace" font-size="19" fill="#2FD2F5" fill-opacity="0.72" letter-spacing="2.4">CAPTION SAFE AREA</text>
+
+  <g font-family="Archivo, Helvetica Neue, sans-serif" font-weight="900" font-size="104" fill="#FFFFFF" letter-spacing="-4">
+    <text x="52" y="261.28" stroke="#06070A" stroke-width="16" paint-order="stroke">GENUINELY</text>
+    <text x="52" y="356.96000000000004" stroke="#06070A" stroke-width="16" paint-order="stroke">UNREASONABLE</text>
+  </g>
+  <rect x="52" y="384.96000000000004" width="150" height="7" fill="#8A8F4A"/>
+
+  <g font-family="ui-monospace, monospace" font-size="20" fill="#9AA6B6" letter-spacing="1.6">
+    <text x="52" y="1382">CLIP 03 · 27s · SCORE 46</text>
+    <text x="758" y="1382" fill="#8A8F4A" text-anchor="end" letter-spacing="3">HOOKLINE</text>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+1
+00:00:00,000 --> 00:00:01,872
+When you have
+thirty engineers,
+
+2
+00:00:01,872 --> 00:00:03,600
+every meeting
+produces work.
+
+3
+00:00:03,600 --> 00:00:06,295
+Somebody has an
+idea, and there is
+
+4
+00:00:06,295 --> 00:00:07,082
+capacity,
+
+5
+00:00:07,082 --> 00:00:08,400
+so it gets built.
+
+6
+00:00:08,400 --> 00:00:11,284
+When you have three,
+the capacity is the
+
+7
+00:00:11,284 --> 00:00:12,000
+argument.
+
+8
+00:00:12,000 --> 00:00:14,692
+You do not have to
+win a debate about
+
+9
+00:00:14,692 --> 00:00:17,860
+whether the settings
+page needs seventeen
+
+10
+00:00:17,860 --> 00:00:18,476
+options,
+
+11
+00:00:18,476 --> 00:00:21,239
+because there is
+nobody free to build
+
+12
+00:00:21,239 --> 00:00:22,400
+sixteen of them.

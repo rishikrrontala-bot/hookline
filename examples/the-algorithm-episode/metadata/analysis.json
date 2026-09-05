@@ -1,0 +1,3971 @@
+{
+  "source": {
+    "cues": [
+      {
+        "start": 2.4,
+        "end": 5.593,
+        "text": "Everybody tells you the algorithm decides who wins."
+      },
+      {
+        "start": 6.007,
+        "end": 14.34,
+        "text": "I spent four years believing that, and it cost me about eleven thousand hours of work I would like back."
+      },
+      {
+        "start": 15.616,
+        "end": 17.407,
+        "text": "Here is what actually happened."
+      },
+      {
+        "start": 17.856,
+        "end": 21.32,
+        "text": "In 2021 I was posting five times a week."
+      },
+      {
+        "start": 21.556,
+        "end": 30.782,
+        "text": "Every video was better than the last one by any measure I could name. Better lighting, better audio, tighter edit."
+      },
+      {
+        "start": 31.108,
+        "end": 33.58,
+        "text": "And the channel did not move."
+      },
+      {
+        "start": 33.851,
+        "end": 38.556,
+        "text": "Eight hundred subscribers in January, nine hundred and twelve in December."
+      },
+      {
+        "start": 39.843,
+        "end": 41.975,
+        "text": "So I did what everyone does."
+      },
+      {
+        "start": 42.274,
+        "end": 44.039,
+        "text": "I blamed the distribution."
+      },
+      {
+        "start": 44.35,
+        "end": 50.66,
+        "text": "I read every thread about watch time and session duration and click-through rate. I bought two courses."
+      },
+      {
+        "start": 51.097,
+        "end": 53.996,
+        "text": "I rewrote my titles about forty times."
+      },
+      {
+        "start": 55.463,
+        "end": 61.909,
+        "text": "And then in March of the following year I stopped uploading for six weeks. Not as a strategy."
+      },
+      {
+        "start": 62.252,
+        "end": 67.453,
+        "text": "I was just tired. When I came back I made one video that I did"
+      },
+      {
+        "start": 67.513,
+        "end": 74.606,
+        "text": "not care about at all. It was fourteen minutes of me complaining about a piece of software."
+      },
+      {
+        "start": 74.945,
+        "end": 78.007,
+        "text": "No thumbnail plan. I filmed it on a Tuesday."
+      },
+      {
+        "start": 78.974,
+        "end": 81.953,
+        "text": "That video did two hundred and forty thousand views."
+      },
+      {
+        "start": 82.312,
+        "end": 89.795,
+        "text": "And the reason is the thing nobody wants to hear, because it is not a tactic you can buy."
+      },
+      {
+        "start": 90.66,
+        "end": 96.093,
+        "text": "The reason is that for the first time in four years I said something"
+      },
+      {
+        "start": 96.15299999999999,
+        "end": 100.132,
+        "text": "that was actually true and slightly costly to say."
+      },
+      {
+        "start": 100.568,
+        "end": 106.582,
+        "text": "Everything before that had been optimized into a shape that offended nobody and interested nobody."
+      },
+      {
+        "start": 107.55799999999999,
+        "end": 115.825,
+        "text": "Let me be specific about what I mean, because \"be authentic\" is useless advice and I hate hearing it too."
+      },
+      {
+        "start": 117.143,
+        "end": 120.314,
+        "text": "There is a measurable thing happening here."
+      },
+      {
+        "start": 120.78,
+        "end": 128.61,
+        "text": "When you watch a video, you decide within about two seconds whether to keep watching. Not two seconds of the hook."
+      },
+      {
+        "start": 129.018,
+        "end": 131.078,
+        "text": "Two seconds of the person."
+      },
+      {
+        "start": 131.453,
+        "end": 140.654,
+        "text": "And what you are measuring in that window is whether this person is going to tell you something they would be slightly embarrassed"
+      },
+      {
+        "start": 140.714,
+        "end": 143.255,
+        "text": "to say at a dinner party."
+      },
+      {
+        "start": 144.09,
+        "end": 147.03300000000002,
+        "text": "That is the whole thing. That is retention."
+      },
+      {
+        "start": 147.969,
+        "end": 150.296,
+        "text": "Most creators optimize for the opposite."
+      },
+      {
+        "start": 150.757,
+        "end": 154.421,
+        "text": "They optimize for the thing that is safe to say."
+      },
+      {
+        "start": 154.855,
+        "end": 158.787,
+        "text": "And safe things have a property: they are already known."
+      },
+      {
+        "start": 159.178,
+        "end": 168.111,
+        "text": "If it is already known, there is no reason to keep watching, because the payoff is already in your head."
+      },
+      {
+        "start": 169.268,
+        "end": 172.5,
+        "text": "Okay. So how do you actually operationalize that."
+      },
+      {
+        "start": 172.876,
+        "end": 178.732,
+        "text": "Because I am not going to sit here and tell you to be brave."
+      },
+      {
+        "start": 180.075,
+        "end": 186.879,
+        "text": "The first thing I do now, before I write a single line of a script,"
+      },
+      {
+        "start": 186.939,
+        "end": 192.546,
+        "text": "is I write down the sentence I do not want to say."
+      },
+      {
+        "start": 192.831,
+        "end": 201.579,
+        "text": "Just one. The thing that if my most annoying viewer heard it, they would screenshot it. And then I build the video around it."
+      },
+      {
+        "start": 202.824,
+        "end": 204.193,
+        "text": "Not because controversy works."
+      },
+      {
+        "start": 204.427,
+        "end": 209.421,
+        "text": "Controversy is a different thing and it burns your channel down."
+      },
+      {
+        "start": 209.90800000000002,
+        "end": 214.827,
+        "text": "But because the sentence you do not want to say is the only reliable"
+      },
+      {
+        "start": 214.887,
+        "end": 217.609,
+        "text": "signal you have that you are saying something."
+      },
+      {
+        "start": 218.832,
+        "end": 223.933,
+        "text": "The second thing, and this is the boring one, is that I cut the"
+      },
+      {
+        "start": 223.993,
+        "end": 227.966,
+        "text": "first thirty seconds of every video after I finish editing it."
+      },
+      {
+        "start": 228.353,
+        "end": 230.004,
+        "text": "Every single one. No exceptions."
+      },
+      {
+        "start": 231.207,
+        "end": 234.4,
+        "text": "I did this as an experiment for three months."
+      },
+      {
+        "start": 234.914,
+        "end": 240.906,
+        "text": "Average view duration went from thirty-one percent to forty-eight percent. That is not a small change."
+      },
+      {
+        "start": 241.423,
+        "end": 249.338,
+        "text": "That is the difference between a video that gets shown to your subscribers and a video that gets shown to strangers."
+      },
+      {
+        "start": 250.473,
+        "end": 253.583,
+        "text": "And it works for a stupid reason."
+      },
+      {
+        "start": 253.965,
+        "end": 258.796,
+        "text": "The first thirty seconds of anything you film is you warming up."
+      },
+      {
+        "start": 259.078,
+        "end": 261.368,
+        "text": "You know it is you warming up."
+      },
+      {
+        "start": 261.764,
+        "end": 265.865,
+        "text": "You cut it anyway because you are attached to the setup."
+      },
+      {
+        "start": 266.3,
+        "end": 268.591,
+        "text": "Do not be attached to the setup."
+      },
+      {
+        "start": 269.755,
+        "end": 274.573,
+        "text": "Now here is where it gets interesting, and this is the part I actually"
+      },
+      {
+        "start": 274.633,
+        "end": 276.648,
+        "text": "wanted to talk about today."
+      },
+      {
+        "start": 277.791,
+        "end": 280.931,
+        "text": "I started applying the same idea to the clips."
+      },
+      {
+        "start": 281.224,
+        "end": 284.653,
+        "text": "Because at some point every channel becomes two channels."
+      },
+      {
+        "start": 284.995,
+        "end": 294.013,
+        "text": "You have the long-form thing and then you have the short vertical thing, and the short vertical thing is where all the new people"
+      },
+      {
+        "start": 294.073,
+        "end": 295.202,
+        "text": "come from now."
+      },
+      {
+        "start": 296.223,
+        "end": 298.987,
+        "text": "And clipping is genuinely miserable work."
+      },
+      {
+        "start": 299.443,
+        "end": 308.527,
+        "text": "I timed it. For a forty-five minute episode, finding six good clips, trimming them, writing hooks, writing titles for three platforms,"
+      },
+      {
+        "start": 308.587,
+        "end": 314.332,
+        "text": "timing the captions, and scheduling them takes me somewhere between four and six hours. Every week."
+      },
+      {
+        "start": 314.836,
+        "end": 315.736,
+        "text": "Forever."
+      },
+      {
+        "start": 317.218,
+        "end": 322.188,
+        "text": "So I tried to automate it and I failed three times, and the way"
+      },
+      {
+        "start": 322.248,
+        "end": 323.573,
+        "text": "I failed is instructive."
+      },
+      {
+        "start": 324.555,
+        "end": 334.835,
+        "text": "The first attempt, I just asked a language model to find the good parts. And it did something very reasonable and completely useless."
+      },
+      {
+        "start": 335.237,
+        "end": 337.648,
+        "text": "It found the parts that summarized well."
+      },
+      {
+        "start": 338.147,
+        "end": 341.218,
+        "text": "Which is the opposite of what you want."
+      },
+      {
+        "start": 341.58299999999997,
+        "end": 346.677,
+        "text": "A summary is a thing that removes the reason to watch."
+      },
+      {
+        "start": 347.859,
+        "end": 350.84000000000003,
+        "text": "The second attempt, I used engagement data."
+      },
+      {
+        "start": 351.306,
+        "end": 359.819,
+        "text": "I looked at where the retention graph spiked in the long-form video and I cut there. Better. But the problem is that retention spikes"
+      },
+      {
+        "start": 359.879,
+        "end": 366.658,
+        "text": "are lagging. By the time the graph moves, the moment that caused it was forty seconds ago."
+      },
+      {
+        "start": 368.086,
+        "end": 377.766,
+        "text": "The third attempt actually worked, and it worked because I stopped trying to find good moments and started trying to find good openings."
+      },
+      {
+        "start": 378.829,
+        "end": 381.778,
+        "text": "Because a clip is not a highlight."
+      },
+      {
+        "start": 382.21,
+        "end": 388.512,
+        "text": "A clip is a cold open. Nobody arrives at your clip having watched the previous nine minutes."
+      },
+      {
+        "start": 388.907,
+        "end": 392.612,
+        "text": "They arrive mid-scroll with no context and a thumb already moving."
+      },
+      {
+        "start": 394.048,
+        "end": 403.072,
+        "text": "So the only question that matters is: does the first line of this clip work on somebody who has never heard of you."
+      },
+      {
+        "start": 404.531,
+        "end": 407.105,
+        "text": "And that turns out to be measurable."
+      },
+      {
+        "start": 407.602,
+        "end": 409.236,
+        "text": "Not perfectly. But well enough."
+      },
+      {
+        "start": 410.392,
+        "end": 417.01800000000003,
+        "text": "Here is what I look for now, and I built a tool that does this"
+      },
+      {
+        "start": 417.078,
+        "end": 420.562,
+        "text": "because I got tired of doing it by hand."
+      },
+      {
+        "start": 421.513,
+        "end": 425.767,
+        "text": "First, does the opening line make a claim or ask a question."
+      },
+      {
+        "start": 426.242,
+        "end": 428.471,
+        "text": "Statements that are neither are dead."
+      },
+      {
+        "start": 428.82,
+        "end": 431.703,
+        "text": "\"So anyway, we were talking about\" is dead."
+      },
+      {
+        "start": 432.069,
+        "end": 441.165,
+        "text": "\"Everybody tells you the algorithm decides who wins\" is not dead, and you will notice I opened this episode with it, because I practice"
+      },
+      {
+        "start": 441.225,
+        "end": 442.951,
+        "text": "what I am telling you."
+      },
+      {
+        "start": 444.008,
+        "end": 445.967,
+        "text": "Second, is there an open loop."
+      },
+      {
+        "start": 446.196,
+        "end": 449.873,
+        "text": "Something the sentence sets up and does not immediately close."
+      },
+      {
+        "start": 450.348,
+        "end": 455.296,
+        "text": "Your brain does not let you scroll away from an unclosed loop."
+      },
+      {
+        "start": 455.597,
+        "end": 459.567,
+        "text": "This is not a trick, it is just how attention works."
+      },
+      {
+        "start": 460.845,
+        "end": 465.202,
+        "text": "Third, is there something concrete in the first ten seconds."
+      },
+      {
+        "start": 465.475,
+        "end": 467.761,
+        "text": "A number, a name, a specific thing."
+      },
+      {
+        "start": 468.031,
+        "end": 471.153,
+        "text": "\"I lost a lot of money\" is nothing."
+      },
+      {
+        "start": 471.632,
+        "end": 474.299,
+        "text": "\"It cost me eleven thousand hours\" is something."
+      },
+      {
+        "start": 475.334,
+        "end": 479.384,
+        "text": "Fourth, and this is the one people miss, does the clip end."
+      },
+      {
+        "start": 479.699,
+        "end": 487.092,
+        "text": "Not stop. End. There is a difference and the difference is worth about fifteen percent of your completion rate."
+      },
+      {
+        "start": 488.539,
+        "end": 492.293,
+        "text": "Fifth, can it be understood without the rest of the episode."
+      },
+      {
+        "start": 492.749,
+        "end": 497.319,
+        "text": "If the clip opens with the word \"it\" and the viewer does not know"
+      },
+      {
+        "start": 497.379,
+        "end": 500.451,
+        "text": "what \"it\" is, you have already lost."
+      },
+      {
+        "start": 500.835,
+        "end": 504.998,
+        "text": "Pronouns without antecedents kill more clips than bad hooks do."
+      },
+      {
+        "start": 505.747,
+        "end": 512.37,
+        "text": "I want to be careful here, because I am describing a system and systems get treated as laws."
+      },
+      {
+        "start": 513.653,
+        "end": 516.925,
+        "text": "None of this makes a bad recording good."
+      },
+      {
+        "start": 517.394,
+        "end": 519.748,
+        "text": "I want to say that plainly."
+      },
+      {
+        "start": 520.195,
+        "end": 528.693,
+        "text": "If you spent an hour saying nothing, no amount of clipping finds the moment, because the moment is not in there."
+      },
+      {
+        "start": 529.117,
+        "end": 531.085,
+        "text": "This is amplification, not creation."
+      },
+      {
+        "start": 532.261,
+        "end": 539.502,
+        "text": "But if you did say something real, the difference between that landing and that disappearing is almost entirely mechanical."
+      },
+      {
+        "start": 539.995,
+        "end": 542.437,
+        "text": "And mechanical problems have mechanical solutions."
+      },
+      {
+        "start": 543.505,
+        "end": 547.218,
+        "text": "The last thing, and then I will let you go."
+      },
+      {
+        "start": 548.365,
+        "end": 553.008,
+        "text": "I get asked constantly what the posting schedule should be."
+      },
+      {
+        "start": 553.523,
+        "end": 556.641,
+        "text": "Three a week, five a week, daily."
+      },
+      {
+        "start": 556.926,
+        "end": 564.248,
+        "text": "And the honest answer is that the schedule matters far less than whether you can sustain it in month nine."
+      },
+      {
+        "start": 565.726,
+        "end": 572.088,
+        "text": "I burned out twice. Both times were in the fourth month of a five-a-day"
+      },
+      {
+        "start": 572.148,
+        "end": 580.807,
+        "text": "sprint. Both times it took about six weeks to want to open the editor again. If you take the full cost of that, including the"
+      },
+      {
+        "start": 580.867,
+        "end": 585.25,
+        "text": "six weeks, five a day is slower than three a week."
+      },
+      {
+        "start": 586.283,
+        "end": 592.506,
+        "text": "So my actual advice, and it is unsatisfying: pick the number you could do while mildly sick."
+      },
+      {
+        "start": 592.863,
+        "end": 597.949,
+        "text": "That is your number. Not the number you can do when you are inspired."
+      },
+      {
+        "start": 599.272,
+        "end": 601.195,
+        "text": "That is the whole episode."
+      },
+      {
+        "start": 601.542,
+        "end": 608.128,
+        "text": "I will put the clip scoring stuff in the description because a few people asked. Thanks for listening."
+      }
+    ],
+    "format": "srt",
+    "hasRealTimings": true,
+    "durationSec": 608.128,
+    "wordCount": 1378
+  },
+  "stats": {
+    "durationSec": 608.128,
+    "wordCount": 1378,
+    "sentenceCount": 144,
+    "segmentCount": 6,
+    "clipCount": 6,
+    "minutesOfOutput": 2.956262745098039,
+    "meanAttention": 0.44311341171216,
+    "peakAttention": 1,
+    "estimatedManualMinutes": 72
+  },
+  "stages": [
+    {
+      "key": "ingest",
+      "label": "Ingest",
+      "detail": "SRT · 116 cues · 1,378 words",
+      "ms": 23.405875
+    },
+    {
+      "key": "parse",
+      "label": "Segment",
+      "detail": "144 sentences · 298 distinct terms",
+      "ms": 2.784084000000007
+    },
+    {
+      "key": "score",
+      "label": "Score",
+      "detail": "8 signals × 144 sentences",
+      "ms": 4.450832999999989
+    },
+    {
+      "key": "boundaries",
+      "label": "Boundaries",
+      "detail": "5 topic shifts · 6 segments",
+      "ms": 11.543416999999991
+    },
+    {
+      "key": "extract",
+      "label": "Extract",
+      "detail": "1,391 windows → 6 clips",
+      "ms": 16.172292
+    },
+    {
+      "key": "write",
+      "label": "Write",
+      "detail": "6 hooks · 24 titles · 72 caption cues",
+      "ms": 12.093000000000004
+    },
+    {
+      "key": "seo",
+      "label": "Index",
+      "detail": "6 chapters · 18 tags",
+      "ms": 12.168374999999997
+    },
+    {
+      "key": "schedule",
+      "label": "Schedule",
+      "detail": "6 slots across 7 days",
+      "ms": 1.3243330000000242
+    }
+  ],
+  "boundaries": [
+    {
+      "sentenceIndex": 13,
+      "timeSec": 55.463,
+      "depth": 0.4050943253330051
+    },
+    {
+      "sentenceIndex": 34,
+      "timeSec": 145.92937500000002,
+      "depth": 0.17864531728422542
+    },
+    {
+      "sentenceIndex": 40,
+      "timeSec": 169.672,
+      "depth": 0.17600347965359445
+    },
+    {
+      "sentenceIndex": 66,
+      "timeSec": 277.791,
+      "depth": 0.16076316337826507
+    },
+    {
+      "sentenceIndex": 111,
+      "timeSec": 468.031,
+      "depth": 0.20794373765581048
+    }
+  ],
+  "segments": [
+    {
+      "index": 0,
+      "startSentence": 0,
+      "endSentence": 12,
+      "start": 2.4,
+      "end": 53.996,
+      "keyTerms": [
+        "better",
+        "hundred",
+        "believing",
+        "measure",
+        "lighting",
+        "audio"
+      ],
+      "label": "Eight Hundred Subscribers",
+      "meanAttention": 0.6470996895238869
+    },
+    {
+      "index": 1,
+      "startSentence": 13,
+      "endSentence": 33,
+      "start": 55.463,
+      "end": 145.92937500000002,
+      "keyTerms": [
+        "hear",
+        "slightly",
+        "person",
+        "years",
+        "measurable",
+        "whether"
+      ],
+      "label": "Slightly Embarrassed",
+      "meanAttention": 0.4500904996331756
+    },
+    {
+      "index": 2,
+      "startSentence": 34,
+      "endSentence": 39,
+      "start": 145.92937500000002,
+      "end": 169.672,
+      "keyTerms": [
+        "optimize",
+        "safe",
+        "known",
+        "already",
+        "creators",
+        "property"
+      ],
+      "label": "Already Known",
+      "meanAttention": 0.2639887914773813
+    },
+    {
+      "index": 3,
+      "startSentence": 40,
+      "endSentence": 65,
+      "start": 169.672,
+      "end": 276.648,
+      "keyTerms": [
+        "shown",
+        "write",
+        "single",
+        "controversy",
+        "thirty",
+        "warming"
+      ],
+      "label": "First Thirty Seconds",
+      "meanAttention": 0.3214624063158006
+    },
+    {
+      "index": 4,
+      "startSentence": 66,
+      "endSentence": 110,
+      "start": 277.791,
+      "end": 467.761,
+      "keyTerms": [
+        "find",
+        "attempt",
+        "dead",
+        "short",
+        "vertical",
+        "writing"
+      ],
+      "label": "Short Vertical",
+      "meanAttention": 0.484938375437589
+    },
+    {
+      "index": 5,
+      "startSentence": 111,
+      "endSentence": 143,
+      "start": 468.031,
+      "end": 608.128,
+      "keyTerms": [
+        "mechanical",
+        "system",
+        "lost",
+        "fourth",
+        "end",
+        "without"
+      ],
+      "label": "Almost Entirely Mechanical",
+      "meanAttention": 0.42969553402052146
+    }
+  ],
+  "clips": [
+    {
+      "id": "clip-01",
+      "rank": 1,
+      "start": 2.4,
+      "end": 53.996,
+      "durationSec": 51.596000000000004,
+      "startSentence": 0,
+      "endSentence": 12,
+      "transcript": "Everybody tells you the algorithm decides who wins. I spent four years believing that, and it cost me about eleven thousand hours of work I would like back. Here is what actually happened. In 2021 I was posting five times a week. Every video was better than the last one by any measure I could name. Better lighting, better audio, tighter edit. And the channel did not move. Eight hundred subscribers in January, nine hundred and twelve in December. So I did what everyone does. I blamed the distribution. I read every thread about watch time and session duration and click-through rate. I bought two courses. I rewrote my titles about forty times.",
+      "score": 63,
+      "breakdown": {
+        "opening": 0.45015321741975,
+        "body": 0.6470996895238869,
+        "payoff": 0.35087499999999994,
+        "containment": 1,
+        "boundary": 1
+      },
+      "signals": {
+        "hook": 0.16999999999999998,
+        "curiosity": 0.047825332562174666,
+        "emotion": 0,
+        "concrete": 0.06917363682069565,
+        "salience": 0.5020667199717466,
+        "payoff": 0.02923076923076923,
+        "pace": 0.154942835207315,
+        "quotable": 0.31048076923076917
+      },
+      "evidence": [
+        "opens on a hook construction",
+        "pivots on a contrast marker",
+        "carries a specific figure",
+        "names specific things"
+      ],
+      "hookPattern": "contrarian",
+      "hook": "Everybody tells you the algorithm decides who wins.",
+      "titles": [
+        {
+          "platform": "youtube-shorts",
+          "text": "Everybody tells you the algorithm decides who wins",
+          "chars": 50,
+          "limit": 70
+        },
+        {
+          "platform": "tiktok",
+          "text": "Everybody tells you the algorithm decides who wins",
+          "chars": 50,
+          "limit": 100
+        },
+        {
+          "platform": "instagram-reels",
+          "text": "Everybody tells you the algorithm decides who wins — I did what everyone does",
+          "chars": 77,
+          "limit": 125
+        },
+        {
+          "platform": "x",
+          "text": "Everybody tells you the algorithm decides who wins\n\nIn 2021 I was posting five times a week.",
+          "chars": 92,
+          "limit": 220
+        }
+      ],
+      "description": "Everybody tells you the algorithm decides who wins.\n\nFull context in the episode. From “Why your channel stalled at 900 subscribers” at 0:02.\n\nCovered here: read every thread, eight hundred subscribers, four years believing, spent four years.",
+      "hashtags": [
+        "#audio",
+        "#move",
+        "#betterlighting",
+        "#shorts",
+        "#fyp"
+      ],
+      "captions": [
+        {
+          "index": 1,
+          "start": 0,
+          "end": 2.6732093023255814,
+          "text": "Everybody tells you\nthe algorithm decides"
+        },
+        {
+          "index": 2,
+          "start": 2.6732093023255814,
+          "end": 3.6069999999999998,
+          "text": "who wins."
+        },
+        {
+          "index": 3,
+          "start": 3.6069999999999998,
+          "end": 6.436344186046511,
+          "text": "I spent four years\nbelieving that,"
+        },
+        {
+          "index": 4,
+          "start": 6.436344186046511,
+          "end": 9.381962790697672,
+          "text": "and it cost me about\neleven thousand"
+        },
+        {
+          "index": 5,
+          "start": 9.381962790697672,
+          "end": 11.939999999999998,
+          "text": "hours of work I\nwould like back."
+        },
+        {
+          "index": 6,
+          "start": 13.216,
+          "end": 15.007000000000001,
+          "text": "Here is what\nactually happened."
+        },
+        {
+          "index": 7,
+          "start": 15.456000000000001,
+          "end": 18.507619047619052,
+          "text": "In 2021 I was\nposting five times a"
+        },
+        {
+          "index": 8,
+          "start": 18.507619047619052,
+          "end": 19.156000000000002,
+          "text": "week."
+        },
+        {
+          "index": 9,
+          "start": 19.156000000000002,
+          "end": 22.13318439716312,
+          "text": "Every video was\nbetter than the"
+        },
+        {
+          "index": 10,
+          "start": 22.13318439716312,
+          "end": 25.15617163120567,
+          "text": "last one by any\nmeasure I could"
+        },
+        {
+          "index": 11,
+          "start": 25.15617163120567,
+          "end": 25.6142,
+          "text": "name."
+        },
+        {
+          "index": 12,
+          "start": 25.6142,
+          "end": 27.536283333333337,
+          "text": "Better lighting,\nbetter audio,"
+        },
+        {
+          "index": 13,
+          "start": 27.536283333333337,
+          "end": 28.382,
+          "text": "tighter edit."
+        },
+        {
+          "index": 14,
+          "start": 28.708000000000002,
+          "end": 31.180000000000003,
+          "text": "And the channel\ndid not move."
+        },
+        {
+          "index": 15,
+          "start": 31.451,
+          "end": 33.878900641025645,
+          "text": "Eight hundred\nsubscribers in January,"
+        },
+        {
+          "index": 16,
+          "start": 33.878900641025645,
+          "end": 36.156,
+          "text": "nine hundred and\ntwelve in December."
+        },
+        {
+          "index": 17,
+          "start": 37.443000000000005,
+          "end": 39.575,
+          "text": "So I did what\neveryone does."
+        },
+        {
+          "index": 18,
+          "start": 39.874,
+          "end": 41.639,
+          "text": "I blamed\nthe distribution."
+        },
+        {
+          "index": 19,
+          "start": 41.95,
+          "end": 44.36972227013972,
+          "text": "I read every thread\nabout watch time and"
+        },
+        {
+          "index": 20,
+          "start": 44.36972227013972,
+          "end": 46.77529411764706,
+          "text": "session duration and\nclick-through rate."
+        },
+        {
+          "index": 21,
+          "start": 46.77529411764706,
+          "end": 48.26,
+          "text": "I bought two courses."
+        },
+        {
+          "index": 22,
+          "start": 48.697,
+          "end": 51.59600000000001,
+          "text": "I rewrote my titles\nabout forty times."
+        }
+      ],
+      "words": [
+        {
+          "word": "Everybody",
+          "start": 0,
+          "end": 0.6683023255813954
+        },
+        {
+          "word": "tells",
+          "start": 0.6683023255813954,
+          "end": 1.0395813953488373
+        },
+        {
+          "word": "you",
+          "start": 1.0395813953488373,
+          "end": 1.2623488372093024
+        },
+        {
+          "word": "the",
+          "start": 1.2623488372093024,
+          "end": 1.4851162790697674
+        },
+        {
+          "word": "algorithm",
+          "start": 1.4851162790697674,
+          "end": 2.1534186046511627
+        },
+        {
+          "word": "decides",
+          "start": 2.1534186046511627,
+          "end": 2.6732093023255814
+        },
+        {
+          "word": "who",
+          "start": 2.6732093023255814,
+          "end": 2.8959767441860467
+        },
+        {
+          "word": "wins.",
+          "start": 2.8959767441860467,
+          "end": 3.193
+        },
+        {
+          "word": "I",
+          "start": 3.6069999999999998,
+          "end": 3.82016976744186
+        },
+        {
+          "word": "spent",
+          "start": 3.82016976744186,
+          "end": 4.304646511627906
+        },
+        {
+          "word": "four",
+          "start": 4.304646511627906,
+          "end": 4.692227906976743
+        },
+        {
+          "word": "years",
+          "start": 4.692227906976743,
+          "end": 5.17670465116279
+        },
+        {
+          "word": "believing",
+          "start": 5.17670465116279,
+          "end": 6.0487627906976735
+        },
+        {
+          "word": "that,",
+          "start": 6.0487627906976735,
+          "end": 6.436344186046511
+        },
+        {
+          "word": "and",
+          "start": 6.436344186046511,
+          "end": 6.727030232558138
+        },
+        {
+          "word": "it",
+          "start": 6.727030232558138,
+          "end": 6.940199999999999
+        },
+        {
+          "word": "cost",
+          "start": 6.940199999999999,
+          "end": 7.327781395348836
+        },
+        {
+          "word": "me",
+          "start": 7.327781395348836,
+          "end": 7.540951162790696
+        },
+        {
+          "word": "about",
+          "start": 7.540951162790696,
+          "end": 8.025427906976743
+        },
+        {
+          "word": "eleven",
+          "start": 8.025427906976743,
+          "end": 8.606799999999998
+        },
+        {
+          "word": "thousand",
+          "start": 8.606799999999998,
+          "end": 9.381962790697672
+        },
+        {
+          "word": "hours",
+          "start": 9.381962790697672,
+          "end": 9.86643953488372
+        },
+        {
+          "word": "of",
+          "start": 9.86643953488372,
+          "end": 10.07960930232558
+        },
+        {
+          "word": "work",
+          "start": 10.07960930232558,
+          "end": 10.467190697674416
+        },
+        {
+          "word": "I",
+          "start": 10.467190697674416,
+          "end": 10.680360465116276
+        },
+        {
+          "word": "would",
+          "start": 10.680360465116276,
+          "end": 11.164837209302323
+        },
+        {
+          "word": "like",
+          "start": 11.164837209302323,
+          "end": 11.55241860465116
+        },
+        {
+          "word": "back.",
+          "start": 11.55241860465116,
+          "end": 11.939999999999998
+        },
+        {
+          "word": "Here",
+          "start": 13.216,
+          "end": 13.489435114503816
+        },
+        {
+          "word": "is",
+          "start": 13.489435114503816,
+          "end": 13.639824427480916
+        },
+        {
+          "word": "what",
+          "start": 13.639824427480916,
+          "end": 13.913259541984733
+        },
+        {
+          "word": "actually",
+          "start": 13.913259541984733,
+          "end": 14.460129770992367
+        },
+        {
+          "word": "happened.",
+          "start": 14.460129770992367,
+          "end": 15.007000000000001
+        },
+        {
+          "word": "In",
+          "start": 15.456000000000001,
+          "end": 15.682809523809524
+        },
+        {
+          "word": "2021",
+          "start": 15.682809523809524,
+          "end": 16.095190476190478
+        },
+        {
+          "word": "I",
+          "start": 16.095190476190478,
+          "end": 16.322000000000003
+        },
+        {
+          "word": "was",
+          "start": 16.322000000000003,
+          "end": 16.631285714285717
+        },
+        {
+          "word": "posting",
+          "start": 16.631285714285717,
+          "end": 17.352952380952384
+        },
+        {
+          "word": "five",
+          "start": 17.352952380952384,
+          "end": 17.765333333333338
+        },
+        {
+          "word": "times",
+          "start": 17.765333333333338,
+          "end": 18.280809523809527
+        },
+        {
+          "word": "a",
+          "start": 18.280809523809527,
+          "end": 18.507619047619052
+        },
+        {
+          "word": "week.",
+          "start": 18.507619047619052,
+          "end": 18.920000000000005
+        },
+        {
+          "word": "Every",
+          "start": 19.156000000000002,
+          "end": 19.72853546099291
+        },
+        {
+          "word": "video",
+          "start": 19.72853546099291,
+          "end": 20.301070921985815
+        },
+        {
+          "word": "was",
+          "start": 20.301070921985815,
+          "end": 20.64459219858156
+        },
+        {
+          "word": "better",
+          "start": 20.64459219858156,
+          "end": 21.33163475177305
+        },
+        {
+          "word": "than",
+          "start": 21.33163475177305,
+          "end": 21.789663120567376
+        },
+        {
+          "word": "the",
+          "start": 21.789663120567376,
+          "end": 22.13318439716312
+        },
+        {
+          "word": "last",
+          "start": 22.13318439716312,
+          "end": 22.591212765957447
+        },
+        {
+          "word": "one",
+          "start": 22.591212765957447,
+          "end": 22.934734042553192
+        },
+        {
+          "word": "by",
+          "start": 22.934734042553192,
+          "end": 23.18664964539007
+        },
+        {
+          "word": "any",
+          "start": 23.18664964539007,
+          "end": 23.530170921985814
+        },
+        {
+          "word": "measure",
+          "start": 23.530170921985814,
+          "end": 24.331720567375886
+        },
+        {
+          "word": "I",
+          "start": 24.331720567375886,
+          "end": 24.583636170212763
+        },
+        {
+          "word": "could",
+          "start": 24.583636170212763,
+          "end": 25.15617163120567
+        },
+        {
+          "word": "name.",
+          "start": 25.15617163120567,
+          "end": 25.614199999999997
+        },
+        {
+          "word": "Better",
+          "start": 25.6142,
+          "end": 26.0755
+        },
+        {
+          "word": "lighting,",
+          "start": 26.0755,
+          "end": 26.69056666666667
+        },
+        {
+          "word": "better",
+          "start": 26.69056666666667,
+          "end": 27.15186666666667
+        },
+        {
+          "word": "audio,",
+          "start": 27.15186666666667,
+          "end": 27.536283333333337
+        },
+        {
+          "word": "tighter",
+          "start": 27.536283333333337,
+          "end": 28.07446666666667
+        },
+        {
+          "word": "edit.",
+          "start": 28.07446666666667,
+          "end": 28.382
+        },
+        {
+          "word": "And",
+          "start": 28.708000000000002,
+          "end": 29.030434782608697
+        },
+        {
+          "word": "the",
+          "start": 29.030434782608697,
+          "end": 29.352869565217393
+        },
+        {
+          "word": "channel",
+          "start": 29.352869565217393,
+          "end": 30.10521739130435
+        },
+        {
+          "word": "did",
+          "start": 30.10521739130435,
+          "end": 30.427652173913046
+        },
+        {
+          "word": "not",
+          "start": 30.427652173913046,
+          "end": 30.75008695652174
+        },
+        {
+          "word": "move.",
+          "start": 30.75008695652174,
+          "end": 31.180000000000003
+        },
+        {
+          "word": "Eight",
+          "start": 31.451,
+          "end": 31.828003205128205
+        },
+        {
+          "word": "hundred",
+          "start": 31.828003205128205,
+          "end": 32.35580769230769
+        },
+        {
+          "word": "subscribers",
+          "start": 32.35580769230769,
+          "end": 33.185214743589746
+        },
+        {
+          "word": "in",
+          "start": 33.185214743589746,
+          "end": 33.35109615384616
+        },
+        {
+          "word": "January,",
+          "start": 33.35109615384616,
+          "end": 33.878900641025645
+        },
+        {
+          "word": "nine",
+          "start": 33.878900641025645,
+          "end": 34.18050320512821
+        },
+        {
+          "word": "hundred",
+          "start": 34.18050320512821,
+          "end": 34.7083076923077
+        },
+        {
+          "word": "and",
+          "start": 34.7083076923077,
+          "end": 34.93450961538462
+        },
+        {
+          "word": "twelve",
+          "start": 34.93450961538462,
+          "end": 35.38691346153846
+        },
+        {
+          "word": "in",
+          "start": 35.38691346153846,
+          "end": 35.55279487179487
+        },
+        {
+          "word": "December.",
+          "start": 35.55279487179487,
+          "end": 36.156
+        },
+        {
+          "word": "So",
+          "start": 37.443000000000005,
+          "end": 37.64344444444445
+        },
+        {
+          "word": "I",
+          "start": 37.64344444444445,
+          "end": 37.84388888888889
+        },
+        {
+          "word": "did",
+          "start": 37.84388888888889,
+          "end": 38.117222222222225
+        },
+        {
+          "word": "what",
+          "start": 38.117222222222225,
+          "end": 38.48166666666667
+        },
+        {
+          "word": "everyone",
+          "start": 38.48166666666667,
+          "end": 39.21055555555556
+        },
+        {
+          "word": "does.",
+          "start": 39.21055555555556,
+          "end": 39.575
+        },
+        {
+          "word": "I",
+          "start": 39.874,
+          "end": 40.041370689655174
+        },
+        {
+          "word": "blamed",
+          "start": 40.041370689655174,
+          "end": 40.49783620689655
+        },
+        {
+          "word": "the",
+          "start": 40.49783620689655,
+          "end": 40.72606896551724
+        },
+        {
+          "word": "distribution.",
+          "start": 40.72606896551724,
+          "end": 41.639
+        },
+        {
+          "word": "I",
+          "start": 41.95,
+          "end": 42.10565464895636
+        },
+        {
+          "word": "read",
+          "start": 42.10565464895636,
+          "end": 42.38866310160428
+        },
+        {
+          "word": "every",
+          "start": 42.38866310160428,
+          "end": 42.74242366741418
+        },
+        {
+          "word": "thread",
+          "start": 42.74242366741418,
+          "end": 43.16693634638606
+        },
+        {
+          "word": "about",
+          "start": 43.16693634638606,
+          "end": 43.52069691219596
+        },
+        {
+          "word": "watch",
+          "start": 43.52069691219596,
+          "end": 43.87445747800586
+        },
+        {
+          "word": "time",
+          "start": 43.87445747800586,
+          "end": 44.15746593065378
+        },
+        {
+          "word": "and",
+          "start": 44.15746593065378,
+          "end": 44.36972227013972
+        },
+        {
+          "word": "session",
+          "start": 44.36972227013972,
+          "end": 44.86498706227358
+        },
+        {
+          "word": "duration",
+          "start": 44.86498706227358,
+          "end": 45.43100396756942
+        },
+        {
+          "word": "and",
+          "start": 45.43100396756942,
+          "end": 45.64326030705536
+        },
+        {
+          "word": "click-through",
+          "start": 45.64326030705536,
+          "end": 46.49228566499912
+        },
+        {
+          "word": "rate.",
+          "start": 46.49228566499912,
+          "end": 46.77529411764704
+        },
+        {
+          "word": "I",
+          "start": 46.77529411764706,
+          "end": 46.95476405946994
+        },
+        {
+          "word": "bought",
+          "start": 46.95476405946994,
+          "end": 47.44422753716871
+        },
+        {
+          "word": "two",
+          "start": 47.44422753716871,
+          "end": 47.688959276018096
+        },
+        {
+          "word": "courses.",
+          "start": 47.688959276018096,
+          "end": 48.26
+        },
+        {
+          "word": "I",
+          "start": 48.697,
+          "end": 48.89384567901235
+        },
+        {
+          "word": "rewrote",
+          "start": 48.89384567901235,
+          "end": 49.52017283950618
+        },
+        {
+          "word": "my",
+          "start": 49.52017283950618,
+          "end": 49.71701851851853
+        },
+        {
+          "word": "titles",
+          "start": 49.71701851851853,
+          "end": 50.25387037037038
+        },
+        {
+          "word": "about",
+          "start": 50.25387037037038,
+          "end": 50.701246913580256
+        },
+        {
+          "word": "forty",
+          "start": 50.701246913580256,
+          "end": 51.14862345679013
+        },
+        {
+          "word": "times.",
+          "start": 51.14862345679013,
+          "end": 51.59600000000001
+        }
+      ],
+      "srt": "1\n00:00:00,000 --> 00:00:02,673\nEverybody tells you\nthe algorithm decides\n\n2\n00:00:02,673 --> 00:00:03,607\nwho wins.\n\n3\n00:00:03,607 --> 00:00:06,436\nI spent four years\nbelieving that,\n\n4\n00:00:06,436 --> 00:00:09,382\nand it cost me about\neleven thousand\n\n5\n00:00:09,382 --> 00:00:11,940\nhours of work I\nwould like back.\n\n6\n00:00:13,216 --> 00:00:15,007\nHere is what\nactually happened.\n\n7\n00:00:15,456 --> 00:00:18,508\nIn 2021 I was\nposting five times a\n\n8\n00:00:18,508 --> 00:00:19,156\nweek.\n\n9\n00:00:19,156 --> 00:00:22,133\nEvery video was\nbetter than the\n\n10\n00:00:22,133 --> 00:00:25,156\nlast one by any\nmeasure I could\n\n11\n00:00:25,156 --> 00:00:25,614\nname.\n\n12\n00:00:25,614 --> 00:00:27,536\nBetter lighting,\nbetter audio,\n\n13\n00:00:27,536 --> 00:00:28,382\ntighter edit.\n\n14\n00:00:28,708 --> 00:00:31,180\nAnd the channel\ndid not move.\n\n15\n00:00:31,451 --> 00:00:33,879\nEight hundred\nsubscribers in January,\n\n16\n00:00:33,879 --> 00:00:36,156\nnine hundred and\ntwelve in December.\n\n17\n00:00:37,443 --> 00:00:39,575\nSo I did what\neveryone does.\n\n18\n00:00:39,874 --> 00:00:41,639\nI blamed\nthe distribution.\n\n19\n00:00:41,950 --> 00:00:44,370\nI read every thread\nabout watch time and\n\n20\n00:00:44,370 --> 00:00:46,775\nsession duration and\nclick-through rate.\n\n21\n00:00:46,775 --> 00:00:48,260\nI bought two courses.\n\n22\n00:00:48,697 --> 00:00:51,596\nI rewrote my titles\nabout forty times.\n",
+      "vtt": "WEBVTT\n\nNOTE Generated by HOOKLINE — positioned for vertical safe area.\n\n00:00:00.000 --> 00:00:02.673 line:82% align:center\nEverybody tells you\nthe algorithm decides\n\n00:00:02.673 --> 00:00:03.607 line:82% align:center\nwho wins.\n\n00:00:03.607 --> 00:00:06.436 line:82% align:center\nI spent four years\nbelieving that,\n\n00:00:06.436 --> 00:00:09.382 line:82% align:center\nand it cost me about\neleven thousand\n\n00:00:09.382 --> 00:00:11.940 line:82% align:center\nhours of work I\nwould like back.\n\n00:00:13.216 --> 00:00:15.007 line:82% align:center\nHere is what\nactually happened.\n\n00:00:15.456 --> 00:00:18.508 line:82% align:center\nIn 2021 I was\nposting five times a\n\n00:00:18.508 --> 00:00:19.156 line:82% align:center\nweek.\n\n00:00:19.156 --> 00:00:22.133 line:82% align:center\nEvery video was\nbetter than the\n\n00:00:22.133 --> 00:00:25.156 line:82% align:center\nlast one by any\nmeasure I could\n\n00:00:25.156 --> 00:00:25.614 line:82% align:center\nname.\n\n00:00:25.614 --> 00:00:27.536 line:82% align:center\nBetter lighting,\nbetter audio,\n\n00:00:27.536 --> 00:00:28.382 line:82% align:center\ntighter edit.\n\n00:00:28.708 --> 00:00:31.180 line:82% align:center\nAnd the channel\ndid not move.\n\n00:00:31.451 --> 00:00:33.879 line:82% align:center\nEight hundred\nsubscribers in January,\n\n00:00:33.879 --> 00:00:36.156 line:82% align:center\nnine hundred and\ntwelve in December.\n\n00:00:37.443 --> 00:00:39.575 line:82% align:center\nSo I did what\neveryone does.\n\n00:00:39.874 --> 00:00:41.639 line:82% align:center\nI blamed\nthe distribution.\n\n00:00:41.950 --> 00:00:44.370 line:82% align:center\nI read every thread\nabout watch time and\n\n00:00:44.370 --> 00:00:46.775 line:82% align:center\nsession duration and\nclick-through rate.\n\n00:00:46.775 --> 00:00:48.260 line:82% align:center\nI bought two courses.\n\n00:00:48.697 --> 00:00:51.596 line:82% align:center\nI rewrote my titles\nabout forty times.\n",
+      "thumbnail": {
+        "overlay": "ALGORITHM DECIDES",
+        "frameAtSec": 5.6,
+        "composition": "Subject off-centre left, overlay right, hard negative space between them. The gap is the argument.",
+        "heat": [
+          "#8A8F4A",
+          "#D97A18"
+        ]
+      },
+      "bRoll": [
+        "January",
+        "December",
+        "read every thread",
+        "eight hundred subscribers",
+        "four years believing"
+      ],
+      "segmentIndex": 0
+    },
+    {
+      "id": "clip-02",
+      "rank": 2,
+      "start": 384.4342352941176,
+      "end": 403.072,
+      "durationSec": 18.637764705882375,
+      "startSentence": 92,
+      "endSentence": 94,
+      "transcript": "Nobody arrives at your clip having watched the previous nine minutes. They arrive mid-scroll with no context and a thumb already moving. So the only question that matters is: does the first line of this clip work on somebody who has never heard of you.",
+      "score": 56.3,
+      "breakdown": {
+        "opening": 0.48774337309080407,
+        "body": 0.9224938892901774,
+        "payoff": 0.38,
+        "containment": 0.8,
+        "boundary": 0
+      },
+      "signals": {
+        "hook": 0.4000000000000001,
+        "curiosity": 0.11904761904761905,
+        "emotion": 0,
+        "concrete": 0.03333333333333333,
+        "salience": 0.8094135291574213,
+        "payoff": 0.12666666666666668,
+        "pace": 0.12262088259584271,
+        "quotable": 0.27125
+      },
+      "evidence": [
+        "opens on a hook construction",
+        "resolves — closes the loop"
+      ],
+      "hookPattern": "contrarian",
+      "hook": "Nobody arrives at your clip having watched the previous nine minutes.",
+      "titles": [
+        {
+          "platform": "youtube-shorts",
+          "text": "Nobody arrives at your clip having watched the previous nine minutes",
+          "chars": 68,
+          "limit": 70
+        },
+        {
+          "platform": "tiktok",
+          "text": "Nobody arrives at your clip having watched the previous nine minutes",
+          "chars": 68,
+          "limit": 100
+        },
+        {
+          "platform": "instagram-reels",
+          "text": "Nobody arrives at your clip having watched the previous nine minutes",
+          "chars": 68,
+          "limit": 125
+        },
+        {
+          "platform": "x",
+          "text": "Nobody arrives at your clip having watched the previous nine minutes",
+          "chars": 68,
+          "limit": 220
+        }
+      ],
+      "description": "Nobody arrives at your clip having watched the previous nine minutes.\n\nFull context in the episode. From “Why your channel stalled at 900 subscribers” at 6:24.\n\nCovered here: previous nine minutes, thumb already moving, arrive mid-scroll, never heard.",
+      "hashtags": [
+        "#midscroll",
+        "#context",
+        "#thumb",
+        "#neverheard",
+        "#firstline",
+        "#shorts",
+        "#fyp"
+      ],
+      "captions": [
+        {
+          "index": 1,
+          "start": 0,
+          "end": 2.536341621184569,
+          "text": "Nobody arrives at your\nclip having watched"
+        },
+        {
+          "index": 2,
+          "start": 2.536341621184569,
+          "end": 4.077764705882373,
+          "text": "the previous\nnine minutes."
+        },
+        {
+          "index": 3,
+          "start": 4.472764705882355,
+          "end": 6.826844128265052,
+          "text": "They arrive mid-scroll\nwith no context and"
+        },
+        {
+          "index": 4,
+          "start": 6.826844128265052,
+          "end": 8.177764705882396,
+          "text": "a thumb already moving."
+        },
+        {
+          "index": 5,
+          "start": 9.613764705882375,
+          "end": 12.595608184143243,
+          "text": "So the only question\nthat matters is:"
+        },
+        {
+          "index": 6,
+          "start": 12.595608184143243,
+          "end": 15.77362557544759,
+          "text": "does the first line\nof this clip work on"
+        },
+        {
+          "index": 7,
+          "start": 15.77362557544759,
+          "end": 18.63776470588237,
+          "text": "somebody who has\nnever heard of you."
+        }
+      ],
+      "words": [
+        {
+          "word": "Nobody",
+          "start": 0,
+          "end": 0.4203881140084921
+        },
+        {
+          "word": "arrives",
+          "start": 0.4203881140084921,
+          "end": 0.9108409136850661
+        },
+        {
+          "word": "at",
+          "start": 0.9108409136850661,
+          "end": 1.0649832221548465
+        },
+        {
+          "word": "your",
+          "start": 1.0649832221548465,
+          "end": 1.3452419648271745
+        },
+        {
+          "word": "clip",
+          "start": 1.3452419648271745,
+          "end": 1.6255007074995025
+        },
+        {
+          "word": "having",
+          "start": 1.6255007074995025,
+          "end": 2.0458888215079947
+        },
+        {
+          "word": "watched",
+          "start": 2.0458888215079947,
+          "end": 2.536341621184569
+        },
+        {
+          "word": "the",
+          "start": 2.536341621184569,
+          "end": 2.746535678188815
+        },
+        {
+          "word": "previous",
+          "start": 2.746535678188815,
+          "end": 3.307053163533471
+        },
+        {
+          "word": "nine",
+          "start": 3.307053163533471,
+          "end": 3.587311906205799
+        },
+        {
+          "word": "minutes.",
+          "start": 3.587311906205799,
+          "end": 4.077764705882373
+        },
+        {
+          "word": "They",
+          "start": 4.472764705882355,
+          "end": 4.740273731153116
+        },
+        {
+          "word": "arrive",
+          "start": 4.740273731153116,
+          "end": 5.141537269059258
+        },
+        {
+          "word": "mid-scroll",
+          "start": 5.141537269059258,
+          "end": 5.743432575918471
+        },
+        {
+          "word": "with",
+          "start": 5.743432575918471,
+          "end": 6.010941601189232
+        },
+        {
+          "word": "no",
+          "start": 6.010941601189232,
+          "end": 6.15807156508815
+        },
+        {
+          "word": "context",
+          "start": 6.15807156508815,
+          "end": 6.626212359311982
+        },
+        {
+          "word": "and",
+          "start": 6.626212359311982,
+          "end": 6.826844128265052
+        },
+        {
+          "word": "a",
+          "start": 6.826844128265052,
+          "end": 6.973974092163971
+        },
+        {
+          "word": "thumb",
+          "start": 6.973974092163971,
+          "end": 7.308360373752422
+        },
+        {
+          "word": "already",
+          "start": 7.308360373752422,
+          "end": 7.776501167976254
+        },
+        {
+          "word": "moving.",
+          "start": 7.776501167976254,
+          "end": 8.177764705882396
+        },
+        {
+          "word": "So",
+          "start": 9.613764705882375,
+          "end": 9.8295560102302
+        },
+        {
+          "word": "the",
+          "start": 9.8295560102302,
+          "end": 10.123816879795418
+        },
+        {
+          "word": "only",
+          "start": 10.123816879795418,
+          "end": 10.516164705882375
+        },
+        {
+          "word": "question",
+          "start": 10.516164705882375,
+          "end": 11.300860358056287
+        },
+        {
+          "word": "that",
+          "start": 11.300860358056287,
+          "end": 11.693208184143243
+        },
+        {
+          "word": "matters",
+          "start": 11.693208184143243,
+          "end": 12.379816879795417
+        },
+        {
+          "word": "is:",
+          "start": 12.379816879795417,
+          "end": 12.595608184143243
+        },
+        {
+          "word": "does",
+          "start": 12.595608184143243,
+          "end": 12.9879560102302
+        },
+        {
+          "word": "the",
+          "start": 12.9879560102302,
+          "end": 13.282216879795417
+        },
+        {
+          "word": "first",
+          "start": 13.282216879795417,
+          "end": 13.772651662404112
+        },
+        {
+          "word": "line",
+          "start": 13.772651662404112,
+          "end": 14.164999488491068
+        },
+        {
+          "word": "of",
+          "start": 14.164999488491068,
+          "end": 14.380790792838894
+        },
+        {
+          "word": "this",
+          "start": 14.380790792838894,
+          "end": 14.77313861892585
+        },
+        {
+          "word": "clip",
+          "start": 14.77313861892585,
+          "end": 15.165486445012807
+        },
+        {
+          "word": "work",
+          "start": 15.165486445012807,
+          "end": 15.557834271099763
+        },
+        {
+          "word": "on",
+          "start": 15.557834271099763,
+          "end": 15.77362557544759
+        },
+        {
+          "word": "somebody",
+          "start": 15.77362557544759,
+          "end": 16.5583212276215
+        },
+        {
+          "word": "who",
+          "start": 16.5583212276215,
+          "end": 16.85258209718672
+        },
+        {
+          "word": "has",
+          "start": 16.85258209718672,
+          "end": 17.146842966751937
+        },
+        {
+          "word": "never",
+          "start": 17.146842966751937,
+          "end": 17.63727774936063
+        },
+        {
+          "word": "heard",
+          "start": 17.63727774936063,
+          "end": 18.127712531969326
+        },
+        {
+          "word": "of",
+          "start": 18.127712531969326,
+          "end": 18.34350383631715
+        },
+        {
+          "word": "you.",
+          "start": 18.34350383631715,
+          "end": 18.63776470588237
+        }
+      ],
+      "srt": "1\n00:00:00,000 --> 00:00:02,536\nNobody arrives at your\nclip having watched\n\n2\n00:00:02,536 --> 00:00:04,078\nthe previous\nnine minutes.\n\n3\n00:00:04,473 --> 00:00:06,827\nThey arrive mid-scroll\nwith no context and\n\n4\n00:00:06,827 --> 00:00:08,178\na thumb already moving.\n\n5\n00:00:09,614 --> 00:00:12,596\nSo the only question\nthat matters is:\n\n6\n00:00:12,596 --> 00:00:15,774\ndoes the first line\nof this clip work on\n\n7\n00:00:15,774 --> 00:00:18,638\nsomebody who has\nnever heard of you.\n",
+      "vtt": "WEBVTT\n\nNOTE Generated by HOOKLINE — positioned for vertical safe area.\n\n00:00:00.000 --> 00:00:02.536 line:82% align:center\nNobody arrives at your\nclip having watched\n\n00:00:02.536 --> 00:00:04.078 line:82% align:center\nthe previous\nnine minutes.\n\n00:00:04.473 --> 00:00:06.827 line:82% align:center\nThey arrive mid-scroll\nwith no context and\n\n00:00:06.827 --> 00:00:08.178 line:82% align:center\na thumb already moving.\n\n00:00:09.614 --> 00:00:12.596 line:82% align:center\nSo the only question\nthat matters is:\n\n00:00:12.596 --> 00:00:15.774 line:82% align:center\ndoes the first line\nof this clip work on\n\n00:00:15.774 --> 00:00:18.638 line:82% align:center\nsomebody who has\nnever heard of you.\n",
+      "thumbnail": {
+        "overlay": "PREVIOUS NINE",
+        "frameAtSec": 387.6342352941176,
+        "composition": "Subject off-centre left, overlay right, hard negative space between them. The gap is the argument.",
+        "heat": [
+          "#2E6B72",
+          "#8A8F4A"
+        ]
+      },
+      "bRoll": [
+        "previous nine minutes",
+        "thumb already moving",
+        "arrive mid-scroll",
+        "never heard",
+        "first line"
+      ],
+      "segmentIndex": 4
+    },
+    {
+      "id": "clip-03",
+      "rank": 3,
+      "start": 432.069,
+      "end": 467.761,
+      "durationSec": 35.69200000000001,
+      "startSentence": 103,
+      "endSentence": 110,
+      "transcript": "\"Everybody tells you the algorithm decides who wins\" is not dead, and you will notice I opened this episode with it, because I practice what I am telling you. Second, is there an open loop. Something the sentence sets up and does not immediately close. Your brain does not let you scroll away from an unclosed loop. This is not a trick, it is just how attention works. Third, is there something concrete in the first ten seconds. A number, a name, a specific thing.",
+      "score": 52.1,
+      "breakdown": {
+        "opening": 0.47103164268848186,
+        "body": 0.5088254895391394,
+        "payoff": 0.202125,
+        "containment": 1,
+        "boundary": 0.5
+      },
+      "signals": {
+        "hook": 0.15875,
+        "curiosity": 0.044642857142857144,
+        "emotion": 0,
+        "concrete": 0.037500000000000006,
+        "salience": 0.5065824208018954,
+        "payoff": 0.04,
+        "pace": 0.1802283548354615,
+        "quotable": 0.26640625
+      },
+      "evidence": [
+        "resolves — closes the loop",
+        "opens on a hook construction",
+        "opens as a question",
+        "addresses the viewer directly"
+      ],
+      "hookPattern": "contrarian",
+      "hook": "\"Everybody tells you the algorithm decides who wins\" is not dead.",
+      "titles": [
+        {
+          "platform": "youtube-shorts",
+          "text": "\"Everybody tells you the algorithm decides who wins\" is not dead",
+          "chars": 64,
+          "limit": 70
+        },
+        {
+          "platform": "tiktok",
+          "text": "\"Everybody tells you the algorithm decides who wins\" is not dead",
+          "chars": 64,
+          "limit": 100
+        },
+        {
+          "platform": "instagram-reels",
+          "text": "\"Everybody tells you the algorithm decides who wins\" is not dead",
+          "chars": 64,
+          "limit": 125
+        },
+        {
+          "platform": "x",
+          "text": "\"Everybody tells you the algorithm decides who wins\" is not dead",
+          "chars": 64,
+          "limit": 220
+        }
+      ],
+      "description": "\"Everybody tells you the algorithm decides who wins\" is not dead.\n\nFull context in the episode. From “Why your channel stalled at 900 subscribers” at 7:12.\n\nCovered here: immediately close, scroll away, first ten seconds, will notice.",
+      "hashtags": [
+        "#loop",
+        "#notice",
+        "#practice",
+        "#tells",
+        "#sets",
+        "#shorts",
+        "#fyp"
+      ],
+      "captions": [
+        {
+          "index": 1,
+          "start": 0,
+          "end": 2.955379061371842,
+          "text": "\"Everybody tells you\nthe algorithm decides"
+        },
+        {
+          "index": 2,
+          "start": 2.955379061371842,
+          "end": 5.598801444043324,
+          "text": "who wins\" is not dead,\nand you will notice"
+        },
+        {
+          "index": 3,
+          "start": 5.598801444043324,
+          "end": 7.68398555956679,
+          "text": "I opened this\nepisode with it,"
+        },
+        {
+          "index": 4,
+          "start": 7.68398555956679,
+          "end": 10.882000000000007,
+          "text": "because I practice\nwhat I am telling you."
+        },
+        {
+          "index": 5,
+          "start": 11.938999999999965,
+          "end": 14.12700000000001,
+          "text": "Second, is there\nan open loop."
+        },
+        {
+          "index": 6,
+          "start": 14.12700000000001,
+          "end": 16.465628352490405,
+          "text": "Something the sentence\nsets up and does"
+        },
+        {
+          "index": 7,
+          "start": 16.465628352490405,
+          "end": 17.80399999999997,
+          "text": "not immediately close."
+        },
+        {
+          "index": 8,
+          "start": 18.278999999999996,
+          "end": 21.43310358565736,
+          "text": "Your brain does not\nlet you scroll away"
+        },
+        {
+          "index": 9,
+          "start": 21.43310358565736,
+          "end": 23.226999999999983,
+          "text": "from an unclosed loop."
+        },
+        {
+          "index": 10,
+          "start": 23.527999999999963,
+          "end": 26.168334928229644,
+          "text": "This is not a trick,\nit is just how"
+        },
+        {
+          "index": 11,
+          "start": 26.168334928229644,
+          "end": 27.497999999999987,
+          "text": "attention works."
+        },
+        {
+          "index": 12,
+          "start": 28.77600000000001,
+          "end": 31.81002429149796,
+          "text": "Third, is there\nsomething concrete in the"
+        },
+        {
+          "index": 13,
+          "start": 31.81002429149796,
+          "end": 33.13299999999998,
+          "text": "first ten seconds."
+        },
+        {
+          "index": 14,
+          "start": 33.406000000000006,
+          "end": 35.69200000000002,
+          "text": "A number, a name,\na specific thing."
+        }
+      ],
+      "words": [
+        {
+          "word": "\"Everybody",
+          "start": 0,
+          "end": 0.7388447653429605
+        },
+        {
+          "word": "tells",
+          "start": 0.7388447653429605,
+          "end": 1.149314079422383
+        },
+        {
+          "word": "you",
+          "start": 1.149314079422383,
+          "end": 1.3955956678700365
+        },
+        {
+          "word": "the",
+          "start": 1.3955956678700365,
+          "end": 1.64187725631769
+        },
+        {
+          "word": "algorithm",
+          "start": 1.64187725631769,
+          "end": 2.3807220216606506
+        },
+        {
+          "word": "decides",
+          "start": 2.3807220216606506,
+          "end": 2.955379061371842
+        },
+        {
+          "word": "who",
+          "start": 2.955379061371842,
+          "end": 3.2016606498194955
+        },
+        {
+          "word": "wins\"",
+          "start": 3.2016606498194955,
+          "end": 3.5300361010830335
+        },
+        {
+          "word": "is",
+          "start": 3.5300361010830335,
+          "end": 3.7106425992779792
+        },
+        {
+          "word": "not",
+          "start": 3.7106425992779792,
+          "end": 3.9569241877256327
+        },
+        {
+          "word": "dead,",
+          "start": 3.9569241877256327,
+          "end": 4.285299638989171
+        },
+        {
+          "word": "and",
+          "start": 4.285299638989171,
+          "end": 4.531581227436825
+        },
+        {
+          "word": "you",
+          "start": 4.531581227436825,
+          "end": 4.777862815884479
+        },
+        {
+          "word": "will",
+          "start": 4.777862815884479,
+          "end": 5.106238267148017
+        },
+        {
+          "word": "notice",
+          "start": 5.106238267148017,
+          "end": 5.598801444043324
+        },
+        {
+          "word": "I",
+          "start": 5.598801444043324,
+          "end": 5.77940794223827
+        },
+        {
+          "word": "opened",
+          "start": 5.77940794223827,
+          "end": 6.2719711191335765
+        },
+        {
+          "word": "this",
+          "start": 6.2719711191335765,
+          "end": 6.6003465703971145
+        },
+        {
+          "word": "episode",
+          "start": 6.6003465703971145,
+          "end": 7.175003610108306
+        },
+        {
+          "word": "with",
+          "start": 7.175003610108306,
+          "end": 7.503379061371844
+        },
+        {
+          "word": "it,",
+          "start": 7.503379061371844,
+          "end": 7.68398555956679
+        },
+        {
+          "word": "because",
+          "start": 7.68398555956679,
+          "end": 8.258642599277982
+        },
+        {
+          "word": "I",
+          "start": 8.258642599277982,
+          "end": 8.439249097472928
+        },
+        {
+          "word": "practice",
+          "start": 8.439249097472928,
+          "end": 9.096000000000004
+        },
+        {
+          "word": "what",
+          "start": 9.156000000000006,
+          "end": 9.531217391304354
+        },
+        {
+          "word": "I",
+          "start": 9.531217391304354,
+          "end": 9.737586956521746
+        },
+        {
+          "word": "am",
+          "start": 9.737586956521746,
+          "end": 9.943956521739137
+        },
+        {
+          "word": "telling",
+          "start": 9.943956521739137,
+          "end": 10.600586956521745
+        },
+        {
+          "word": "you.",
+          "start": 10.600586956521745,
+          "end": 10.882000000000007
+        },
+        {
+          "word": "Second,",
+          "start": 11.938999999999965,
+          "end": 12.441307692307658
+        },
+        {
+          "word": "is",
+          "start": 12.441307692307658,
+          "end": 12.625487179487147
+        },
+        {
+          "word": "there",
+          "start": 12.625487179487147,
+          "end": 13.04407692307689
+        },
+        {
+          "word": "an",
+          "start": 13.04407692307689,
+          "end": 13.228256410256378
+        },
+        {
+          "word": "open",
+          "start": 13.228256410256378,
+          "end": 13.563128205128173
+        },
+        {
+          "word": "loop.",
+          "start": 13.563128205128173,
+          "end": 13.897999999999968
+        },
+        {
+          "word": "Something",
+          "start": 14.12700000000001,
+          "end": 14.760965517241383
+        },
+        {
+          "word": "the",
+          "start": 14.760965517241383,
+          "end": 14.972287356321841
+        },
+        {
+          "word": "sentence",
+          "start": 14.972287356321841,
+          "end": 15.535812260536394
+        },
+        {
+          "word": "sets",
+          "start": 15.535812260536394,
+          "end": 15.81757471264367
+        },
+        {
+          "word": "up",
+          "start": 15.81757471264367,
+          "end": 15.972544061302672
+        },
+        {
+          "word": "and",
+          "start": 15.972544061302672,
+          "end": 16.18386590038313
+        },
+        {
+          "word": "does",
+          "start": 16.18386590038313,
+          "end": 16.465628352490405
+        },
+        {
+          "word": "not",
+          "start": 16.465628352490405,
+          "end": 16.676950191570864
+        },
+        {
+          "word": "immediately",
+          "start": 16.676950191570864,
+          "end": 17.451796934865875
+        },
+        {
+          "word": "close.",
+          "start": 17.451796934865875,
+          "end": 17.80399999999997
+        },
+        {
+          "word": "Your",
+          "start": 18.278999999999996,
+          "end": 18.673262948207167
+        },
+        {
+          "word": "brain",
+          "start": 18.673262948207167,
+          "end": 19.16609163346613
+        },
+        {
+          "word": "does",
+          "start": 19.16609163346613,
+          "end": 19.5603545816733
+        },
+        {
+          "word": "not",
+          "start": 19.5603545816733,
+          "end": 19.85605179282868
+        },
+        {
+          "word": "let",
+          "start": 19.85605179282868,
+          "end": 20.151749003984058
+        },
+        {
+          "word": "you",
+          "start": 20.151749003984058,
+          "end": 20.447446215139436
+        },
+        {
+          "word": "scroll",
+          "start": 20.447446215139436,
+          "end": 21.03884063745019
+        },
+        {
+          "word": "away",
+          "start": 21.03884063745019,
+          "end": 21.43310358565736
+        },
+        {
+          "word": "from",
+          "start": 21.43310358565736,
+          "end": 21.82736653386453
+        },
+        {
+          "word": "an",
+          "start": 21.82736653386453,
+          "end": 22.044211155378473
+        },
+        {
+          "word": "unclosed",
+          "start": 22.044211155378473,
+          "end": 22.83273705179281
+        },
+        {
+          "word": "loop.",
+          "start": 22.83273705179281,
+          "end": 23.226999999999983
+        },
+        {
+          "word": "This",
+          "start": 23.527999999999963,
+          "end": 23.90790430622006
+        },
+        {
+          "word": "is",
+          "start": 23.90790430622006,
+          "end": 24.116851674641115
+        },
+        {
+          "word": "not",
+          "start": 24.116851674641115,
+          "end": 24.40177990430619
+        },
+        {
+          "word": "a",
+          "start": 24.40177990430619,
+          "end": 24.610727272727242
+        },
+        {
+          "word": "trick,",
+          "start": 24.610727272727242,
+          "end": 25.085607655502365
+        },
+        {
+          "word": "it",
+          "start": 25.085607655502365,
+          "end": 25.29455502392342
+        },
+        {
+          "word": "is",
+          "start": 25.29455502392342,
+          "end": 25.503502392344473
+        },
+        {
+          "word": "just",
+          "start": 25.503502392344473,
+          "end": 25.88340669856457
+        },
+        {
+          "word": "how",
+          "start": 25.88340669856457,
+          "end": 26.168334928229644
+        },
+        {
+          "word": "attention",
+          "start": 26.168334928229644,
+          "end": 27.023119617224864
+        },
+        {
+          "word": "works.",
+          "start": 27.023119617224864,
+          "end": 27.497999999999987
+        },
+        {
+          "word": "Third,",
+          "start": 28.77600000000001,
+          "end": 29.216991902834014
+        },
+        {
+          "word": "is",
+          "start": 29.216991902834014,
+          "end": 29.411028340080975
+        },
+        {
+          "word": "there",
+          "start": 29.411028340080975,
+          "end": 29.85202024291498
+        },
+        {
+          "word": "something",
+          "start": 29.85202024291498,
+          "end": 30.645805668016187
+        },
+        {
+          "word": "concrete",
+          "start": 30.645805668016187,
+          "end": 31.351392712550595
+        },
+        {
+          "word": "in",
+          "start": 31.351392712550595,
+          "end": 31.545429149797556
+        },
+        {
+          "word": "the",
+          "start": 31.545429149797556,
+          "end": 31.81002429149796
+        },
+        {
+          "word": "first",
+          "start": 31.81002429149796,
+          "end": 32.25101619433197
+        },
+        {
+          "word": "ten",
+          "start": 32.25101619433197,
+          "end": 32.51561133603237
+        },
+        {
+          "word": "seconds.",
+          "start": 32.51561133603237,
+          "end": 33.13299999999998
+        },
+        {
+          "word": "A",
+          "start": 33.406000000000006,
+          "end": 33.575905405405415
+        },
+        {
+          "word": "number,",
+          "start": 33.575905405405415,
+          "end": 34.039283783783794
+        },
+        {
+          "word": "a",
+          "start": 34.039283783783794,
+          "end": 34.2091891891892
+        },
+        {
+          "word": "name,",
+          "start": 34.2091891891892,
+          "end": 34.51810810810812
+        },
+        {
+          "word": "a",
+          "start": 34.51810810810812,
+          "end": 34.68801351351353
+        },
+        {
+          "word": "specific",
+          "start": 34.68801351351353,
+          "end": 35.30585135135137
+        },
+        {
+          "word": "thing.",
+          "start": 35.30585135135137,
+          "end": 35.69200000000002
+        }
+      ],
+      "srt": "1\n00:00:00,000 --> 00:00:02,955\n\"Everybody tells you\nthe algorithm decides\n\n2\n00:00:02,955 --> 00:00:05,599\nwho wins\" is not dead,\nand you will notice\n\n3\n00:00:05,599 --> 00:00:07,684\nI opened this\nepisode with it,\n\n4\n00:00:07,684 --> 00:00:10,882\nbecause I practice\nwhat I am telling you.\n\n5\n00:00:11,939 --> 00:00:14,127\nSecond, is there\nan open loop.\n\n6\n00:00:14,127 --> 00:00:16,466\nSomething the sentence\nsets up and does\n\n7\n00:00:16,466 --> 00:00:17,804\nnot immediately close.\n\n8\n00:00:18,279 --> 00:00:21,433\nYour brain does not\nlet you scroll away\n\n9\n00:00:21,433 --> 00:00:23,227\nfrom an unclosed loop.\n\n10\n00:00:23,528 --> 00:00:26,168\nThis is not a trick,\nit is just how\n\n11\n00:00:26,168 --> 00:00:27,498\nattention works.\n\n12\n00:00:28,776 --> 00:00:31,810\nThird, is there\nsomething concrete in the\n\n13\n00:00:31,810 --> 00:00:33,133\nfirst ten seconds.\n\n14\n00:00:33,406 --> 00:00:35,692\nA number, a name,\na specific thing.\n",
+      "vtt": "WEBVTT\n\nNOTE Generated by HOOKLINE — positioned for vertical safe area.\n\n00:00:00.000 --> 00:00:02.955 line:82% align:center\n\"Everybody tells you\nthe algorithm decides\n\n00:00:02.955 --> 00:00:05.599 line:82% align:center\nwho wins\" is not dead,\nand you will notice\n\n00:00:05.599 --> 00:00:07.684 line:82% align:center\nI opened this\nepisode with it,\n\n00:00:07.684 --> 00:00:10.882 line:82% align:center\nbecause I practice\nwhat I am telling you.\n\n00:00:11.939 --> 00:00:14.127 line:82% align:center\nSecond, is there\nan open loop.\n\n00:00:14.127 --> 00:00:16.466 line:82% align:center\nSomething the sentence\nsets up and does\n\n00:00:16.466 --> 00:00:17.804 line:82% align:center\nnot immediately close.\n\n00:00:18.279 --> 00:00:21.433 line:82% align:center\nYour brain does not\nlet you scroll away\n\n00:00:21.433 --> 00:00:23.227 line:82% align:center\nfrom an unclosed loop.\n\n00:00:23.528 --> 00:00:26.168 line:82% align:center\nThis is not a trick,\nit is just how\n\n00:00:26.168 --> 00:00:27.498 line:82% align:center\nattention works.\n\n00:00:28.776 --> 00:00:31.810 line:82% align:center\nThird, is there\nsomething concrete in the\n\n00:00:31.810 --> 00:00:33.133 line:82% align:center\nfirst ten seconds.\n\n00:00:33.406 --> 00:00:35.692 line:82% align:center\nA number, a name,\na specific thing.\n",
+      "thumbnail": {
+        "overlay": "ALGORITHM DECIDES",
+        "frameAtSec": 435.269,
+        "composition": "Subject off-centre left, overlay right, hard negative space between them. The gap is the argument.",
+        "heat": [
+          "#2E6B72",
+          "#8A8F4A"
+        ]
+      },
+      "bRoll": [
+        "Everybody",
+        "immediately close",
+        "scroll away",
+        "first ten seconds",
+        "will notice"
+      ],
+      "segmentIndex": 4
+    },
+    {
+      "id": "clip-04",
+      "rank": 4,
+      "start": 90.66,
+      "end": 120.314,
+      "durationSec": 29.653999999999996,
+      "startSentence": 23,
+      "endSentence": 27,
+      "transcript": "The reason is that for the first time in four years I said something that was actually true and slightly costly to say. Everything before that had been optimized into a shape that offended nobody and interested nobody. Let me be specific about what I mean, because \"be authentic\" is useless advice and I hate hearing it too. There is a measurable thing happening here.",
+      "score": 48.9,
+      "breakdown": {
+        "opening": 0.33676594071733257,
+        "body": 0.9382887272341567,
+        "payoff": 0.33249999999999996,
+        "containment": 0.6,
+        "boundary": 0
+      },
+      "signals": {
+        "hook": 0.16799999999999998,
+        "curiosity": 0.20564285714285716,
+        "emotion": 0.10062305898749054,
+        "concrete": 0.02,
+        "salience": 0.5153908756977821,
+        "payoff": 0.032,
+        "pace": 0.16010419294392886,
+        "quotable": 0.36324999999999996
+      },
+      "evidence": [
+        "opens on a hook construction",
+        "resolves — closes the loop",
+        "pivots on a contrast marker",
+        "stacks curiosity language"
+      ],
+      "hookPattern": "contrarian",
+      "hook": "The reason is that for the first time in four years I said something.",
+      "titles": [
+        {
+          "platform": "youtube-shorts",
+          "text": "The reason is that for the first time in four years I said something",
+          "chars": 68,
+          "limit": 70
+        },
+        {
+          "platform": "tiktok",
+          "text": "The reason is that for the first time in four years I said something",
+          "chars": 68,
+          "limit": 100
+        },
+        {
+          "platform": "instagram-reels",
+          "text": "The reason is that for the first time in four years I said something",
+          "chars": 68,
+          "limit": 125
+        },
+        {
+          "platform": "x",
+          "text": "The reason is that for the first time in four years I said something",
+          "chars": 68,
+          "limit": 220
+        }
+      ],
+      "description": "The reason is that for the first time in four years I said something.\n\nFull context in the episode. From “Why your channel stalled at 900 subscribers” at 1:30.\n\nCovered here: hate hearing, useless advice, four years, slightly costly.",
+      "hashtags": [
+        "#authentic",
+        "#hate",
+        "#hatehearing",
+        "#uselessadvice",
+        "#fouryears",
+        "#shorts",
+        "#fyp"
+      ],
+      "captions": [
+        {
+          "index": 1,
+          "start": 0,
+          "end": 3.110056537102477,
+          "text": "The reason is that\nfor the first time in"
+        },
+        {
+          "index": 2,
+          "start": 3.110056537102477,
+          "end": 6.169043689320386,
+          "text": "four years I said\nsomething that was"
+        },
+        {
+          "index": 3,
+          "start": 6.169043689320386,
+          "end": 9.472000000000007,
+          "text": "actually true and\nslightly costly to say."
+        },
+        {
+          "index": 4,
+          "start": 9.908000000000001,
+          "end": 12.479306413301664,
+          "text": "Everything before that\nhad been optimized"
+        },
+        {
+          "index": 5,
+          "start": 12.479306413301664,
+          "end": 14.779197149643707,
+          "text": "into a shape that\noffended nobody and"
+        },
+        {
+          "index": 6,
+          "start": 14.779197149643707,
+          "end": 15.922,
+          "text": "interested nobody."
+        },
+        {
+          "index": 7,
+          "start": 16.897999999999996,
+          "end": 19.860180327868857,
+          "text": "Let me be specific\nabout what I mean,"
+        },
+        {
+          "index": 8,
+          "start": 19.860180327868857,
+          "end": 23.093409836065582,
+          "text": "because \"be authentic\"\nis useless advice"
+        },
+        {
+          "index": 9,
+          "start": 23.093409836065582,
+          "end": 25.165000000000013,
+          "text": "and I hate\nhearing it too."
+        },
+        {
+          "index": 10,
+          "start": 26.483000000000004,
+          "end": 29.314855614973258,
+          "text": "There is a measurable\nthing happening"
+        },
+        {
+          "index": 11,
+          "start": 29.314855614973258,
+          "end": 30.064855614973258,
+          "text": "here."
+        }
+      ],
+      "words": [
+        {
+          "word": "The",
+          "start": 0,
+          "end": 0.28796819787985906
+        },
+        {
+          "word": "reason",
+          "start": 0.28796819787985906,
+          "end": 0.8639045936395772
+        },
+        {
+          "word": "is",
+          "start": 0.8639045936395772,
+          "end": 1.075081272084807
+        },
+        {
+          "word": "that",
+          "start": 1.075081272084807,
+          "end": 1.4590388692579523
+        },
+        {
+          "word": "for",
+          "start": 1.4590388692579523,
+          "end": 1.7470070671378113
+        },
+        {
+          "word": "the",
+          "start": 1.7470070671378113,
+          "end": 2.0349752650176702
+        },
+        {
+          "word": "first",
+          "start": 2.0349752650176702,
+          "end": 2.514922261484102
+        },
+        {
+          "word": "time",
+          "start": 2.514922261484102,
+          "end": 2.898879858657247
+        },
+        {
+          "word": "in",
+          "start": 2.898879858657247,
+          "end": 3.110056537102477
+        },
+        {
+          "word": "four",
+          "start": 3.110056537102477,
+          "end": 3.494014134275622
+        },
+        {
+          "word": "years",
+          "start": 3.494014134275622,
+          "end": 3.9739611307420537
+        },
+        {
+          "word": "I",
+          "start": 3.9739611307420537,
+          "end": 4.1851378091872835
+        },
+        {
+          "word": "said",
+          "start": 4.1851378091872835,
+          "end": 4.569095406360429
+        },
+        {
+          "word": "something",
+          "start": 4.569095406360429,
+          "end": 5.433000000000006
+        },
+        {
+          "word": "that",
+          "start": 5.492999999999995,
+          "end": 5.879310679611647
+        },
+        {
+          "word": "was",
+          "start": 5.879310679611647,
+          "end": 6.169043689320386
+        },
+        {
+          "word": "actually",
+          "start": 6.169043689320386,
+          "end": 6.9416650485436895
+        },
+        {
+          "word": "true",
+          "start": 6.9416650485436895,
+          "end": 7.327975728155341
+        },
+        {
+          "word": "and",
+          "start": 7.327975728155341,
+          "end": 7.6177087378640795
+        },
+        {
+          "word": "slightly",
+          "start": 7.6177087378640795,
+          "end": 8.390330097087382
+        },
+        {
+          "word": "costly",
+          "start": 8.390330097087382,
+          "end": 8.96979611650486
+        },
+        {
+          "word": "to",
+          "start": 8.96979611650486,
+          "end": 9.182266990291268
+        },
+        {
+          "word": "say.",
+          "start": 9.182266990291268,
+          "end": 9.472000000000007
+        },
+        {
+          "word": "Everything",
+          "start": 9.908000000000001,
+          "end": 10.622251781472684
+        },
+        {
+          "word": "before",
+          "start": 10.622251781472684,
+          "end": 11.050802850356295
+        },
+        {
+          "word": "that",
+          "start": 11.050802850356295,
+          "end": 11.336503562945369
+        },
+        {
+          "word": "had",
+          "start": 11.336503562945369,
+          "end": 11.550779097387174
+        },
+        {
+          "word": "been",
+          "start": 11.550779097387174,
+          "end": 11.836479809976248
+        },
+        {
+          "word": "optimized",
+          "start": 11.836479809976248,
+          "end": 12.479306413301664
+        },
+        {
+          "word": "into",
+          "start": 12.479306413301664,
+          "end": 12.765007125890738
+        },
+        {
+          "word": "a",
+          "start": 12.765007125890738,
+          "end": 12.922142517814729
+        },
+        {
+          "word": "shape",
+          "start": 12.922142517814729,
+          "end": 13.27926840855107
+        },
+        {
+          "word": "that",
+          "start": 13.27926840855107,
+          "end": 13.564969121140145
+        },
+        {
+          "word": "offended",
+          "start": 13.564969121140145,
+          "end": 14.136370546318291
+        },
+        {
+          "word": "nobody",
+          "start": 14.136370546318291,
+          "end": 14.564921615201902
+        },
+        {
+          "word": "and",
+          "start": 14.564921615201902,
+          "end": 14.779197149643707
+        },
+        {
+          "word": "interested",
+          "start": 14.779197149643707,
+          "end": 15.49344893111639
+        },
+        {
+          "word": "nobody.",
+          "start": 15.49344893111639,
+          "end": 15.922
+        },
+        {
+          "word": "Let",
+          "start": 16.897999999999996,
+          "end": 17.18840983606557
+        },
+        {
+          "word": "me",
+          "start": 17.18840983606557,
+          "end": 17.401377049180326
+        },
+        {
+          "word": "be",
+          "start": 17.401377049180326,
+          "end": 17.61434426229508
+        },
+        {
+          "word": "specific",
+          "start": 17.61434426229508,
+          "end": 18.388770491803278
+        },
+        {
+          "word": "about",
+          "start": 18.388770491803278,
+          "end": 18.8727868852459
+        },
+        {
+          "word": "what",
+          "start": 18.8727868852459,
+          "end": 19.26
+        },
+        {
+          "word": "I",
+          "start": 19.26,
+          "end": 19.472967213114757
+        },
+        {
+          "word": "mean,",
+          "start": 19.472967213114757,
+          "end": 19.860180327868857
+        },
+        {
+          "word": "because",
+          "start": 19.860180327868857,
+          "end": 20.53780327868853
+        },
+        {
+          "word": "\"be",
+          "start": 20.53780327868853,
+          "end": 20.750770491803284
+        },
+        {
+          "word": "authentic\"",
+          "start": 20.750770491803284,
+          "end": 21.622000000000007
+        },
+        {
+          "word": "is",
+          "start": 21.622000000000007,
+          "end": 21.834967213114762
+        },
+        {
+          "word": "useless",
+          "start": 21.834967213114762,
+          "end": 22.512590163934433
+        },
+        {
+          "word": "advice",
+          "start": 22.512590163934433,
+          "end": 23.093409836065582
+        },
+        {
+          "word": "and",
+          "start": 23.093409836065582,
+          "end": 23.383819672131157
+        },
+        {
+          "word": "I",
+          "start": 23.383819672131157,
+          "end": 23.596786885245912
+        },
+        {
+          "word": "hate",
+          "start": 23.596786885245912,
+          "end": 23.984000000000012
+        },
+        {
+          "word": "hearing",
+          "start": 23.984000000000012,
+          "end": 24.661622950819684
+        },
+        {
+          "word": "it",
+          "start": 24.661622950819684,
+          "end": 24.87459016393444
+        },
+        {
+          "word": "too.",
+          "start": 24.87459016393444,
+          "end": 25.165000000000013
+        },
+        {
+          "word": "There",
+          "start": 26.483000000000004,
+          "end": 26.906930481283425
+        },
+        {
+          "word": "is",
+          "start": 26.906930481283425,
+          "end": 27.09345989304813
+        },
+        {
+          "word": "a",
+          "start": 27.09345989304813,
+          "end": 27.279989304812837
+        },
+        {
+          "word": "measurable",
+          "start": 27.279989304812837,
+          "end": 28.127850267379678
+        },
+        {
+          "word": "thing",
+          "start": 28.127850267379678,
+          "end": 28.5517807486631
+        },
+        {
+          "word": "happening",
+          "start": 28.5517807486631,
+          "end": 29.314855614973258
+        },
+        {
+          "word": "here.",
+          "start": 29.314855614973258,
+          "end": 29.653999999999996
+        }
+      ],
+      "srt": "1\n00:00:00,000 --> 00:00:03,110\nThe reason is that\nfor the first time in\n\n2\n00:00:03,110 --> 00:00:06,169\nfour years I said\nsomething that was\n\n3\n00:00:06,169 --> 00:00:09,472\nactually true and\nslightly costly to say.\n\n4\n00:00:09,908 --> 00:00:12,479\nEverything before that\nhad been optimized\n\n5\n00:00:12,479 --> 00:00:14,779\ninto a shape that\noffended nobody and\n\n6\n00:00:14,779 --> 00:00:15,922\ninterested nobody.\n\n7\n00:00:16,898 --> 00:00:19,860\nLet me be specific\nabout what I mean,\n\n8\n00:00:19,860 --> 00:00:23,093\nbecause \"be authentic\"\nis useless advice\n\n9\n00:00:23,093 --> 00:00:25,165\nand I hate\nhearing it too.\n\n10\n00:00:26,483 --> 00:00:29,315\nThere is a measurable\nthing happening\n\n11\n00:00:29,315 --> 00:00:30,065\nhere.\n",
+      "vtt": "WEBVTT\n\nNOTE Generated by HOOKLINE — positioned for vertical safe area.\n\n00:00:00.000 --> 00:00:03.110 line:82% align:center\nThe reason is that\nfor the first time in\n\n00:00:03.110 --> 00:00:06.169 line:82% align:center\nfour years I said\nsomething that was\n\n00:00:06.169 --> 00:00:09.472 line:82% align:center\nactually true and\nslightly costly to say.\n\n00:00:09.908 --> 00:00:12.479 line:82% align:center\nEverything before that\nhad been optimized\n\n00:00:12.479 --> 00:00:14.779 line:82% align:center\ninto a shape that\noffended nobody and\n\n00:00:14.779 --> 00:00:15.922 line:82% align:center\ninterested nobody.\n\n00:00:16.898 --> 00:00:19.860 line:82% align:center\nLet me be specific\nabout what I mean,\n\n00:00:19.860 --> 00:00:23.093 line:82% align:center\nbecause \"be authentic\"\nis useless advice\n\n00:00:23.093 --> 00:00:25.165 line:82% align:center\nand I hate\nhearing it too.\n\n00:00:26.483 --> 00:00:29.315 line:82% align:center\nThere is a measurable\nthing happening\n\n00:00:29.315 --> 00:00:30.065 line:82% align:center\nhere.\n",
+      "thumbnail": {
+        "overlay": "FOUR YEARS",
+        "frameAtSec": 93.86,
+        "composition": "Subject off-centre left, overlay right, hard negative space between them. The gap is the argument.",
+        "heat": [
+          "#2E6B72",
+          "#8A8F4A"
+        ]
+      },
+      "bRoll": [
+        "hate hearing",
+        "useless advice",
+        "four years",
+        "slightly costly",
+        "optimized"
+      ],
+      "segmentIndex": 1
+    },
+    {
+      "id": "clip-05",
+      "rank": 5,
+      "start": 520.195,
+      "end": 542.437,
+      "durationSec": 22.241999999999962,
+      "startSentence": 124,
+      "endSentence": 127,
+      "transcript": "If you spent an hour saying nothing, no amount of clipping finds the moment, because the moment is not in there. This is amplification, not creation. But if you did say something real, the difference between that landing and that disappearing is almost entirely mechanical. And mechanical problems have mechanical solutions.",
+      "score": 47.9,
+      "breakdown": {
+        "opening": 0.3160910273621711,
+        "body": 0.7511368656609785,
+        "payoff": 0.45999999999999996,
+        "containment": 0.8,
+        "boundary": 0
+      },
+      "signals": {
+        "hook": 0.265,
+        "curiosity": 0.08964285714285714,
+        "emotion": 0,
+        "concrete": 0.025,
+        "salience": 0.6419683149412173,
+        "payoff": 0.155,
+        "pace": 0.06895734025387351,
+        "quotable": 0.2296875
+      },
+      "evidence": [
+        "opens on a hook construction",
+        "resolves — closes the loop",
+        "pivots on a contrast marker"
+      ],
+      "hookPattern": "stakes",
+      "hook": "If you spent an hour saying nothing, no amount of clipping finds the moment.",
+      "titles": [
+        {
+          "platform": "youtube-shorts",
+          "text": "If you spent an hour saying nothing, no amount of clipping finds",
+          "chars": 64,
+          "limit": 70
+        },
+        {
+          "platform": "tiktok",
+          "text": "If you spent an hour saying nothing, no amount of clipping finds the moment",
+          "chars": 75,
+          "limit": 100
+        },
+        {
+          "platform": "instagram-reels",
+          "text": "If you spent an hour saying nothing, no amount of clipping finds the moment",
+          "chars": 75,
+          "limit": 125
+        },
+        {
+          "platform": "x",
+          "text": "If you spent an hour saying nothing, no amount of clipping finds the moment",
+          "chars": 75,
+          "limit": 220
+        }
+      ],
+      "description": "If you spent an hour saying nothing, no amount of clipping finds the moment.\n\nFull context in the episode. From “Why your channel stalled at 900 subscribers” at 8:40.\n\nCovered here: almost entirely mechanical, mechanical solutions, mechanical problems, mechanical.",
+      "hashtags": [
+        "#mechanical",
+        "#moment",
+        "#amount",
+        "#amplification",
+        "#creation",
+        "#shorts",
+        "#fyp"
+      ],
+      "captions": [
+        {
+          "index": 1,
+          "start": 0,
+          "end": 2.769858093126364,
+          "text": "If you spent an\nhour saying nothing,"
+        },
+        {
+          "index": 2,
+          "start": 2.769858093126364,
+          "end": 5.82235476718399,
+          "text": "no amount of clipping\nfinds the moment,"
+        },
+        {
+          "index": 3,
+          "start": 5.82235476718399,
+          "end": 8.497999999999934,
+          "text": "because the moment\nis not in there."
+        },
+        {
+          "index": 4,
+          "start": 8.921999999999912,
+          "end": 10.889999999999986,
+          "text": "This is amplification,\nnot creation."
+        },
+        {
+          "index": 5,
+          "start": 12.065999999999917,
+          "end": 13.970789168278442,
+          "text": "But if you did say\nsomething real,"
+        },
+        {
+          "index": 6,
+          "start": 13.970789168278442,
+          "end": 16.351775628626598,
+          "text": "the difference between\nthat landing and"
+        },
+        {
+          "index": 7,
+          "start": 16.351775628626598,
+          "end": 18.60670986460338,
+          "text": "that disappearing\nis almost entirely"
+        },
+        {
+          "index": 8,
+          "start": 18.60670986460338,
+          "end": 19.35670986460338,
+          "text": "mechanical."
+        },
+        {
+          "index": 9,
+          "start": 19.799999999999955,
+          "end": 21.742499999999964,
+          "text": "And mechanical problems\nhave mechanical"
+        },
+        {
+          "index": 10,
+          "start": 21.742499999999964,
+          "end": 22.492499999999964,
+          "text": "solutions."
+        }
+      ],
+      "words": [
+        {
+          "word": "If",
+          "start": 0,
+          "end": 0.2072682926829252
+        },
+        {
+          "word": "you",
+          "start": 0.2072682926829252,
+          "end": 0.48990687361418683
+        },
+        {
+          "word": "spent",
+          "start": 0.48990687361418683,
+          "end": 0.9609711751662895
+        },
+        {
+          "word": "an",
+          "start": 0.9609711751662895,
+          "end": 1.1682394678492147
+        },
+        {
+          "word": "hour",
+          "start": 1.1682394678492147,
+          "end": 1.5450909090908969
+        },
+        {
+          "word": "saying",
+          "start": 1.5450909090908969,
+          "end": 2.1103680709534203
+        },
+        {
+          "word": "nothing,",
+          "start": 2.1103680709534203,
+          "end": 2.769858093126364
+        },
+        {
+          "word": "no",
+          "start": 2.769858093126364,
+          "end": 2.977126385809289
+        },
+        {
+          "word": "amount",
+          "start": 2.977126385809289,
+          "end": 3.5424035476718125
+        },
+        {
+          "word": "of",
+          "start": 3.5424035476718125,
+          "end": 3.7496718403547376
+        },
+        {
+          "word": "clipping",
+          "start": 3.7496718403547376,
+          "end": 4.503374722838102
+        },
+        {
+          "word": "finds",
+          "start": 4.503374722838102,
+          "end": 4.974439024390205
+        },
+        {
+          "word": "the",
+          "start": 4.974439024390205,
+          "end": 5.2570776053214665
+        },
+        {
+          "word": "moment,",
+          "start": 5.2570776053214665,
+          "end": 5.82235476718399
+        },
+        {
+          "word": "because",
+          "start": 5.82235476718399,
+          "end": 6.481844789356934
+        },
+        {
+          "word": "the",
+          "start": 6.481844789356934,
+          "end": 6.764483370288196
+        },
+        {
+          "word": "moment",
+          "start": 6.764483370288196,
+          "end": 7.329760532150719
+        },
+        {
+          "word": "is",
+          "start": 7.329760532150719,
+          "end": 7.537028824833644
+        },
+        {
+          "word": "not",
+          "start": 7.537028824833644,
+          "end": 7.819667405764906
+        },
+        {
+          "word": "in",
+          "start": 7.819667405764906,
+          "end": 8.026935698447831
+        },
+        {
+          "word": "there.",
+          "start": 8.026935698447831,
+          "end": 8.497999999999934
+        },
+        {
+          "word": "This",
+          "start": 8.921999999999912,
+          "end": 9.18266225165555
+        },
+        {
+          "word": "is",
+          "start": 9.18266225165555,
+          "end": 9.326026490066152
+        },
+        {
+          "word": "amplification,",
+          "start": 9.326026490066152,
+          "end": 10.173178807946979
+        },
+        {
+          "word": "not",
+          "start": 10.173178807946979,
+          "end": 10.368675496688708
+        },
+        {
+          "word": "creation.",
+          "start": 10.368675496688708,
+          "end": 10.889999999999986
+        },
+        {
+          "word": "But",
+          "start": 12.065999999999917,
+          "end": 12.276087040618872
+        },
+        {
+          "word": "if",
+          "start": 12.276087040618872,
+          "end": 12.430150870406106
+        },
+        {
+          "word": "you",
+          "start": 12.430150870406106,
+          "end": 12.64023791102506
+        },
+        {
+          "word": "did",
+          "start": 12.64023791102506,
+          "end": 12.850324951644016
+        },
+        {
+          "word": "say",
+          "start": 12.850324951644016,
+          "end": 13.06041199226297
+        },
+        {
+          "word": "something",
+          "start": 13.06041199226297,
+          "end": 13.690673114119836
+        },
+        {
+          "word": "real,",
+          "start": 13.690673114119836,
+          "end": 13.970789168278442
+        },
+        {
+          "word": "the",
+          "start": 13.970789168278442,
+          "end": 14.180876208897397
+        },
+        {
+          "word": "difference",
+          "start": 14.180876208897397,
+          "end": 14.881166344293913
+        },
+        {
+          "word": "between",
+          "start": 14.881166344293913,
+          "end": 15.371369439071474
+        },
+        {
+          "word": "that",
+          "start": 15.371369439071474,
+          "end": 15.65148549323008
+        },
+        {
+          "word": "landing",
+          "start": 15.65148549323008,
+          "end": 16.141688588007643
+        },
+        {
+          "word": "and",
+          "start": 16.141688588007643,
+          "end": 16.351775628626598
+        },
+        {
+          "word": "that",
+          "start": 16.351775628626598,
+          "end": 16.631891682785206
+        },
+        {
+          "word": "disappearing",
+          "start": 16.631891682785206,
+          "end": 17.472239845261026
+        },
+        {
+          "word": "is",
+          "start": 17.472239845261026,
+          "end": 17.62630367504826
+        },
+        {
+          "word": "almost",
+          "start": 17.62630367504826,
+          "end": 18.04647775628617
+        },
+        {
+          "word": "entirely",
+          "start": 18.04647775628617,
+          "end": 18.60670986460338
+        },
+        {
+          "word": "mechanical.",
+          "start": 18.60670986460338,
+          "end": 19.3069999999999
+        },
+        {
+          "word": "And",
+          "start": 19.799999999999955,
+          "end": 19.966499999999954
+        },
+        {
+          "word": "mechanical",
+          "start": 19.966499999999954,
+          "end": 20.521499999999957
+        },
+        {
+          "word": "problems",
+          "start": 20.521499999999957,
+          "end": 20.96549999999996
+        },
+        {
+          "word": "have",
+          "start": 20.96549999999996,
+          "end": 21.18749999999996
+        },
+        {
+          "word": "mechanical",
+          "start": 21.18749999999996,
+          "end": 21.742499999999964
+        },
+        {
+          "word": "solutions.",
+          "start": 21.742499999999964,
+          "end": 22.241999999999965
+        }
+      ],
+      "srt": "1\n00:00:00,000 --> 00:00:02,770\nIf you spent an\nhour saying nothing,\n\n2\n00:00:02,770 --> 00:00:05,822\nno amount of clipping\nfinds the moment,\n\n3\n00:00:05,822 --> 00:00:08,498\nbecause the moment\nis not in there.\n\n4\n00:00:08,922 --> 00:00:10,890\nThis is amplification,\nnot creation.\n\n5\n00:00:12,066 --> 00:00:13,971\nBut if you did say\nsomething real,\n\n6\n00:00:13,971 --> 00:00:16,352\nthe difference between\nthat landing and\n\n7\n00:00:16,352 --> 00:00:18,607\nthat disappearing\nis almost entirely\n\n8\n00:00:18,607 --> 00:00:19,357\nmechanical.\n\n9\n00:00:19,800 --> 00:00:21,742\nAnd mechanical problems\nhave mechanical\n\n10\n00:00:21,742 --> 00:00:22,492\nsolutions.\n",
+      "vtt": "WEBVTT\n\nNOTE Generated by HOOKLINE — positioned for vertical safe area.\n\n00:00:00.000 --> 00:00:02.770 line:82% align:center\nIf you spent an\nhour saying nothing,\n\n00:00:02.770 --> 00:00:05.822 line:82% align:center\nno amount of clipping\nfinds the moment,\n\n00:00:05.822 --> 00:00:08.498 line:82% align:center\nbecause the moment\nis not in there.\n\n00:00:08.922 --> 00:00:10.890 line:82% align:center\nThis is amplification,\nnot creation.\n\n00:00:12.066 --> 00:00:13.971 line:82% align:center\nBut if you did say\nsomething real,\n\n00:00:13.971 --> 00:00:16.352 line:82% align:center\nthe difference between\nthat landing and\n\n00:00:16.352 --> 00:00:18.607 line:82% align:center\nthat disappearing\nis almost entirely\n\n00:00:18.607 --> 00:00:19.357 line:82% align:center\nmechanical.\n\n00:00:19.800 --> 00:00:21.742 line:82% align:center\nAnd mechanical problems\nhave mechanical\n\n00:00:21.742 --> 00:00:22.492 line:82% align:center\nsolutions.\n",
+      "thumbnail": {
+        "overlay": "CLIPPING FINDS",
+        "frameAtSec": 523.3950000000001,
+        "composition": "Tight crop, subject filling the frame, overlay lower left. Close enough to read the face.",
+        "heat": [
+          "#2E6B72",
+          "#8A8F4A"
+        ]
+      },
+      "bRoll": [
+        "almost entirely mechanical",
+        "mechanical solutions",
+        "mechanical problems",
+        "mechanical",
+        "moment"
+      ],
+      "segmentIndex": 5
+    },
+    {
+      "id": "clip-06",
+      "rank": 6,
+      "start": 159.178,
+      "end": 178.732,
+      "durationSec": 19.554000000000002,
+      "startSentence": 38,
+      "endSentence": 41,
+      "transcript": "If it is already known, there is no reason to keep watching, because the payoff is already in your head. Okay. So how do you actually operationalize that. Because I am not going to sit here and tell you to be brave.",
+      "score": 45.1,
+      "breakdown": {
+        "opening": 0.41205425532332224,
+        "body": 0.4816807419113051,
+        "payoff": 0.38,
+        "containment": 0.6799999999999999,
+        "boundary": 0.33333333333333337
+      },
+      "signals": {
+        "hook": 0.1875,
+        "curiosity": 0.15543233082706767,
+        "emotion": 0,
+        "concrete": 0,
+        "salience": 0.3644897019938165,
+        "payoff": 0.095,
+        "pace": 0.15785571033454662,
+        "quotable": 0.2565625
+      },
+      "evidence": [
+        "addresses the viewer directly",
+        "opens on a hook construction",
+        "pivots on a contrast marker",
+        "resolves — closes the loop"
+      ],
+      "hookPattern": "declaration",
+      "hook": "If it is already known, there is no reason to keep watching.",
+      "titles": [
+        {
+          "platform": "youtube-shorts",
+          "text": "If it is already known, there is no reason to keep watching",
+          "chars": 59,
+          "limit": 70
+        },
+        {
+          "platform": "tiktok",
+          "text": "If it is already known, there is no reason to keep watching",
+          "chars": 59,
+          "limit": 100
+        },
+        {
+          "platform": "instagram-reels",
+          "text": "If it is already known, there is no reason to keep watching — how do you actually operationalize that",
+          "chars": 101,
+          "limit": 125
+        },
+        {
+          "platform": "x",
+          "text": "If it is already known, there is no reason to keep watching",
+          "chars": 59,
+          "limit": 220
+        }
+      ],
+      "description": "If it is already known, there is no reason to keep watching.\n\nFull context in the episode. From “Why your channel stalled at 900 subscribers” at 2:39.\n\nCovered here: already known, keep watching, payoff, head.",
+      "hashtags": [
+        "#already",
+        "#payoff",
+        "#head",
+        "#operationalize",
+        "#brave",
+        "#shorts",
+        "#fyp"
+      ],
+      "captions": [
+        {
+          "index": 1,
+          "start": 0,
+          "end": 2.991913875598083,
+          "text": "If it is already\nknown, there is no"
+        },
+        {
+          "index": 2,
+          "start": 2.991913875598083,
+          "end": 6.218906698564587,
+          "text": "reason to keep\nwatching, because the"
+        },
+        {
+          "index": 3,
+          "start": 6.218906698564587,
+          "end": 8.932999999999991,
+          "text": "payoff is already\nin your head."
+        },
+        {
+          "index": 4,
+          "start": 10.090000000000003,
+          "end": 10.494,
+          "text": "Okay."
+        },
+        {
+          "index": 5,
+          "start": 10.494,
+          "end": 13.011230769230774,
+          "text": "So how do you\nactually operationalize"
+        },
+        {
+          "index": 6,
+          "start": 13.011230769230774,
+          "end": 13.698000000000008,
+          "text": "that."
+        },
+        {
+          "index": 7,
+          "start": 13.698000000000008,
+          "end": 16.699200000000005,
+          "text": "Because I am\nnot going to sit"
+        },
+        {
+          "index": 8,
+          "start": 16.699200000000005,
+          "end": 19.554000000000002,
+          "text": "here and tell\nyou to be brave."
+        }
+      ],
+      "words": [
+        {
+          "word": "If",
+          "start": 0,
+          "end": 0.23507894736842086
+        },
+        {
+          "word": "it",
+          "start": 0.23507894736842086,
+          "end": 0.4701578947368417
+        },
+        {
+          "word": "is",
+          "start": 0.4701578947368417,
+          "end": 0.7052368421052626
+        },
+        {
+          "word": "already",
+          "start": 0.7052368421052626,
+          "end": 1.4532153110047834
+        },
+        {
+          "word": "known,",
+          "start": 1.4532153110047834,
+          "end": 1.9874856459330126
+        },
+        {
+          "word": "there",
+          "start": 1.9874856459330126,
+          "end": 2.5217559808612418
+        },
+        {
+          "word": "is",
+          "start": 2.5217559808612418,
+          "end": 2.7568349282296625
+        },
+        {
+          "word": "no",
+          "start": 2.7568349282296625,
+          "end": 2.991913875598083
+        },
+        {
+          "word": "reason",
+          "start": 2.991913875598083,
+          "end": 3.6330382775119583
+        },
+        {
+          "word": "to",
+          "start": 3.6330382775119583,
+          "end": 3.868117224880379
+        },
+        {
+          "word": "keep",
+          "start": 3.868117224880379,
+          "end": 4.295533492822963
+        },
+        {
+          "word": "watching,",
+          "start": 4.295533492822963,
+          "end": 5.150366028708129
+        },
+        {
+          "word": "because",
+          "start": 5.150366028708129,
+          "end": 5.89834449760765
+        },
+        {
+          "word": "the",
+          "start": 5.89834449760765,
+          "end": 6.218906698564587
+        },
+        {
+          "word": "payoff",
+          "start": 6.218906698564587,
+          "end": 6.860031100478462
+        },
+        {
+          "word": "is",
+          "start": 6.860031100478462,
+          "end": 7.095110047846883
+        },
+        {
+          "word": "already",
+          "start": 7.095110047846883,
+          "end": 7.843088516746404
+        },
+        {
+          "word": "in",
+          "start": 7.843088516746404,
+          "end": 8.078167464114825
+        },
+        {
+          "word": "your",
+          "start": 8.078167464114825,
+          "end": 8.505583732057408
+        },
+        {
+          "word": "head.",
+          "start": 8.505583732057408,
+          "end": 8.932999999999991
+        },
+        {
+          "word": "Okay.",
+          "start": 10.090000000000003,
+          "end": 10.494
+        },
+        {
+          "word": "So",
+          "start": 10.494,
+          "end": 10.664923076923078
+        },
+        {
+          "word": "how",
+          "start": 10.664923076923078,
+          "end": 10.898000000000001
+        },
+        {
+          "word": "do",
+          "start": 10.898000000000001,
+          "end": 11.06892307692308
+        },
+        {
+          "word": "you",
+          "start": 11.06892307692308,
+          "end": 11.302000000000003
+        },
+        {
+          "word": "actually",
+          "start": 11.302000000000003,
+          "end": 11.923538461538465
+        },
+        {
+          "word": "operationalize",
+          "start": 11.923538461538465,
+          "end": 13.011230769230774
+        },
+        {
+          "word": "that.",
+          "start": 13.011230769230774,
+          "end": 13.322000000000006
+        },
+        {
+          "word": "Because",
+          "start": 13.698000000000008,
+          "end": 14.552000000000007
+        },
+        {
+          "word": "I",
+          "start": 14.552000000000007,
+          "end": 14.820400000000006
+        },
+        {
+          "word": "am",
+          "start": 14.820400000000006,
+          "end": 15.088800000000006
+        },
+        {
+          "word": "not",
+          "start": 15.088800000000006,
+          "end": 15.454800000000006
+        },
+        {
+          "word": "going",
+          "start": 15.454800000000006,
+          "end": 16.064800000000005
+        },
+        {
+          "word": "to",
+          "start": 16.064800000000005,
+          "end": 16.333200000000005
+        },
+        {
+          "word": "sit",
+          "start": 16.333200000000005,
+          "end": 16.699200000000005
+        },
+        {
+          "word": "here",
+          "start": 16.699200000000005,
+          "end": 17.187200000000004
+        },
+        {
+          "word": "and",
+          "start": 17.187200000000004,
+          "end": 17.553200000000004
+        },
+        {
+          "word": "tell",
+          "start": 17.553200000000004,
+          "end": 18.041200000000003
+        },
+        {
+          "word": "you",
+          "start": 18.041200000000003,
+          "end": 18.407200000000003
+        },
+        {
+          "word": "to",
+          "start": 18.407200000000003,
+          "end": 18.675600000000003
+        },
+        {
+          "word": "be",
+          "start": 18.675600000000003,
+          "end": 18.944000000000003
+        },
+        {
+          "word": "brave.",
+          "start": 18.944000000000003,
+          "end": 19.554000000000002
+        }
+      ],
+      "srt": "1\n00:00:00,000 --> 00:00:02,992\nIf it is already\nknown, there is no\n\n2\n00:00:02,992 --> 00:00:06,219\nreason to keep\nwatching, because the\n\n3\n00:00:06,219 --> 00:00:08,933\npayoff is already\nin your head.\n\n4\n00:00:10,090 --> 00:00:10,494\nOkay.\n\n5\n00:00:10,494 --> 00:00:13,011\nSo how do you\nactually operationalize\n\n6\n00:00:13,011 --> 00:00:13,698\nthat.\n\n7\n00:00:13,698 --> 00:00:16,699\nBecause I am\nnot going to sit\n\n8\n00:00:16,699 --> 00:00:19,554\nhere and tell\nyou to be brave.\n",
+      "vtt": "WEBVTT\n\nNOTE Generated by HOOKLINE — positioned for vertical safe area.\n\n00:00:00.000 --> 00:00:02.992 line:82% align:center\nIf it is already\nknown, there is no\n\n00:00:02.992 --> 00:00:06.219 line:82% align:center\nreason to keep\nwatching, because the\n\n00:00:06.219 --> 00:00:08.933 line:82% align:center\npayoff is already\nin your head.\n\n00:00:10.090 --> 00:00:10.494 line:82% align:center\nOkay.\n\n00:00:10.494 --> 00:00:13.011 line:82% align:center\nSo how do you\nactually operationalize\n\n00:00:13.011 --> 00:00:13.698 line:82% align:center\nthat.\n\n00:00:13.698 --> 00:00:16.699 line:82% align:center\nBecause I am\nnot going to sit\n\n00:00:16.699 --> 00:00:19.554 line:82% align:center\nhere and tell\nyou to be brave.\n",
+      "thumbnail": {
+        "overlay": "ALREADY KNOWN",
+        "frameAtSec": 162.378,
+        "composition": "Subject three-quarter, overlay overlapping the shoulder. Direct and unfussy.",
+        "heat": [
+          "#2E6B72",
+          "#8A8F4A"
+        ]
+      },
+      "bRoll": [
+        "already known",
+        "keep watching",
+        "payoff",
+        "head",
+        "operationalize"
+      ],
+      "segmentIndex": 2
+    }
+  ],
+  "seo": {
+    "titles": [
+      "Everybody Tells You the Algorithm Decides Who Wins",
+      "Clip Seconds Video: What Actually Works",
+      "Everything Before That Had Been Optimized Into a Shape That Offended"
+    ],
+    "description": "I spent four years believing that, and it cost me about eleven thousand hours of work I would like back.\n\n10m 8s on clip, seconds, video.\nChapters\n0:00 Eight Hundred Subscribers\n0:55 Slightly Embarrassed\n2:25 Already Known\n2:49 First Thirty Seconds\n4:37 Short Vertical\n7:48 Almost Entirely Mechanical\n\nTopics: clip · seconds · video · week · first · watch · every · reason · open · already",
+    "tags": [
+      "clip",
+      "seconds",
+      "video",
+      "week",
+      "first",
+      "watch",
+      "every",
+      "reason",
+      "open",
+      "already",
+      "good",
+      "six",
+      "short vertical",
+      "algorithm decides",
+      "already known",
+      "six weeks",
+      "eleven thousand",
+      "four years"
+    ],
+    "chapters": [
+      {
+        "start": 0,
+        "timecode": "0:00",
+        "label": "Eight Hundred Subscribers"
+      },
+      {
+        "start": 55.463,
+        "timecode": "0:55",
+        "label": "Slightly Embarrassed"
+      },
+      {
+        "start": 145.92937500000002,
+        "timecode": "2:25",
+        "label": "Already Known"
+      },
+      {
+        "start": 169.672,
+        "timecode": "2:49",
+        "label": "First Thirty Seconds"
+      },
+      {
+        "start": 277.791,
+        "timecode": "4:37",
+        "label": "Short Vertical"
+      },
+      {
+        "start": 468.031,
+        "timecode": "7:48",
+        "label": "Almost Entirely Mechanical"
+      }
+    ],
+    "pullQuote": "I spent four years believing that, and it cost me about eleven thousand hours of work I would like back.",
+    "keyTerms": [
+      {
+        "term": "clip",
+        "weight": 29.412061177347827
+      },
+      {
+        "term": "seconds",
+        "weight": 26.253584852570963
+      },
+      {
+        "term": "video",
+        "weight": 25.530008210318726
+      },
+      {
+        "term": "week",
+        "weight": 24.83945252415186
+      },
+      {
+        "term": "first",
+        "weight": 22.693340631394424
+      },
+      {
+        "term": "watch",
+        "weight": 19.631913901092894
+      },
+      {
+        "term": "every",
+        "weight": 18.629589393113896
+      },
+      {
+        "term": "reason",
+        "weight": 18.629589393113896
+      },
+      {
+        "term": "open",
+        "weight": 18.629589393113896
+      },
+      {
+        "term": "already",
+        "weight": 17.3632817282215
+      },
+      {
+        "term": "good",
+        "weight": 17.3632817282215
+      },
+      {
+        "term": "six",
+        "weight": 16.359928250910745
+      },
+      {
+        "term": "three",
+        "weight": 16.359928250910745
+      },
+      {
+        "term": "better",
+        "weight": 14.895883095700826
+      },
+      {
+        "term": "channel",
+        "weight": 14.895883095700826
+      },
+      {
+        "term": "difference",
+        "weight": 14.895883095700826
+      },
+      {
+        "term": "find",
+        "weight": 14.895883095700826
+      },
+      {
+        "term": "moment",
+        "weight": 14.895883095700826
+      }
+    ]
+  },
+  "schedule": [
+    {
+      "clipId": "clip-01",
+      "platform": "youtube-shorts",
+      "date": "2026-09-05",
+      "time": "11:00",
+      "dayLabel": "Saturday",
+      "rationale": "Strongest cut of the set (63) — leads the week on YouTube Shorts."
+    },
+    {
+      "clipId": "clip-02",
+      "platform": "tiktok",
+      "date": "2026-09-06",
+      "time": "10:30",
+      "dayLabel": "Sunday",
+      "rationale": "Hardest open in the set, so it survives TikTok's cold weekend scroll."
+    },
+    {
+      "clipId": "clip-03",
+      "platform": "instagram-reels",
+      "date": "2026-09-07",
+      "time": "08:30",
+      "dayLabel": "Monday",
+      "rationale": "Spaced from the other Instagram Reels posts and off the topic already used that day."
+    },
+    {
+      "clipId": "clip-04",
+      "platform": "x",
+      "date": "2026-09-08",
+      "time": "09:00",
+      "dayLabel": "Tuesday",
+      "rationale": "Leaves the most unresolved, which is what carries a weekday feed on X."
+    },
+    {
+      "clipId": "clip-05",
+      "platform": "youtube-shorts",
+      "date": "2026-09-09",
+      "time": "17:30",
+      "dayLabel": "Wednesday",
+      "rationale": "Resolves most cleanly of the set — it holds a slower weekday audience on YouTube Shorts."
+    },
+    {
+      "clipId": "clip-06",
+      "platform": "tiktok",
+      "date": "2026-09-10",
+      "time": "13:00",
+      "dayLabel": "Thursday",
+      "rationale": "Leaves the most unresolved, which is what carries a weekday feed on TikTok."
+    }
+  ]
+}

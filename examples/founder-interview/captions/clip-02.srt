@@ -1,0 +1,84 @@
+1
+00:00:00,000 --> 00:00:03,116
+What finally broke
+it was that we
+
+2
+00:00:03,116 --> 00:00:06,231
+ran out of money
+and had to cut the
+
+3
+00:00:06,231 --> 00:00:06,800
+price.
+
+4
+00:00:06,800 --> 00:00:10,114
+We went from a
+seat-based plan to a flat
+
+5
+00:00:10,114 --> 00:00:13,192
+monthly one because
+it was simpler to
+
+6
+00:00:13,192 --> 00:00:14,800
+explain in a panic.
+
+7
+00:00:14,800 --> 00:00:17,548
+Revenue went up
+forty percent in six
+
+8
+00:00:17,548 --> 00:00:18,350
+weeks.
+
+9
+00:00:18,350 --> 00:00:20,750
+Not because the
+price was better.
+
+10
+00:00:20,750 --> 00:00:23,593
+Because the product
+finally matched the
+
+11
+00:00:23,593 --> 00:00:25,550
+shape of the
+person using it.
+
+12
+00:00:25,900 --> 00:00:28,462
+If I were starting
+again, the thing I
+
+13
+00:00:28,462 --> 00:00:31,268
+would do differently
+is I would ship the
+
+14
+00:00:31,268 --> 00:00:34,203
+smallest possible
+version to the smallest
+
+15
+00:00:34,203 --> 00:00:37,353
+possible audience
+and I would refuse to
+
+16
+00:00:37,353 --> 00:00:40,496
+write down who the
+customer is for six
+
+17
+00:00:40,496 --> 00:00:41,100
+months.
+
+18
+00:00:41,100 --> 00:00:43,100
+Let the usage tell you.

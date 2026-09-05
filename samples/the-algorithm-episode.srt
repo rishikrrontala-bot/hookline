@@ -1,0 +1,595 @@
+1
+00:00:02,400 --> 00:00:05,593
+Everybody tells you the algorithm decides who wins.
+
+2
+00:00:06,007 --> 00:00:11,449
+I spent four years believing that, and it cost me about eleven
+
+3
+00:00:11,509 --> 00:00:14,340
+thousand hours of work I would like back.
+
+4
+00:00:15,616 --> 00:00:17,407
+Here is what actually happened.
+
+5
+00:00:17,856 --> 00:00:21,320
+In 2021 I was posting five times a week.
+
+6
+00:00:21,556 --> 00:00:27,512
+Every video was better than the last one by any measure I could
+
+7
+00:00:27,572 --> 00:00:30,782
+name. Better lighting, better audio, tighter edit.
+
+8
+00:00:31,108 --> 00:00:33,580
+And the channel did not move.
+
+9
+00:00:33,851 --> 00:00:37,596
+Eight hundred subscribers in January, nine hundred and twelve in
+
+10
+00:00:37,656 --> 00:00:38,556
+December.
+
+11
+00:00:39,843 --> 00:00:41,975
+So I did what everyone does.
+
+12
+00:00:42,274 --> 00:00:44,039
+I blamed the distribution.
+
+13
+00:00:44,350 --> 00:00:48,342
+I read every thread about watch time and session duration and click-through
+
+14
+00:00:48,402 --> 00:00:50,660
+rate. I bought two courses.
+
+15
+00:00:51,097 --> 00:00:53,996
+I rewrote my titles about forty times.
+
+16
+00:00:55,463 --> 00:00:59,438
+And then in March of the following year I stopped uploading for
+
+17
+00:00:59,498 --> 00:01:01,909
+six weeks. Not as a strategy.
+
+18
+00:01:02,252 --> 00:01:07,453
+I was just tired. When I came back I made one video that I did
+
+19
+00:01:07,513 --> 00:01:12,576
+not care about at all. It was fourteen minutes of me complaining
+
+20
+00:01:12,636 --> 00:01:14,606
+about a piece of software.
+
+21
+00:01:14,945 --> 00:01:18,007
+No thumbnail plan. I filmed it on a Tuesday.
+
+22
+00:01:18,974 --> 00:01:21,953
+That video did two hundred and forty thousand views.
+
+23
+00:01:22,312 --> 00:01:26,943
+And the reason is the thing nobody wants to hear, because it is
+
+24
+00:01:27,003 --> 00:01:29,795
+not a tactic you can buy.
+
+25
+00:01:30,660 --> 00:01:36,093
+The reason is that for the first time in four years I said something
+
+26
+00:01:36,153 --> 00:01:40,132
+that was actually true and slightly costly to say.
+
+27
+00:01:40,568 --> 00:01:44,664
+Everything before that had been optimized into a shape that offended
+
+28
+00:01:44,724 --> 00:01:46,582
+nobody and interested nobody.
+
+29
+00:01:47,558 --> 00:01:52,193
+Let me be specific about what I mean, because "be authentic" is
+
+30
+00:01:52,253 --> 00:01:55,825
+useless advice and I hate hearing it too.
+
+31
+00:01:57,143 --> 00:02:00,314
+There is a measurable thing happening here.
+
+32
+00:02:00,780 --> 00:02:05,318
+When you watch a video, you decide within about two seconds whether
+
+33
+00:02:05,378 --> 00:02:08,610
+to keep watching. Not two seconds of the hook.
+
+34
+00:02:09,018 --> 00:02:11,078
+Two seconds of the person.
+
+35
+00:02:11,453 --> 00:02:15,465
+And what you are measuring in that window is whether this person
+
+36
+00:02:15,525 --> 00:02:20,654
+is going to tell you something they would be slightly embarrassed
+
+37
+00:02:20,714 --> 00:02:23,255
+to say at a dinner party.
+
+38
+00:02:24,090 --> 00:02:27,033
+That is the whole thing. That is retention.
+
+39
+00:02:27,969 --> 00:02:30,296
+Most creators optimize for the opposite.
+
+40
+00:02:30,757 --> 00:02:34,421
+They optimize for the thing that is safe to say.
+
+41
+00:02:34,855 --> 00:02:38,787
+And safe things have a property: they are already known.
+
+42
+00:02:39,178 --> 00:02:44,969
+If it is already known, there is no reason to keep watching, because
+
+43
+00:02:45,029 --> 00:02:48,111
+the payoff is already in your head.
+
+44
+00:02:49,268 --> 00:02:52,500
+Okay. So how do you actually operationalize that.
+
+45
+00:02:52,876 --> 00:02:58,732
+Because I am not going to sit here and tell you to be brave.
+
+46
+00:03:00,075 --> 00:03:06,879
+The first thing I do now, before I write a single line of a script,
+
+47
+00:03:06,939 --> 00:03:12,546
+is I write down the sentence I do not want to say.
+
+48
+00:03:12,831 --> 00:03:17,492
+Just one. The thing that if my most annoying viewer heard it, they
+
+49
+00:03:17,552 --> 00:03:21,579
+would screenshot it. And then I build the video around it.
+
+50
+00:03:22,824 --> 00:03:24,193
+Not because controversy works.
+
+51
+00:03:24,427 --> 00:03:29,421
+Controversy is a different thing and it burns your channel down.
+
+52
+00:03:29,908 --> 00:03:34,827
+But because the sentence you do not want to say is the only reliable
+
+53
+00:03:34,887 --> 00:03:37,609
+signal you have that you are saying something.
+
+54
+00:03:38,832 --> 00:03:43,933
+The second thing, and this is the boring one, is that I cut the
+
+55
+00:03:43,993 --> 00:03:47,966
+first thirty seconds of every video after I finish editing it.
+
+56
+00:03:48,353 --> 00:03:50,004
+Every single one. No exceptions.
+
+57
+00:03:51,207 --> 00:03:54,400
+I did this as an experiment for three months.
+
+58
+00:03:54,914 --> 00:03:58,049
+Average view duration went from thirty-one percent to forty-eight
+
+59
+00:03:58,109 --> 00:04:00,906
+percent. That is not a small change.
+
+60
+00:04:01,423 --> 00:04:06,169
+That is the difference between a video that gets shown to your
+
+61
+00:04:06,229 --> 00:04:09,338
+subscribers and a video that gets shown to strangers.
+
+62
+00:04:10,473 --> 00:04:13,583
+And it works for a stupid reason.
+
+63
+00:04:13,965 --> 00:04:18,796
+The first thirty seconds of anything you film is you warming up.
+
+64
+00:04:19,078 --> 00:04:21,368
+You know it is you warming up.
+
+65
+00:04:21,764 --> 00:04:25,865
+You cut it anyway because you are attached to the setup.
+
+66
+00:04:26,300 --> 00:04:28,591
+Do not be attached to the setup.
+
+67
+00:04:29,755 --> 00:04:34,573
+Now here is where it gets interesting, and this is the part I actually
+
+68
+00:04:34,633 --> 00:04:36,648
+wanted to talk about today.
+
+69
+00:04:37,791 --> 00:04:40,931
+I started applying the same idea to the clips.
+
+70
+00:04:41,224 --> 00:04:44,653
+Because at some point every channel becomes two channels.
+
+71
+00:04:44,995 --> 00:04:49,982
+You have the long-form thing and then you have the short vertical
+
+72
+00:04:50,042 --> 00:04:54,013
+thing, and the short vertical thing is where all the new people
+
+73
+00:04:54,073 --> 00:04:55,202
+come from now.
+
+74
+00:04:56,223 --> 00:04:58,987
+And clipping is genuinely miserable work.
+
+75
+00:04:59,443 --> 00:05:05,003
+I timed it. For a forty-five minute episode, finding six good clips,
+
+76
+00:05:05,063 --> 00:05:08,527
+trimming them, writing hooks, writing titles for three platforms,
+
+77
+00:05:08,587 --> 00:05:12,179
+timing the captions, and scheduling them takes me somewhere between
+
+78
+00:05:12,239 --> 00:05:14,332
+four and six hours. Every week.
+
+79
+00:05:14,836 --> 00:05:15,736
+Forever.
+
+80
+00:05:17,218 --> 00:05:22,188
+So I tried to automate it and I failed three times, and the way
+
+81
+00:05:22,248 --> 00:05:23,573
+I failed is instructive.
+
+82
+00:05:24,555 --> 00:05:30,395
+The first attempt, I just asked a language model to find the good
+
+83
+00:05:30,455 --> 00:05:34,835
+parts. And it did something very reasonable and completely useless.
+
+84
+00:05:35,237 --> 00:05:37,648
+It found the parts that summarized well.
+
+85
+00:05:38,147 --> 00:05:41,218
+Which is the opposite of what you want.
+
+86
+00:05:41,583 --> 00:05:46,677
+A summary is a thing that removes the reason to watch.
+
+87
+00:05:47,859 --> 00:05:50,840
+The second attempt, I used engagement data.
+
+88
+00:05:51,306 --> 00:05:55,423
+I looked at where the retention graph spiked in the long-form video
+
+89
+00:05:55,483 --> 00:05:59,819
+and I cut there. Better. But the problem is that retention spikes
+
+90
+00:05:59,879 --> 00:06:04,699
+are lagging. By the time the graph moves, the moment that caused
+
+91
+00:06:04,759 --> 00:06:06,658
+it was forty seconds ago.
+
+92
+00:06:08,086 --> 00:06:12,502
+The third attempt actually worked, and it worked because I stopped
+
+93
+00:06:12,562 --> 00:06:17,766
+trying to find good moments and started trying to find good openings.
+
+94
+00:06:18,829 --> 00:06:21,778
+Because a clip is not a highlight.
+
+95
+00:06:22,210 --> 00:06:26,948
+A clip is a cold open. Nobody arrives at your clip having watched
+
+96
+00:06:27,008 --> 00:06:28,512
+the previous nine minutes.
+
+97
+00:06:28,907 --> 00:06:32,612
+They arrive mid-scroll with no context and a thumb already moving.
+
+98
+00:06:34,048 --> 00:06:39,562
+So the only question that matters is: does the first line of this
+
+99
+00:06:39,622 --> 00:06:43,072
+clip work on somebody who has never heard of you.
+
+100
+00:06:44,531 --> 00:06:47,105
+And that turns out to be measurable.
+
+101
+00:06:47,602 --> 00:06:49,236
+Not perfectly. But well enough.
+
+102
+00:06:50,392 --> 00:06:57,018
+Here is what I look for now, and I built a tool that does this
+
+103
+00:06:57,078 --> 00:07:00,562
+because I got tired of doing it by hand.
+
+104
+00:07:01,513 --> 00:07:05,767
+First, does the opening line make a claim or ask a question.
+
+105
+00:07:06,242 --> 00:07:08,471
+Statements that are neither are dead.
+
+106
+00:07:08,820 --> 00:07:11,703
+"So anyway, we were talking about" is dead.
+
+107
+00:07:12,069 --> 00:07:16,027
+"Everybody tells you the algorithm decides who wins" is not dead,
+
+108
+00:07:16,087 --> 00:07:21,165
+and you will notice I opened this episode with it, because I practice
+
+109
+00:07:21,225 --> 00:07:22,951
+what I am telling you.
+
+110
+00:07:24,008 --> 00:07:25,967
+Second, is there an open loop.
+
+111
+00:07:26,196 --> 00:07:29,873
+Something the sentence sets up and does not immediately close.
+
+112
+00:07:30,348 --> 00:07:35,296
+Your brain does not let you scroll away from an unclosed loop.
+
+113
+00:07:35,597 --> 00:07:39,567
+This is not a trick, it is just how attention works.
+
+114
+00:07:40,845 --> 00:07:45,202
+Third, is there something concrete in the first ten seconds.
+
+115
+00:07:45,475 --> 00:07:47,761
+A number, a name, a specific thing.
+
+116
+00:07:48,031 --> 00:07:51,153
+"I lost a lot of money" is nothing.
+
+117
+00:07:51,632 --> 00:07:54,299
+"It cost me eleven thousand hours" is something.
+
+118
+00:07:55,334 --> 00:07:59,384
+Fourth, and this is the one people miss, does the clip end.
+
+119
+00:07:59,699 --> 00:08:04,564
+Not stop. End. There is a difference and the difference is worth
+
+120
+00:08:04,624 --> 00:08:07,092
+about fifteen percent of your completion rate.
+
+121
+00:08:08,539 --> 00:08:12,293
+Fifth, can it be understood without the rest of the episode.
+
+122
+00:08:12,749 --> 00:08:17,319
+If the clip opens with the word "it" and the viewer does not know
+
+123
+00:08:17,379 --> 00:08:20,451
+what "it" is, you have already lost.
+
+124
+00:08:20,835 --> 00:08:24,998
+Pronouns without antecedents kill more clips than bad hooks do.
+
+125
+00:08:25,747 --> 00:08:30,165
+I want to be careful here, because I am describing a system and
+
+126
+00:08:30,225 --> 00:08:32,370
+systems get treated as laws.
+
+127
+00:08:33,653 --> 00:08:36,925
+None of this makes a bad recording good.
+
+128
+00:08:37,394 --> 00:08:39,748
+I want to say that plainly.
+
+129
+00:08:40,195 --> 00:08:45,241
+If you spent an hour saying nothing, no amount of clipping finds
+
+130
+00:08:45,301 --> 00:08:48,693
+the moment, because the moment is not in there.
+
+131
+00:08:49,117 --> 00:08:51,085
+This is amplification, not creation.
+
+132
+00:08:52,261 --> 00:08:56,115
+But if you did say something real, the difference between that
+
+133
+00:08:56,175 --> 00:08:59,502
+landing and that disappearing is almost entirely mechanical.
+
+134
+00:08:59,995 --> 00:09:02,437
+And mechanical problems have mechanical solutions.
+
+135
+00:09:03,505 --> 00:09:07,218
+The last thing, and then I will let you go.
+
+136
+00:09:08,365 --> 00:09:13,008
+I get asked constantly what the posting schedule should be.
+
+137
+00:09:13,523 --> 00:09:16,641
+Three a week, five a week, daily.
+
+138
+00:09:16,926 --> 00:09:21,374
+And the honest answer is that the schedule matters far less than
+
+139
+00:09:21,434 --> 00:09:24,248
+whether you can sustain it in month nine.
+
+140
+00:09:25,726 --> 00:09:32,088
+I burned out twice. Both times were in the fourth month of a five-a-day
+
+141
+00:09:32,148 --> 00:09:36,496
+sprint. Both times it took about six weeks to want to open the
+
+142
+00:09:36,556 --> 00:09:40,807
+editor again. If you take the full cost of that, including the
+
+143
+00:09:40,867 --> 00:09:45,250
+six weeks, five a day is slower than three a week.
+
+144
+00:09:46,283 --> 00:09:50,590
+So my actual advice, and it is unsatisfying: pick the number you
+
+145
+00:09:50,650 --> 00:09:52,506
+could do while mildly sick.
+
+146
+00:09:52,863 --> 00:09:57,949
+That is your number. Not the number you can do when you are inspired.
+
+147
+00:09:59,272 --> 00:10:01,195
+That is the whole episode.
+
+148
+00:10:01,542 --> 00:10:06,059
+I will put the clip scoring stuff in the description because a
+
+149
+00:10:06,119 --> 00:10:08,128
+few people asked. Thanks for listening.
