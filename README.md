@@ -10,6 +10,13 @@ It runs entirely in the browser — no account, no upload, no API key — and th
 runs as a Node CLI that writes the whole package to disk, including an `ffmpeg` script that
 renders each clip vertically with captions burned in.
 
+**→ [Try it](https://rishikrrontala-bot.github.io/hookline/)** · nothing to install, nothing to
+sign up for. Hit *Analyse a transcript*, load a sample, and the whole package is generated in
+your own tab in about 40ms.
+
+**→ [Browse real output](examples/the-algorithm-episode/)** without running anything: every file
+in `examples/` was produced by the CLI from the sample transcripts in `samples/`.
+
 ```bash
 npm install
 npm run dev      # the workspace at http://localhost:5273
@@ -78,7 +85,7 @@ separately-ranked words.
 ## What comes out
 
 ```
-out/demo/
+examples/the-algorithm-episode/
 ├── clips/          one Markdown brief per clip — hook, titles, description,
 │                   hashtags, thumbnail spec, b-roll, transcript, signal readout
 ├── captions/       SRT + VTT per clip, wrapped for a vertical safe area,
@@ -91,7 +98,7 @@ out/demo/
 ```
 
 ```bash
-./out/demo/cut.sh /path/to/source-video.mp4
+./examples/the-algorithm-episode/cut.sh /path/to/source-video.mp4
 ```
 
 ## CLI
