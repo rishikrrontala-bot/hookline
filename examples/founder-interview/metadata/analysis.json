@@ -113,49 +113,49 @@
       "key": "ingest",
       "label": "Ingest",
       "detail": "PLAIN · 18 cues · 635 words",
-      "ms": 8.638666999999998
+      "ms": 9.290583999999996
     },
     {
       "key": "parse",
       "label": "Segment",
       "detail": "52 sentences · 177 distinct terms",
-      "ms": 1.7337909999999965
+      "ms": 2.034582999999998
     },
     {
       "key": "score",
       "label": "Score",
       "detail": "8 signals × 52 sentences · pace withheld",
-      "ms": 3.1023329999999945
+      "ms": 3.228207999999995
     },
     {
       "key": "boundaries",
       "label": "Boundaries",
       "detail": "2 topic shifts · 3 segments",
-      "ms": 6.622665999999995
+      "ms": 7.161417
     },
     {
       "key": "extract",
       "label": "Extract",
       "detail": "408 windows → 4 clips",
-      "ms": 6.445542000000003
+      "ms": 6.7993339999999876
     },
     {
       "key": "write",
       "label": "Write",
       "detail": "4 hooks · 16 titles · 48 caption cues",
-      "ms": 6.552875
+      "ms": 6.955332999999996
     },
     {
       "key": "seo",
       "label": "Index",
-      "detail": "3 chapters · 15 tags",
-      "ms": 2.6215839999999986
+      "detail": "3 chapters · 16 tags",
+      "ms": 4.256917000000001
     },
     {
       "key": "schedule",
       "label": "Schedule",
       "detail": "4 slots across 7 days",
-      "ms": 1.0607499999999987
+      "ms": 1.2199580000000054
     }
   ],
   "boundaries": [
@@ -2268,26 +2268,27 @@
   "seo": {
     "titles": [
       "Here Is the Number That Changed How I Think",
-      "People Shipped Year: What Actually Works",
+      "Smallest Possible: What Actually Works",
       "That It Makes You Slow to Notice You Are Wrong"
     ],
-    "description": "What finally broke it was that we ran out of money and had to cut the price.\n\n4m 20s on people, shipped, year.\nChapters\n0:00 Honest Answer\n0:31 Smallest Possible\n3:38 Genuinely Unreasonable Hours\n\nTopics: people · shipped · year · product · wrong · every · built · months · seats · parts",
+    "description": "What finally broke it was that we ran out of money and had to cut the price.\n\n4m 20s on smallest possible, seventeen options, settings page.\nChapters\n0:00 Honest Answer\n0:31 Smallest Possible\n3:38 Genuinely Unreasonable Hours\n\nTopics: smallest possible · seventeen options · settings page · shipped · product · seats · parts · people · year · wrong",
     "tags": [
-      "people",
-      "shipped",
-      "year",
-      "product",
-      "wrong",
-      "every",
-      "built",
-      "months",
-      "seats",
-      "parts",
-      "three",
-      "settings",
       "smallest possible",
       "seventeen options",
-      "settings page"
+      "settings page",
+      "shipped",
+      "product",
+      "seats",
+      "parts",
+      "people",
+      "year",
+      "wrong",
+      "built",
+      "months",
+      "smallest",
+      "possible",
+      "three",
+      "settings"
     ],
     "chapters": [
       {
@@ -2309,76 +2310,60 @@
     "pullQuote": "What finally broke it was that we ran out of money and had to cut the price.",
     "keyTerms": [
       {
-        "term": "people",
-        "weight": 12.59093841990318
-      },
-      {
         "term": "shipped",
-        "weight": 12.331072583879239
-      },
-      {
-        "term": "year",
-        "weight": 11.327719106568484
+        "weight": 0
       },
       {
         "term": "product",
-        "weight": 10.870115780227016
-      },
-      {
-        "term": "wrong",
-        "weight": 9.864858067103391
-      },
-      {
-        "term": "every",
-        "weight": 9.864858067103391
-      },
-      {
-        "term": "built",
-        "weight": 9.864858067103391
-      },
-      {
-        "term": "months",
-        "weight": 9.864858067103391
+        "weight": 2.717528945056754
       },
       {
         "term": "seats",
-        "weight": 9.162003545033901
+        "weight": 0
       },
       {
         "term": "parts",
-        "weight": 9.162003545033901
+        "weight": 0
       },
       {
-        "term": "three",
-        "weight": 8.152586835170261
+        "term": "people",
+        "weight": 2.09848973665053
       },
       {
-        "term": "settings",
-        "weight": 8.152586835170261
+        "term": "year",
+        "weight": 2.2655438213136967
       },
       {
-        "term": "first",
-        "weight": 8.152586835170261
+        "term": "wrong",
+        "weight": 2.466214516775848
       },
       {
-        "term": "percent",
-        "weight": 8.152586835170261
+        "term": "built",
+        "weight": 2.466214516775848
       },
       {
-        "term": "agencies",
-        "weight": 8.152586835170261
+        "term": "months",
+        "weight": 0
       },
       {
         "term": "smallest",
-        "weight": 7.129653610887915
+        "weight": 0
       },
       {
         "term": "possible",
-        "weight": 7.129653610887915
+        "weight": 0
       },
       {
-        "term": "weeks",
-        "weight": 6.108002363355934
+        "term": "three",
+        "weight": 2.717528945056754
+      },
+      {
+        "term": "settings",
+        "weight": 0
+      },
+      {
+        "term": "percent",
+        "weight": 2.717528945056754
       }
     ]
   },
@@ -2386,33 +2371,33 @@
     {
       "clipId": "clip-01",
       "platform": "youtube-shorts",
-      "date": "2026-09-05",
+      "date": "2026-09-06",
       "time": "11:00",
-      "dayLabel": "Saturday",
+      "dayLabel": "Sunday",
       "rationale": "Strongest cut of the set (53) — leads the week on YouTube Shorts."
     },
     {
       "clipId": "clip-02",
       "platform": "tiktok",
-      "date": "2026-09-06",
-      "time": "10:30",
-      "dayLabel": "Sunday",
+      "date": "2026-09-07",
+      "time": "07:00",
+      "dayLabel": "Monday",
       "rationale": "Longest cut of the set — placed on TikTok, where the duration ceiling is generous."
     },
     {
       "clipId": "clip-03",
       "platform": "instagram-reels",
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "time": "08:30",
-      "dayLabel": "Monday",
+      "dayLabel": "Tuesday",
       "rationale": "Carries the most specific detail, which is what gets saved and shared on Instagram Reels."
     },
     {
       "clipId": "clip-04",
       "platform": "x",
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "time": "09:00",
-      "dayLabel": "Tuesday",
+      "dayLabel": "Wednesday",
       "rationale": "Hardest open in the set, so it survives X's cold weekday scroll."
     }
   ]

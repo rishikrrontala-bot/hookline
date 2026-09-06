@@ -1,8 +1,9 @@
 import type { ChannelSEO, Chapter, ScoredSentence, Segment } from '../types';
 import { formatTimecode, humanDuration } from '../ingest';
-import { type Vocabulary, topTerms, topPhrases } from '../stats';
+import { type Vocabulary, topPhrases, subjectTerms } from '../stats';
 import { titleCase } from '../text/tokenize';
 import { stripFiller } from './hooks';
+import { metaScore } from '../signals';
 import { fit } from './titles';
 
 /**
@@ -41,28 +42,61 @@ const TITLE_LIMIT = 70;
  */
 function writeChannelTitles(
   sentences: ScoredSentence[],
-  keyTerms: string[],
+  phrases: string[],
   sourceTitle: string,
 ): string[] {
   const ranked = [...sentences].sort((a, b) => b.attention - a.attention);
-  const subject = titleCase(keyTerms.slice(0, 3).join(' '));
   const out: string[] = [];
 
-  const quote = ranked.find((s) => s.wordCount >= 6 && s.wordCount <= 15);
-  if (quote) out.push(fit(titleCase(stripFiller(quote.text).replace(/[.?!]+$/, '')), TITLE_LIMIT));
+  const push = (text: string | null) => {
+    if (!text) return;
+    const fitted = fit(text, TITLE_LIMIT);
+    if (isWellFormed(fitted)) out.push(fitted);
+  };
 
+  // 1. The strongest thing actually said, as a title.
+  const quote = ranked.find((s) => s.wordCount >= 6 && s.wordCount <= 14 && metaScore(s.text) < 0.25);
+  if (quote) push(titleCase(stripFiller(quote.text).replace(/[.?!]+$/, '')));
+
+  // 2. Search-led. The subject must be a phrase the speaker actually said —
+  //    joining the three top-ranked stems produced "Clip Seconds Video", which
+  //    names nothing and was never uttered.
+  const subject = phrases.find((p) => p.includes(' '));
   if (subject) {
     const angle = ranked.find((s) => s.signals.concrete > 0.45 && s.wordCount <= 18);
     const figure = angle?.text.match(/\b\$?\d[\d,.]*\s*(%|percent|x\b|k\b|hours?|years?|million|billion)?/i)?.[0];
-    out.push(fit(figure ? `${subject} — What ${figure.trim()} Actually Changes` : `${subject}: What Actually Works`, TITLE_LIMIT));
+    push(figure
+      ? `${titleCase(subject)} — What ${figure.trim()} Actually Changes`
+      : `${titleCase(subject)}: What Actually Works`);
   }
 
-  const contrarian = ranked.find((s) => /\b(but|actually|wrong|myth|nobody|most people)\b/i.test(s.text) && s.wordCount <= 16);
-  if (contrarian) out.push(fit(titleCase(stripFiller(contrarian.text).replace(/[.?!]+$/, '')), TITLE_LIMIT));
+  // 3. The contrarian line, when there is one.
+  const contrarian = ranked.find(
+    (s) => /\b(but|actually|wrong|myth|nobody|most people)\b/i.test(s.text) && s.wordCount <= 15,
+  );
+  if (contrarian) push(titleCase(stripFiller(contrarian.text).replace(/[.?!]+$/, '')));
 
   if (!out.length) out.push(fit(sourceTitle, TITLE_LIMIT));
+  return [...new Set(out)].slice(0, 3);
+}
 
-  return [...new Set(out.filter(Boolean))].slice(0, 3);
+/**
+ * A title has to end on a word that can end a sentence. `fit` trims at a word
+ * boundary, which still leaves things like "…Into a Shape That Offended" —
+ * grammatically a cliff-edge, and worse than a shorter title.
+ */
+const TITLE_TAIL = /\b(a|an|the|of|to|in|on|for|with|that|which|and|but|or|is|are|was|were|be|been|had|has|have|by|as|at|from|into|than|then|so|if|it|its|their|his|her|my|our|your)$/i;
+
+function isWellFormed(title: string): boolean {
+  const words = title.trim().split(/\s+/);
+  if (words.length < 3) return false;
+  if (TITLE_TAIL.test(words[words.length - 1])) return false;
+  // A trailing participle with no object reads as a truncation.
+  if (/(?:ed|ing)$/i.test(words[words.length - 1]) && words.length > 6) {
+    const prev = words[words.length - 2].toLowerCase();
+    if (['that', 'which', 'been', 'had', 'was', 'were', 'is', 'are'].includes(prev)) return false;
+  }
+  return true;
 }
 
 export function buildSEO(
@@ -73,9 +107,14 @@ export function buildSEO(
   durationSec: number,
   sourceTitle: string,
 ): ChannelSEO {
-  const ranked = topTerms(sentences, vocab, 18);
-  const keyTerms = ranked.map((t) => ({ term: surfaceForms.get(t.term) ?? t.term, weight: t.weight }));
-  const termWords = keyTerms.map((t) => t.term);
+  // Same distinctiveness ranking the clips use, so the channel metadata never
+  // advertises "clip, seconds, video" as what the episode is about.
+  const termWords = subjectTerms(sentences, sentences, vocab, surfaceForms, { limit: 14 });
+  const keyTerms = termWords.map((term) => ({ term, weight: vocab.idf.get(term) ?? 0 }));
+
+  const phrases = topPhrases(sentences, vocab, { maxLen: 3, limit: 12, minCount: 2 })
+    .filter((p) => p.phrase.includes(' '))
+    .map((p) => p.phrase);
 
   const chapters = buildChapters(segments, durationSec);
 
@@ -91,25 +130,26 @@ export function buildSEO(
   const description = [
     pullQuote,
     '',
-    `${humanDuration(durationSec)} on ${termWords.slice(0, 3).join(', ')}.`,
+    // Phrases, not isolated stems: "on watch time, average view duration"
+    // describes an episode; "on week, video, watch" describes nothing.
+    `${humanDuration(durationSec)} on ${[...phrases, ...termWords].slice(0, 3).join(', ')}.`,
     chapterBlock.trim(),
     '',
-    `Topics: ${termWords.slice(0, 10).join(' · ')}`,
+    `Topics: ${[...new Set([...phrases, ...termWords])].slice(0, 10).join(' · ')}`,
   ]
     .join('\n')
     .replace(/\n{3,}/g, '\n\n')
     .trim();
 
   /** Tags: single terms first, then the strongest adjacent pairs actually spoken. */
-  const bigrams = topPhrases(sentences, vocab, { maxLen: 2, limit: 6, minCount: 2 })
-    .filter((p) => p.phrase.includes(' '))
-    .map((p) => p.phrase);
-  const tags = [...new Set([...termWords.slice(0, 12), ...bigrams])]
-    .filter((t) => t.length >= 3)
-    .slice(0, 18);
+  const bigrams = phrases.slice(0, 6);
+  // Multi-word phrases first — they are the tags a viewer would actually search.
+  const tags = [...new Set([...bigrams, ...termWords])]
+    .filter((t) => t.length >= 4)
+    .slice(0, 16);
 
   return {
-    titles: writeChannelTitles(sentences, termWords, sourceTitle),
+    titles: writeChannelTitles(sentences, phrases, sourceTitle),
     description,
     tags,
     chapters,

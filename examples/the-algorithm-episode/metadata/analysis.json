@@ -603,49 +603,49 @@
       "key": "ingest",
       "label": "Ingest",
       "detail": "SRT · 116 cues · 1,378 words",
-      "ms": 23.405875
+      "ms": 11.294957999999994
     },
     {
       "key": "parse",
       "label": "Segment",
       "detail": "144 sentences · 298 distinct terms",
-      "ms": 2.784084000000007
+      "ms": 3.853624999999994
     },
     {
       "key": "score",
       "label": "Score",
       "detail": "8 signals × 144 sentences",
-      "ms": 4.450832999999989
+      "ms": 5.139665999999977
     },
     {
       "key": "boundaries",
       "label": "Boundaries",
       "detail": "5 topic shifts · 6 segments",
-      "ms": 11.543416999999991
+      "ms": 13.897458999999998
     },
     {
       "key": "extract",
       "label": "Extract",
       "detail": "1,391 windows → 6 clips",
-      "ms": 16.172292
+      "ms": 19.74004099999999
     },
     {
       "key": "write",
       "label": "Write",
       "detail": "6 hooks · 24 titles · 72 caption cues",
-      "ms": 12.093000000000004
+      "ms": 13.234584000000012
     },
     {
       "key": "seo",
       "label": "Index",
-      "detail": "6 chapters · 18 tags",
-      "ms": 12.168374999999997
+      "detail": "6 chapters · 16 tags",
+      "ms": 18.058666000000017
     },
     {
       "key": "schedule",
       "label": "Schedule",
       "detail": "6 slots across 7 days",
-      "ms": 1.3243330000000242
+      "ms": 1.4121670000000108
     }
   ],
   "boundaries": [
@@ -3786,29 +3786,26 @@
   "seo": {
     "titles": [
       "Everybody Tells You the Algorithm Decides Who Wins",
-      "Clip Seconds Video: What Actually Works",
-      "Everything Before That Had Been Optimized Into a Shape That Offended"
+      "Eleven Thousand Hours: What Actually Works"
     ],
-    "description": "I spent four years believing that, and it cost me about eleven thousand hours of work I would like back.\n\n10m 8s on clip, seconds, video.\nChapters\n0:00 Eight Hundred Subscribers\n0:55 Slightly Embarrassed\n2:25 Already Known\n2:49 First Thirty Seconds\n4:37 Short Vertical\n7:48 Almost Entirely Mechanical\n\nTopics: clip · seconds · video · week · first · watch · every · reason · open · already",
+    "description": "I spent four years believing that, and it cost me about eleven thousand hours of work I would like back.\n\n10m 8s on eleven thousand hours, short vertical, first thirty seconds.\nChapters\n0:00 Eight Hundred Subscribers\n0:55 Slightly Embarrassed\n2:25 Already Known\n2:49 First Thirty Seconds\n4:37 Short Vertical\n7:48 Almost Entirely Mechanical\n\nTopics: eleven thousand hours · short vertical · first thirty seconds · algorithm decides · already known · six weeks · four years · find good · keep watching · every video",
     "tags": [
-      "clip",
-      "seconds",
-      "video",
-      "week",
-      "first",
-      "watch",
-      "every",
-      "reason",
-      "open",
-      "already",
-      "good",
-      "six",
+      "eleven thousand hours",
       "short vertical",
+      "first thirty seconds",
       "algorithm decides",
       "already known",
       "six weeks",
-      "eleven thousand",
-      "four years"
+      "week",
+      "video",
+      "watch",
+      "seconds",
+      "clip",
+      "reason",
+      "open",
+      "channel",
+      "difference",
+      "find"
     ],
     "chapters": [
       {
@@ -3845,76 +3842,60 @@
     "pullQuote": "I spent four years believing that, and it cost me about eleven thousand hours of work I would like back.",
     "keyTerms": [
       {
-        "term": "clip",
-        "weight": 29.412061177347827
-      },
-      {
-        "term": "seconds",
-        "weight": 26.253584852570963
+        "term": "week",
+        "weight": 3.104931565518983
       },
       {
         "term": "video",
-        "weight": 25.530008210318726
-      },
-      {
-        "term": "week",
-        "weight": 24.83945252415186
-      },
-      {
-        "term": "first",
-        "weight": 22.693340631394424
+        "weight": 2.8366675789243034
       },
       {
         "term": "watch",
-        "weight": 19.631913901092894
+        "weight": 3.271985650182149
       },
       {
-        "term": "every",
-        "weight": 18.629589393113896
+        "term": "seconds",
+        "weight": 0
+      },
+      {
+        "term": "clip",
+        "weight": 2.451005098112319
       },
       {
         "term": "reason",
-        "weight": 18.629589393113896
+        "weight": 3.104931565518983
       },
       {
         "term": "open",
-        "weight": 18.629589393113896
-      },
-      {
-        "term": "already",
-        "weight": 17.3632817282215
-      },
-      {
-        "term": "good",
-        "weight": 17.3632817282215
-      },
-      {
-        "term": "six",
-        "weight": 16.359928250910745
-      },
-      {
-        "term": "three",
-        "weight": 16.359928250910745
-      },
-      {
-        "term": "better",
-        "weight": 14.895883095700826
+        "weight": 3.104931565518983
       },
       {
         "term": "channel",
-        "weight": 14.895883095700826
+        "weight": 3.7239707739252066
       },
       {
         "term": "difference",
-        "weight": 14.895883095700826
+        "weight": 0
       },
       {
         "term": "find",
-        "weight": 14.895883095700826
+        "weight": 3.7239707739252066
       },
       {
         "term": "moment",
-        "weight": 14.895883095700826
+        "weight": 3.7239707739252066
+      },
+      {
+        "term": "three",
+        "weight": 3.271985650182149
+      },
+      {
+        "term": "percent",
+        "weight": 4.060443010546419
+      },
+      {
+        "term": "mechanical",
+        "weight": 4.060443010546419
       }
     ]
   },
@@ -3922,49 +3903,49 @@
     {
       "clipId": "clip-01",
       "platform": "youtube-shorts",
-      "date": "2026-09-05",
+      "date": "2026-09-06",
       "time": "11:00",
-      "dayLabel": "Saturday",
+      "dayLabel": "Sunday",
       "rationale": "Strongest cut of the set (63) — leads the week on YouTube Shorts."
     },
     {
       "clipId": "clip-02",
       "platform": "tiktok",
-      "date": "2026-09-06",
-      "time": "10:30",
-      "dayLabel": "Sunday",
-      "rationale": "Hardest open in the set, so it survives TikTok's cold weekend scroll."
+      "date": "2026-09-07",
+      "time": "07:00",
+      "dayLabel": "Monday",
+      "rationale": "Hardest open in the set, so it survives TikTok's cold weekday scroll."
     },
     {
       "clipId": "clip-03",
       "platform": "instagram-reels",
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "time": "08:30",
-      "dayLabel": "Monday",
+      "dayLabel": "Tuesday",
       "rationale": "Spaced from the other Instagram Reels posts and off the topic already used that day."
     },
     {
       "clipId": "clip-04",
       "platform": "x",
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "time": "09:00",
-      "dayLabel": "Tuesday",
+      "dayLabel": "Wednesday",
       "rationale": "Leaves the most unresolved, which is what carries a weekday feed on X."
     },
     {
       "clipId": "clip-05",
       "platform": "youtube-shorts",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "time": "17:30",
-      "dayLabel": "Wednesday",
+      "dayLabel": "Thursday",
       "rationale": "Resolves most cleanly of the set — it holds a slower weekday audience on YouTube Shorts."
     },
     {
       "clipId": "clip-06",
       "platform": "tiktok",
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "time": "13:00",
-      "dayLabel": "Thursday",
+      "dayLabel": "Friday",
       "rationale": "Leaves the most unresolved, which is what carries a weekday feed on TikTok."
     }
   ]
