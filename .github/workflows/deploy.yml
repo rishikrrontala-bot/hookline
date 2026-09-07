@@ -31,6 +31,9 @@ jobs:
       - name: Type-check
         run: npx tsc --noEmit -p tsconfig.json
 
+      - name: Test the engine
+        run: npm test
+
       - name: Verify the engine runs headless
         run: npx tsx src/cli/run.ts samples/the-algorithm-episode.srt --out /tmp/ci-check
 

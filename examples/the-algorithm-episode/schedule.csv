@@ -1,7 +1,7 @@
 date,time,day,platform,clip_id,title,duration_sec,source_in,source_out,score,rationale
-2026-09-06,11:00,Sunday,youtube-shorts,clip-01,Everybody tells you the algorithm decides who wins,51.6,2.40,54.00,63.0,Strongest cut of the set (63) — leads the week on YouTube Shorts.
-2026-09-07,07:00,Monday,tiktok,clip-02,Nobody arrives at your clip having watched the previous nine minutes,18.6,384.43,403.07,56.3,"Hardest open in the set, so it survives TikTok's cold weekday scroll."
-2026-09-08,08:30,Tuesday,instagram-reels,clip-03,"""Everybody tells you the algorithm decides who wins"" is not dead",35.7,432.07,467.76,52.1,Spaced from the other Instagram Reels posts and off the topic already used that day.
-2026-09-09,09:00,Wednesday,x,clip-04,The reason is that for the first time in four years I said something,29.7,90.66,120.31,48.9,"Leaves the most unresolved, which is what carries a weekday feed on X."
-2026-09-10,17:30,Thursday,youtube-shorts,clip-05,"If you spent an hour saying nothing, no amount of clipping finds",22.2,520.20,542.44,47.9,Resolves most cleanly of the set — it holds a slower weekday audience on YouTube Shorts.
-2026-09-11,13:00,Friday,tiktok,clip-06,"If it is already known, there is no reason to keep watching",19.6,159.18,178.73,45.1,"Leaves the most unresolved, which is what carries a weekday feed on TikTok."
+2026-09-07,12:00,Monday,youtube-shorts,clip-01,Everybody tells you the algorithm decides who wins,51.6,2.40,54.00,63.0,Strongest cut of the set (63) — leads the week on YouTube Shorts.
+2026-09-08,07:00,Tuesday,tiktok,clip-02,Nobody arrives at your clip having watched the previous nine minutes,18.6,384.43,403.07,56.3,"Hardest open in the set, so it survives TikTok's cold weekday scroll."
+2026-09-09,08:30,Wednesday,instagram-reels,clip-03,"""Everybody tells you the algorithm decides who wins"" is not dead",35.7,432.07,467.76,52.1,Spaced from the other Instagram Reels posts and off the topic already used that day.
+2026-09-10,09:00,Thursday,x,clip-04,The reason is that for the first time in four years I said something,29.7,90.66,120.31,48.9,"Leaves the most unresolved, which is what carries a weekday feed on X."
+2026-09-11,17:30,Friday,youtube-shorts,clip-05,"If you spent an hour saying nothing, no amount of clipping finds",22.2,520.20,542.44,47.9,Resolves most cleanly of the set — it holds a slower weekday audience on YouTube Shorts.
+2026-09-12,16:00,Saturday,tiktok,clip-06,"If it is already known, there is no reason to keep watching",19.6,159.18,178.73,45.1,"Leaves the most unresolved, which is what carries a weekend feed on TikTok."

@@ -47,7 +47,10 @@ function detectFormat(text: string): SourceFormat {
   // A pasted YouTube transcript: a bare timecode leading most lines.
   const lines = head.split(/\r?\n/).filter((l) => l.trim());
   const timecoded = lines.filter((l) => /^\s*\(?\[?\d{1,2}:\d{2}(:\d{2})?\]?\)?[\s\-–—:]/.test(l)).length;
-  if (lines.length > 3 && timecoded / lines.length > 0.4) return 'timecoded';
+  // Two lines is enough to be sure: prose does not begin 40% of its lines with
+  // a timecode. Requiring four discarded the real timings on a short pasted
+  // transcript and silently fell back to a words-per-minute estimate.
+  if (lines.length >= 2 && timecoded / lines.length > 0.4) return 'timecoded';
   return 'plain';
 }
 

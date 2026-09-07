@@ -10,7 +10,9 @@
     "preview": "vite preview",
     "cli": "tsx src/cli/run.ts",
     "demo": "tsx src/cli/run.ts samples/the-algorithm-episode.srt --out out/demo",
-    "og": "tsx tools/export-og-curve.ts && node tools/build-og.mjs"
+    "og": "tsx tools/export-og-curve.ts && node tools/build-og.mjs",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@fontsource-variable/archivo": "^5.1.0",
@@ -30,6 +32,7 @@
     "@vitejs/plugin-react": "^4.3.4",
     "tsx": "^4.19.2",
     "typescript": "^5.7.2",
-    "vite": "^6.0.5"
+    "vite": "^6.0.5",
+    "vitest": "^2.1.9"
   }
 }

@@ -24,6 +24,8 @@ export function Workspace({ onExit }: { onExit: () => void }) {
   const [dragging, setDragging] = useState(false);
   const [apiKey, setApiKey] = useState('');
   const [showKey, setShowKey] = useState(false);
+  const [fileError, setFileError] = useState<string | null>(null);
+  const fileInput = useRef<HTMLInputElement>(null);
 
   const { state, analysis, progress, stageIndex, error, enhancing, enhanceError, run, reset, enhance } = useAnalysis();
   const resultsRef = useRef<HTMLDivElement>(null);
@@ -53,15 +55,27 @@ export function Workspace({ onExit }: { onExit: () => void }) {
     }
   }, [state, analysis]);
 
-  const onDrop = useCallback(async (e: React.DragEvent) => {
-    e.preventDefault();
-    setDragging(false);
-    const file = e.dataTransfer.files?.[0];
+  /** Shared by the drop zone and the file picker. */
+  const loadFile = useCallback(async (file: File | undefined | null) => {
     if (!file) return;
-    setRaw(await file.text());
+    // A dropped .mp4 would otherwise be read as gibberish and analysed as prose.
+    if (file.size > 12_000_000) { setFileError('That file is over 12 MB — transcripts are text, so this is probably not one.'); return; }
+    const text = await file.text();
+    if (/[\u0000-\u0008\u000E-\u001F]/.test(text.slice(0, 2000))) {
+      setFileError(`${file.name} does not look like text. Bring an .srt, .vtt or .txt transcript.`);
+      return;
+    }
+    setFileError(null);
+    setRaw(text);
     setTitle(file.name.replace(/\.[^.]+$/, '').replace(/[-_]+/g, ' '));
     reset();
   }, [reset]);
+
+  const onDrop = useCallback(async (e: React.DragEvent) => {
+    e.preventDefault();
+    setDragging(false);
+    await loadFile(e.dataTransfer.files?.[0]);
+  }, [loadFile]);
 
   const selected = analysis?.clips.find((c) => c.id === selectedId) ?? analysis?.clips[0] ?? null;
 
@@ -115,7 +129,7 @@ export function Workspace({ onExit }: { onExit: () => void }) {
             <textarea
               id="transcript"
               className="drop__area"
-              placeholder={'Paste a transcript, or drop an .srt / .vtt / .txt file here.\n\nSRT, WebVTT, pasted YouTube transcripts with timecodes, and plain prose all work. Nothing is uploaded — the engine runs in this tab.'}
+              placeholder={'Paste a transcript, choose a file, or drop an .srt / .vtt / .txt here.\n\nSRT, WebVTT, pasted YouTube transcripts with timecodes, and plain prose all work. Nothing is uploaded — the engine runs in this tab.'}
               value={raw}
               onChange={(e) => { setRaw(e.target.value); if (state !== 'idle') reset(); }}
               spellCheck={false}
@@ -123,11 +137,23 @@ export function Workspace({ onExit }: { onExit: () => void }) {
             <div className="drop__foot">
               <span className="num">{wordCount ? `${wordCount.toLocaleString()} words` : 'empty'}</span>
               <div className="drop__samples">
+                {/* A drop zone is unusable on a phone — there is nothing to drag
+                    from — so the picker is the only way in on mobile. */}
+                <input
+                  ref={fileInput}
+                  type="file"
+                  accept=".srt,.vtt,.txt,.sbv,text/plain"
+                  className="visually-hidden"
+                  onChange={(e) => { void loadFile(e.target.files?.[0]); e.target.value = ''; }}
+                />
+                <button type="button" className="btn btn--ghost btn--sm" onClick={() => fileInput.current?.click()}>
+                  Choose file
+                </button>
                 <button type="button" className="btn btn--ghost btn--sm" onClick={() => loadSample('srt')}>
-                  Load SRT sample
+                  SRT sample
                 </button>
                 <button type="button" className="btn btn--ghost btn--sm" onClick={() => loadSample('plain')}>
-                  Load plain-text sample
+                  Text sample
                 </button>
               </div>
             </div>
@@ -209,7 +235,7 @@ export function Workspace({ onExit }: { onExit: () => void }) {
           </aside>
         </div>
 
-        {error && <p className="ws__error" role="alert">{error}</p>}
+        {(fileError || error) && <p className="ws__error" role="alert">{fileError ?? error}</p>}
       </section>
 
       {state === 'running' && <StageRunner index={stageIndex} progress={progress} />}

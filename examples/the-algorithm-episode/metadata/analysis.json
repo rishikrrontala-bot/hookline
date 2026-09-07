@@ -603,49 +603,49 @@
       "key": "ingest",
       "label": "Ingest",
       "detail": "SRT · 116 cues · 1,378 words",
-      "ms": 11.294957999999994
+      "ms": 9.934083999999984
     },
     {
       "key": "parse",
       "label": "Segment",
       "detail": "144 sentences · 298 distinct terms",
-      "ms": 3.853624999999994
+      "ms": 2.6089159999999936
     },
     {
       "key": "score",
       "label": "Score",
       "detail": "8 signals × 144 sentences",
-      "ms": 5.139665999999977
+      "ms": 4.327458000000007
     },
     {
       "key": "boundaries",
       "label": "Boundaries",
       "detail": "5 topic shifts · 6 segments",
-      "ms": 13.897458999999998
+      "ms": 11.34899999999999
     },
     {
       "key": "extract",
       "label": "Extract",
       "detail": "1,391 windows → 6 clips",
-      "ms": 19.74004099999999
+      "ms": 17.117625000000004
     },
     {
       "key": "write",
       "label": "Write",
       "detail": "6 hooks · 24 titles · 72 caption cues",
-      "ms": 13.234584000000012
+      "ms": 14.09104099999999
     },
     {
       "key": "seo",
       "label": "Index",
       "detail": "6 chapters · 16 tags",
-      "ms": 18.058666000000017
+      "ms": 17.284875
     },
     {
       "key": "schedule",
       "label": "Schedule",
       "detail": "6 slots across 7 days",
-      "ms": 1.4121670000000108
+      "ms": 1.1245830000000012
     }
   ],
   "boundaries": [
@@ -3903,50 +3903,50 @@
     {
       "clipId": "clip-01",
       "platform": "youtube-shorts",
-      "date": "2026-09-06",
-      "time": "11:00",
-      "dayLabel": "Sunday",
+      "date": "2026-09-07",
+      "time": "12:00",
+      "dayLabel": "Monday",
       "rationale": "Strongest cut of the set (63) — leads the week on YouTube Shorts."
     },
     {
       "clipId": "clip-02",
       "platform": "tiktok",
-      "date": "2026-09-07",
+      "date": "2026-09-08",
       "time": "07:00",
-      "dayLabel": "Monday",
+      "dayLabel": "Tuesday",
       "rationale": "Hardest open in the set, so it survives TikTok's cold weekday scroll."
     },
     {
       "clipId": "clip-03",
       "platform": "instagram-reels",
-      "date": "2026-09-08",
+      "date": "2026-09-09",
       "time": "08:30",
-      "dayLabel": "Tuesday",
+      "dayLabel": "Wednesday",
       "rationale": "Spaced from the other Instagram Reels posts and off the topic already used that day."
     },
     {
       "clipId": "clip-04",
       "platform": "x",
-      "date": "2026-09-09",
+      "date": "2026-09-10",
       "time": "09:00",
-      "dayLabel": "Wednesday",
+      "dayLabel": "Thursday",
       "rationale": "Leaves the most unresolved, which is what carries a weekday feed on X."
     },
     {
       "clipId": "clip-05",
       "platform": "youtube-shorts",
-      "date": "2026-09-10",
+      "date": "2026-09-11",
       "time": "17:30",
-      "dayLabel": "Thursday",
+      "dayLabel": "Friday",
       "rationale": "Resolves most cleanly of the set — it holds a slower weekday audience on YouTube Shorts."
     },
     {
       "clipId": "clip-06",
       "platform": "tiktok",
-      "date": "2026-09-11",
-      "time": "13:00",
-      "dayLabel": "Friday",
-      "rationale": "Leaves the most unresolved, which is what carries a weekday feed on TikTok."
+      "date": "2026-09-12",
+      "time": "16:00",
+      "dayLabel": "Saturday",
+      "rationale": "Leaves the most unresolved, which is what carries a weekend feed on TikTok."
     }
   ]
 }

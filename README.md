@@ -24,6 +24,7 @@ npm install
 npm run dev      # the workspace at http://localhost:5273
 npm run demo     # CLI: analyse the sample and write out/demo
 npm run og       # regenerate the social card from the engine's own curve
+npm test         # 59 tests over the engine
 ```
 
 ---
@@ -152,6 +153,17 @@ src/engine/     dependency-free TypeScript. No DOM, no fs, no framework.
 src/cli/        Node CLI — writes the export package
 src/app/        Vite + React workspace, and the WebGL attention terrain
 ```
+
+### Tests
+
+`npm test` runs 59 tests over the engine, and CI gates the deploy on them. They cover the
+things that would be invisible until a user hit them: every input format and its malformed
+variants, the 0..1 bounds on all eight signals, contiguous topic segmentation, clips that never
+overlap, SRT that parses back to the same timings, and — the invariant this product lives or
+dies by — that **a generated hook contains no word the speaker did not actually say**.
+
+Degenerate input is covered too: empty strings, single words, unpunctuated walls of text,
+non-latin script, HTML, control bytes, and subtitle files whose timestamps run backwards.
 
 The engine has **zero runtime dependencies**. That is what makes one implementation serve both
 the CLI and the browser, and what makes the analysis reproducible: the same transcript yields the

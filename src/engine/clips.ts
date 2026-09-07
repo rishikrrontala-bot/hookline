@@ -131,14 +131,29 @@ export function buildCandidates(
   const candidates: Candidate[] = [];
   const n = sentences.length;
 
+  /**
+   * A window cannot hold more sentences than its duration allows at any
+   * plausible speech rate, so the search is bounded by sentence count as well
+   * as by duration.
+   *
+   * The duration break alone is not enough: a transcript whose timestamps run
+   * backwards — a concatenated subtitle file, or one stitched together by an
+   * editor — never trips it, and the search degrades from linear to quadratic.
+   * A two-hour recording then locks the tab for twelve seconds instead of
+   * finishing in a quarter of a second.
+   */
+  const maxSentences = Math.max(24, Math.ceil(opts.maxSec * 1.5));
+
   // Preferred start points: every sentence, but boundary-adjacent starts get
   // their bonus through `boundaryFit` rather than by restricting the search.
   for (let i = 0; i < n; i++) {
     const start = sentences[i].start;
 
-    for (let j = i; j < n; j++) {
+    for (let j = i; j < n && j - i < maxSentences; j++) {
       const end = sentences[j].end;
       const dur = end - start;
+      // Time ran backwards, so no later sentence forms a valid window either.
+      if (dur < 0) break;
       if (dur < opts.minSec) continue;
       if (dur > opts.maxSec) break;
 
