@@ -94,10 +94,26 @@ describe('scale', () => {
     // A concatenated or badly edited subtitle file repeats its timecodes, so the
     // duration break in the candidate search never fires. Before the sentence
     // ceiling was added this locked the tab for over twelve seconds.
+    //
+    // The assertion is a ratio against a well-formed transcript of the same
+    // size, measured on the same machine. An absolute millisecond budget looks
+    // stricter but only measures how busy the CI runner is: this test failed at
+    // 8.2s on a shared runner having passed at 3.5s locally, which said nothing
+    // about the algorithm.
+    const wellFormed = longer(12);
     const scrambled = Array.from({ length: 12 }, () => SRT).join('\n\n');
+
     const t0 = performance.now();
+    const baseline = analyze(wellFormed, { clipCount: 6 });
+    const baselineMs = Math.max(1, performance.now() - t0);
+
+    const t1 = performance.now();
     const a = analyze(scrambled, { clipCount: 6 });
-    expect(performance.now() - t0).toBeLessThan(8000);
+    const scrambledMs = performance.now() - t1;
+
     expect(a.clips.length).toBeGreaterThan(0);
+    expect(baseline.stats.sentenceCount).toBe(a.stats.sentenceCount);
+    // Unbounded, this ratio was over 45x and grew with the transcript.
+    expect(scrambledMs / baselineMs).toBeLessThan(30);
   });
 });
