@@ -12,7 +12,8 @@
     "demo": "tsx src/cli/run.ts samples/the-algorithm-episode.srt --out out/demo",
     "og": "tsx tools/export-og-curve.ts && node tools/build-og.mjs",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "brand": "node tools/brand/render.mjs"
   },
   "dependencies": {
     "@fontsource-variable/archivo": "^5.1.0",
