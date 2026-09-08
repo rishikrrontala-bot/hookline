@@ -6,3 +6,5 @@ out
 .env
 .env.local
 tools/demo/out
+DEVPOST-*.md
+devpost-gallery
